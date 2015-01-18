@@ -11,7 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="7 Displays.vi" Type="VI" URL="../subVIs/7 Displays.vi"/>
 		<Item Name="Main_stateMachine.vi" Type="VI" URL="../Main_stateMachine.vi"/>
+		<Item Name="TDMS Setup.vi" Type="VI" URL="../subVIs/TDMS/TDMS Setup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Format number_123456.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Format number_123456.vi"/>
@@ -330,7 +332,6 @@
 			<Item Name="Transform a Point.vi" Type="VI" URL="../subVIs/mathematics/Transform a Point.vi"/>
 			<Item Name="Votlage wave channel setup.vi" Type="VI" URL="../subVIs/Votlage wave channel setup.vi"/>
 			<Item Name="X sensor convert V to meter.vi" Type="VI" URL="../subVIs/Drivers/X sensor convert V to meter.vi"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			<Item Name="XPath File Sub-Parser.vi" Type="VI" URL="../subVIs/parsing/XPath File Sub-Parser.vi"/>
 			<Item Name="XPath String Sub-Parser.vi" Type="VI" URL="../subVIs/parsing/XPath String Sub-Parser.vi"/>
 			<Item Name="Y sensor convert V to meter.vi" Type="VI" URL="../subVIs/Drivers/Y sensor convert V to meter.vi"/>
