@@ -24,7 +24,6 @@
 					<Item Name="getIgorConversion_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/getIgorConversion_Cypher.vi"/>
 					<Item Name="GMonitor_Fengv2_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/GMonitor_Fengv2_Cypher.vi"/>
 					<Item Name="igor define command_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/igor define command_Cypher.vi"/>
-					<Item Name="increment filename_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/increment filename_Cypher.vi"/>
 					<Item Name="interpolate nodes_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/interpolate nodes_Cypher.vi"/>
 					<Item Name="Lithography Legacy Convert_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/Lithography Legacy Convert_Cypher.vi"/>
 					<Item Name="Make wave_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/Make wave_Cypher.vi"/>
@@ -135,22 +134,6 @@
 			<Item Name="controls" Type="Folder">
 				<Item Name="Voltage Mapping.ctl" Type="VI" URL="../subVIs/controls/Voltage Mapping.ctl"/>
 			</Item>
-			<Item Name="edit" Type="Folder">
-				<Item Name="Function Generator.vi" Type="VI" URL="../subVIs/edit/Function Generator.vi"/>
-				<Item Name="Funnel Edit.vi" Type="VI" URL="../subVIs/edit/Funnel Edit.vi"/>
-				<Item Name="Get Selected Pattern.vi" Type="VI" URL="../subVIs/edit/Get Selected Pattern.vi"/>
-				<Item Name="Open Settings.vi" Type="VI" URL="../subVIs/edit/Open Settings.vi"/>
-				<Item Name="Path Edit.vi" Type="VI" URL="../subVIs/edit/Path Edit.vi"/>
-				<Item Name="Ramp.vi" Type="VI" URL="../subVIs/edit/Ramp.vi"/>
-				<Item Name="Rect Edit.vi" Type="VI" URL="../subVIs/edit/Rect Edit.vi"/>
-			</Item>
-			<Item Name="helper VIs" Type="Folder">
-				<Item Name="1D Average.vi" Type="VI" URL="../subVIs/helper VIs/1D Average.vi"/>
-				<Item Name="Abort If Not Refnum.vi" Type="VI" URL="../subVIs/helper VIs/Abort If Not Refnum.vi"/>
-				<Item Name="Array Transform.vi" Type="VI" URL="../subVIs/helper VIs/Array Transform.vi"/>
-				<Item Name="increment filename.vi" Type="VI" URL="../subVIs/helper VIs/increment filename.vi"/>
-				<Item Name="SGL Wordswap.vi" Type="VI" URL="../subVIs/helper VIs/SGL Wordswap.vi"/>
-			</Item>
 			<Item Name="image" Type="Folder">
 				<Item Name="Adjust Coordinate.vi" Type="VI" URL="../subVIs/image/Adjust Coordinate.vi"/>
 				<Item Name="Background.vi" Type="VI" URL="../subVIs/image/Background.vi"/>
@@ -232,9 +215,6 @@
 		<Item Name="Generate jpg.vi" Type="VI" URL="../Generate jpg.vi"/>
 		<Item Name="Main_v4.vi" Type="VI" URL="../Main_v4.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Format number_123456.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 34401/LevyLab/FileUtilities/Format number_123456.vi"/>
-			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Format number_123456.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Format number_123456.vi"/>
 				<Item Name="increment filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/increment filename.vi"/>
@@ -530,7 +510,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Scan Size and Offset.vi" Type="VI" URL="../AFMs/Asylum/subVIs/Read Scan Size and Offset.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
