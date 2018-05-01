@@ -209,6 +209,14 @@
 				<Item Name="Toolpath.vi" Type="VI" URL="../subVIs/toolpath/Toolpath.vi"/>
 				<Item Name="Transform Point.vi" Type="VI" URL="../subVIs/toolpath/Transform Point.vi"/>
 			</Item>
+			<Item Name="typedefs" Type="Folder">
+				<Item Name="Funnel Properties - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Funnel Properties - cluster.ctl"/>
+				<Item Name="Path Properties - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Path Properties - cluster.ctl"/>
+				<Item Name="Rectangle Properties - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Rectangle Properties - cluster.ctl"/>
+				<Item Name="Schedule - enum.ctl" Type="VI" URL="../subVIs/typedefs/Schedule - enum.ctl"/>
+				<Item Name="Signal Type - enum.ctl" Type="VI" URL="../subVIs/typedefs/Signal Type - enum.ctl"/>
+				<Item Name="Voltage - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Voltage - cluster.ctl"/>
+			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
 		<Item Name="Coordinate from AFM to inkscape.vi" Type="VI" URL="../Coordinate from AFM to inkscape.vi"/>
@@ -216,6 +224,7 @@
 		<Item Name="Main_v4.vi" Type="VI" URL="../Main_v4.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="FilePath.glb.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/FilePath.glb.vi"/>
 				<Item Name="Format number_123456.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Format number_123456.vi"/>
 				<Item Name="increment filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/increment filename.vi"/>
 			</Item>
@@ -447,6 +456,7 @@
 				<Item Name="LVSceneTextAlignment.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSceneTextAlignment.ctl"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -510,6 +520,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Speed - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Speed - cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
