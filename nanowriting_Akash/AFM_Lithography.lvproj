@@ -174,6 +174,7 @@
 			<Item Name="subpanel" Type="Folder">
 				<Item Name="Abort If Not Refnum.vi" Type="VI" URL="../subVIs/subpanel/Abort If Not Refnum.vi"/>
 				<Item Name="Close Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Close Subpanel.vi"/>
+				<Item Name="Dynamic Generation of Formula for Vtip.vi" Type="VI" URL="../subVIs/subpanel/Dynamic Generation of Formula for Vtip.vi"/>
 				<Item Name="Function Generator - var 2 pulse.vi" Type="VI" URL="../subVIs/subpanel/Function Generator - var 2 pulse.vi"/>
 				<Item Name="Function Generator--OLD.vi" Type="VI" URL="../subVIs/subpanel/Function Generator--OLD.vi"/>
 				<Item Name="Function Generator-Yuhe version.vi" Type="VI" URL="../subVIs/subpanel/Function Generator-Yuhe version.vi"/>
@@ -458,6 +459,7 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
