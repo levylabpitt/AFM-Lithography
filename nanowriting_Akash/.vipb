@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-02 09:58:36" Creator="voodoo" Comments="" ID="6bf770448e24bca2e89efd2a8db3c815">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-02 10:50:05" Creator="voodoo" Comments="" ID="7ddcc589feede3674ad5f9a35a20f460">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>8.2.1.22</Library_Version>
+    <Library_Version>8.2.1.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -41,7 +41,7 @@
       <Release_Notes>8.2.1:
 changed path property clusters to typedefs
 added formula function generator
-build 21 added bug fix that would revert formula to constant</Release_Notes>
+build 22 added bug fix that resamples formula function</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -275,7 +275,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C2817156A0DAE99B86AA9C7CC442E7C</GUID>
+      <GUID>C9CC1AB64FBCE52D63920834ABCDBCD8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -352,7 +352,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CF2F406BFF18688001A0C2445AA256E</GUID>
+      <GUID>181CFB8B5C2CFB9F4FA7ADEC7121D6BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -471,7 +471,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F96EC2CA2E683CB0054451F1D5BEA358</GUID>
+      <GUID>B3345765A9D22F36B41CBFBADCAC33BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -534,7 +534,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\Cypher\Asylum Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>193160C18C84298587A06AB9397D823C</GUID>
+      <GUID>C0F6CB81EE8CCFE47E85486C6BA6D325</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -597,7 +597,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1240A396BEF98C0D1B34A558F035CB92</GUID>
+      <GUID>DF3D747AECA331F554C0C00D3D0454A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -660,7 +660,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F47E05CA8BD4DDCA4EF2EA1104A4948</GUID>
+      <GUID>0943AE9AABA4BA9DD509BFC1E3E64C0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -723,7 +723,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BD2CDD1A832CA7BFF3F7EBFC981D1F8</GUID>
+      <GUID>BF696474B3538B2BAF11A49692385302</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1136,7 +1136,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>830217EB7B65A402F4E1D1C816AB15A5</GUID>
+      <GUID>AEE632EF614E1A23A045543992771692</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1549,7 +1549,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65F181686F4DE6BB2DBDB179B2F82C1A</GUID>
+      <GUID>623462F8767A75FBF98B9BE4F8A4140B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1962,7 +1962,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B02FD5D10EEFFE52834251950FD989E5</GUID>
+      <GUID>398FED156FBA3D17788504D4776B10C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2053,7 +2053,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B169A0F1B5F1F0130D5E4213EC61F395</GUID>
+      <GUID>0B4E3B19B4582D249FD708A634E07165</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2284,7 +2284,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93FBE56092D670A9B96D03FEA1A94C82</GUID>
+      <GUID>25B7A9A765A02BBD43C016673287BE9E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2319,7 +2319,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BE8AF69B581B070CDB7F587A4BB85BB</GUID>
+      <GUID>2AEAF5B66F3BDD457A13502EF880D72B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2550,7 +2550,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC274235ECC654C8C9979829FE987478</GUID>
+      <GUID>8C11B3D0D2778ADD8771E5411EA68A76</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2767,7 +2767,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>387F30248574B04CB4C6A4930AA4C6CA</GUID>
+      <GUID>CBB69BDEF6859FA5BA2ADD8C73BD4397</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3082,7 +3082,7 @@ build 21 added bug fix that would revert formula to constant</Release_Notes>
         <Path>subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2ECBA282B21D75A34247994CF8A0423</GUID>
+      <GUID>06B482CB08E69FDF99B1AE17754EA498</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
