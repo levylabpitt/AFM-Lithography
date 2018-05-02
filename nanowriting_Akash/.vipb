@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-01 17:26:04" Creator="voodoo" Comments="" ID="c95a385affa7bfec1d06d092fd34b255">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-02 09:58:36" Creator="voodoo" Comments="" ID="6bf770448e24bca2e89efd2a8db3c815">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>8.2.1.21</Library_Version>
+    <Library_Version>8.2.1.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -38,8 +38,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>changed path property clusters to typedefs
-added formula function generator</Release_Notes>
+      <Release_Notes>8.2.1:
+changed path property clusters to typedefs
+added formula function generator
+build 21 added bug fix that would revert formula to constant</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -273,7 +275,7 @@ added formula function generator</Release_Notes>
         <Path>Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>554730FA63498E0D19BB74802AD470A1</GUID>
+      <GUID>6C2817156A0DAE99B86AA9C7CC442E7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -350,7 +352,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5244602F11D8C2A91D486090DB1E6B52</GUID>
+      <GUID>1CF2F406BFF18688001A0C2445AA256E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -469,7 +471,7 @@ added formula function generator</Release_Notes>
         <Path>subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E16A0C66C24DB802E0355126D4A78A1D</GUID>
+      <GUID>F96EC2CA2E683CB0054451F1D5BEA358</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -532,7 +534,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\Cypher\Asylum Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>97F92980267C6A09D5EDBC6458DA678F</GUID>
+      <GUID>193160C18C84298587A06AB9397D823C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -595,7 +597,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CF6DE191C8A0518B9EDA9C73EFD2C72</GUID>
+      <GUID>1240A396BEF98C0D1B34A558F035CB92</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -658,7 +660,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69DFF5162BBDB4A722E9E67C2A88058B</GUID>
+      <GUID>3F47E05CA8BD4DDCA4EF2EA1104A4948</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -721,7 +723,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9BBDF34F43B897F55FBF84594D4EBE50</GUID>
+      <GUID>5BD2CDD1A832CA7BFF3F7EBFC981D1F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1134,7 +1136,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>331189EC64462458F9A30C93712DF681</GUID>
+      <GUID>830217EB7B65A402F4E1D1C816AB15A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1547,7 +1549,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9F2ABA5DEFD78F32AF7DF58CE475794</GUID>
+      <GUID>65F181686F4DE6BB2DBDB179B2F82C1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1960,7 +1962,7 @@ added formula function generator</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99F9658FC954711ABE41B62AAC432F91</GUID>
+      <GUID>B02FD5D10EEFFE52834251950FD989E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2051,7 +2053,7 @@ added formula function generator</Release_Notes>
         <Path>subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACB98CB47ED88167D58DF712DDF1FF40</GUID>
+      <GUID>B169A0F1B5F1F0130D5E4213EC61F395</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2282,7 +2284,7 @@ added formula function generator</Release_Notes>
         <Path>subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D55EDCA0B7C7F75AF1E0B7395F65E942</GUID>
+      <GUID>93FBE56092D670A9B96D03FEA1A94C82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2317,7 +2319,7 @@ added formula function generator</Release_Notes>
         <Path>subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DDDB1CA023CA52DBC7547184A72FA90</GUID>
+      <GUID>1BE8AF69B581B070CDB7F587A4BB85BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2548,7 +2550,7 @@ added formula function generator</Release_Notes>
         <Path>subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>115FF16F87B1252245378078205766E7</GUID>
+      <GUID>DC274235ECC654C8C9979829FE987478</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2765,7 +2767,7 @@ added formula function generator</Release_Notes>
         <Path>subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>495B25A32E185F21D29BC045AC6CED2D</GUID>
+      <GUID>387F30248574B04CB4C6A4930AA4C6CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3080,7 +3082,7 @@ added formula function generator</Release_Notes>
         <Path>subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6212C6564C012C068F7CD91D90D666CA</GUID>
+      <GUID>D2ECBA282B21D75A34247994CF8A0423</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
