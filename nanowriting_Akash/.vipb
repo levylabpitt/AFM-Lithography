@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-02 16:59:33" Creator="voodoo" Comments="" ID="728a3ac9744a7c4f8605de6beb7a2a9d">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-03 13:10:12" Creator="voodoo" Comments="" ID="a810a866dfbf5560b0c7f446dc62589a">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
     <Library_Version>8.2.1.25</Library_Version>
@@ -41,7 +41,7 @@
       <Release_Notes>8.2.1:
 changed path property clusters to typedefs
 added formula function generator
-build 24 fixed resampling of formula function</Release_Notes>
+build 25 fixed resampling of formula function</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -275,7 +275,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC73783ED3D2AED20B9DA0C79C1D7F38</GUID>
+      <GUID>9A7909880E3F8AE03CABE449156F1E16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -352,7 +352,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B8F71CE7BEA26732BA5BAEE0AF64923</GUID>
+      <GUID>2BC5E7A346BE4AA0B303CBC4CFD1C828</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -471,7 +471,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF9EFF1CD0441DF1FF052C034C3F3611</GUID>
+      <GUID>2E116C088B731715762FD45FFDB20F10</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -534,7 +534,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Cypher\Asylum Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57AA803AAFB3171C4D4DC7F456F97C62</GUID>
+      <GUID>5EDE4763A640B1D0317713D2778983FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -597,7 +597,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBCEB3AC091ACD3B4811B6452EB7DAC7</GUID>
+      <GUID>99A86B6096B1E73152BF4BE886188CDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -660,7 +660,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AABD180E7BCC5313E146BAED31487869</GUID>
+      <GUID>49F653DCE015EE21706DAC43F1B57E55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -723,7 +723,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F13F24DB92356B1C28170BCA73D1A972</GUID>
+      <GUID>A739EC5BA41F8DED040EFD02780461F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1136,7 +1136,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E99F11D682966EC0097D920618615DB7</GUID>
+      <GUID>C42B6EEEDA076029064A8E2C834F98AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1549,7 +1549,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EE82931D24F4B87F5DCBBAF38F4000A</GUID>
+      <GUID>AFF4BDE4A6BEF3676885169BFCB19E66</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1962,7 +1962,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E948BAF94848D43C6EF00286F0B55AD</GUID>
+      <GUID>2293D6FC658C6B806C4FE584116C8904</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2053,7 +2053,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E99EBAFC9C6EC16A9E7E30CBB1AA79CA</GUID>
+      <GUID>2A64A378365CCFE928E984F7B40FAA98</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2284,7 +2284,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC17ECDB651F333A328D364BA86752A2</GUID>
+      <GUID>30C3C4CF047592B5C586BFEA8F2CBD28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2319,7 +2319,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0552243BEA9800C4D816E86511EA290B</GUID>
+      <GUID>8DD7C45B409277B2AC0EBF8A62CA2D45</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2550,7 +2550,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B23514CDF52AE9D9E5E72D191C73CBB8</GUID>
+      <GUID>720081311230A5F1474555D39B41A388</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2767,7 +2767,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3FA06FD4C5EB3D8E7634E3B48F6DE528</GUID>
+      <GUID>D687ED2C6F78E57036AF6912BD5BAA35</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3082,7 +3082,7 @@ build 24 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71D872B87A354AF377292FD53C810175</GUID>
+      <GUID>D4D36D47DB92992FF319845E23F9C8B6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
