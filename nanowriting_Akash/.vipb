@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-02 12:30:23" Creator="voodoo" Comments="" ID="ea7590f6cb96d0f4dad66c864b97ccc1">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-02 16:59:33" Creator="voodoo" Comments="" ID="728a3ac9744a7c4f8605de6beb7a2a9d">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>8.2.1.24</Library_Version>
+    <Library_Version>8.2.1.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -41,7 +41,7 @@
       <Release_Notes>8.2.1:
 changed path property clusters to typedefs
 added formula function generator
-build 23 added bug fix that resamples formula function (again)</Release_Notes>
+build 24 fixed resampling of formula function</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -275,7 +275,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0EA574918ACA0A845E51F93FA1F3118C</GUID>
+      <GUID>EC73783ED3D2AED20B9DA0C79C1D7F38</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -352,7 +352,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80F8301C435E9EC64059C889DE2B5FE0</GUID>
+      <GUID>0B8F71CE7BEA26732BA5BAEE0AF64923</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -471,7 +471,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E6724D8D08C1F4FFF2ECE5D2605D31C</GUID>
+      <GUID>EF9EFF1CD0441DF1FF052C034C3F3611</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -534,7 +534,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\Cypher\Asylum Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16CB149722CF4312CF86C83A1372B452</GUID>
+      <GUID>57AA803AAFB3171C4D4DC7F456F97C62</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -597,7 +597,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8A3C250ADABC1E1203467B8C0E058A6</GUID>
+      <GUID>CBCEB3AC091ACD3B4811B6452EB7DAC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -660,7 +660,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DFCFA65061C04120DA9E862C1CCC154E</GUID>
+      <GUID>AABD180E7BCC5313E146BAED31487869</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -723,7 +723,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>926D5E7C642BD9EC249E842D74658348</GUID>
+      <GUID>F13F24DB92356B1C28170BCA73D1A972</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1136,7 +1136,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09CBB238EF8F7B18E7C04C7AFB1925C2</GUID>
+      <GUID>E99F11D682966EC0097D920618615DB7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1549,7 +1549,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF7588281C61770B8FDAFCD8F81EB3B2</GUID>
+      <GUID>6EE82931D24F4B87F5DCBBAF38F4000A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1962,7 +1962,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A68B539A745A72F388CDD8A2CCE62397</GUID>
+      <GUID>4E948BAF94848D43C6EF00286F0B55AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2053,7 +2053,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A78094B15D1C700699A878B959574D92</GUID>
+      <GUID>E99EBAFC9C6EC16A9E7E30CBB1AA79CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2284,7 +2284,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6E44C4C186BC18DFD9F7761A5C446C6</GUID>
+      <GUID>CC17ECDB651F333A328D364BA86752A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2319,7 +2319,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A88A765DC96532E1C924A8817BF42CE</GUID>
+      <GUID>0552243BEA9800C4D816E86511EA290B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2550,7 +2550,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64CA352D9C3E01F7D26026EB57564C93</GUID>
+      <GUID>B23514CDF52AE9D9E5E72D191C73CBB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2767,7 +2767,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0F5A412F4936104E6613ED8391CD4D7</GUID>
+      <GUID>3FA06FD4C5EB3D8E7634E3B48F6DE528</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3082,7 +3082,7 @@ build 23 added bug fix that resamples formula function (again)</Release_Notes>
         <Path>subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A6311790F554333DDD394547B3BA901</GUID>
+      <GUID>71D872B87A354AF377292FD53C810175</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

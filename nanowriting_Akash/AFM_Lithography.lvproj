@@ -196,7 +196,7 @@
 				<Item Name="Get Rectangle Corners.vi" Type="VI" URL="../subVIs/toolpath/Get Rectangle Corners.vi"/>
 				<Item Name="Interpolate Points (Distance).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Points (Distance).vi"/>
 				<Item Name="Interpolate Points (Number).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Points (Number).vi"/>
-				<Item Name="Interpolate Signal (Number).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Signal (Number).vi"/>
+				<Item Name="Interpolate Signal (Number).vi" Type="VI" URL="../../../levylab_inst_afm_monitor/lvsrc/display/subvi/Interpolate Signal (Number).vi"/>
 				<Item Name="Interpolator_Yuhe.vi" Type="VI" URL="../subVIs/toolpath/Interpolator_Yuhe.vi"/>
 				<Item Name="Lithographify.vi" Type="VI" URL="../subVIs/toolpath/Lithographify.vi"/>
 				<Item Name="Lithographify_funnel&amp;rec.vi" Type="VI" URL="../subVIs/toolpath/Lithographify_funnel&amp;rec.vi"/>
