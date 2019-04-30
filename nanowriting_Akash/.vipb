@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2018-05-03 13:24:12" Creator="voodoo" Comments="" ID="2779cc3760a28274cd00af54439d3663">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2013-08-07 11:19:57" Modified_Date="2019-04-29 16:54:27" Creator="voodoo" Comments="" ID="c23d9d148fb0f766577a6ef546e5f1de">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
     <Library_Version>8.2.1.26</Library_Version>
@@ -17,11 +17,10 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 3.0.0.8</External_Dependencies>
-      <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.1.7</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_lvtoitx &gt;=2.0.0.10</Additional_External_Dependencies>
-      <Direct_Dependencies>jki_lib_state_machine-3.0.0.8</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_fileutilities-1.2.1.7</Direct_Dependencies>
+      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
+      <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.2.8</External_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_fileutilities-1.2.2.8</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -38,10 +37,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>8.2.1:
-changed path property clusters to typedefs
-added formula function generator
-build 25 fixed resampling of formula function</Release_Notes>
+      <Release_Notes>[8.2.2.26]
+- update package dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -275,7 +272,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>702F2B326F7C6F840E1D9707F6920022</GUID>
+      <GUID>778AFEEDA97B46C9BB7CC8C8B992701C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -352,7 +349,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78568B02D6CADB34596577E9E07A2AE2</GUID>
+      <GUID>20A0042C06DEE1FC6BA43579BF1BCA4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -471,7 +468,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92640A71B22761B38ECD1D5D992B6B1E</GUID>
+      <GUID>EACE9174D06849F8A2F290D7A0E9AD3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -534,7 +531,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Cypher\Asylum Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED663CDAF115B7A57500DD51F5CB6F6C</GUID>
+      <GUID>48C159389B8EE4FBEDB53F97014148D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -597,7 +594,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF6FB9D32C4B74F2AE60ACFE6062C5D4</GUID>
+      <GUID>179CBF86256B8E471ECA21FBC59DC2F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -660,7 +657,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE600D8D4206F253BBED3B3747A1A1FE</GUID>
+      <GUID>B1A9819F10D02207AE2DF7A1F5CC5927</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -723,7 +720,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2DF72C2AC806F476CAD4B73CC1D24EA4</GUID>
+      <GUID>2A810D4B4B6FCED69661158AE084EC5C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1136,7 +1133,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B8E15F2E1A367D1A82D605A2C1910E4C</GUID>
+      <GUID>BE0319F1EB14E6054DB63DEF0D1546E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1549,7 +1546,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72357993683E83A112B09FCA5A47AC5C</GUID>
+      <GUID>F4736D321A615964B2CD9555208D757C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1962,7 +1959,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>378E75B052C4F0A4B52668B6985118BC</GUID>
+      <GUID>793F4928C8787852C6378ABD3D82B948</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2053,7 +2050,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3870E72B9D906E98F75CB364F9B11211</GUID>
+      <GUID>87EFEC839652A68DC370751E72A7B2B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2284,7 +2281,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98C859F1BC2BE35F892275CB6E50FC0C</GUID>
+      <GUID>06EC3F2BC45E2DDC4328BC6E720D205F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2319,7 +2316,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BBCB4C676B7001F5A56BBF2A416E98A</GUID>
+      <GUID>B43846085C1375FCA8D1413C20D35C13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2550,7 +2547,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88E545EB743385E2441BD30CBB98A703</GUID>
+      <GUID>8FE82BD3861A6A7D07056A3ED5DAE717</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2767,7 +2764,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6097D69B2F2557E1045C5B97983A27EB</GUID>
+      <GUID>A0E7367EAEE2398F75078065A57F8B8D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3082,7 +3079,7 @@ build 25 fixed resampling of formula function</Release_Notes>
         <Path>subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C942A1D23AA41B5AC263D0894FD28EF</GUID>
+      <GUID>A35DEC77F9F3A027E871DC0AD5798983</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,6 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name=".vipb" Type="Document" URL="../.vipb"/>
+			<Item Name=".vipc" Type="Document" URL="../.vipc"/>
+		</Item>
 		<Item Name="AFMs" Type="Folder">
 			<Item Name="Cypher" Type="Folder">
 				<Item Name="subVIs" Type="Folder">
@@ -122,10 +127,6 @@
 				<Item Name="Simulation Driver.vi" Type="VI" URL="../AFMs/Simulation/Simulation Driver.vi"/>
 				<Item Name="Tip.wrl" Type="Document" URL="../AFMs/Simulation/Tip.wrl"/>
 			</Item>
-		</Item>
-		<Item Name="build support" Type="Folder">
-			<Item Name=".vipb" Type="Document" URL="../.vipb"/>
-			<Item Name=".vipc" Type="Document" URL="../.vipc"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="3d" Type="Folder">
