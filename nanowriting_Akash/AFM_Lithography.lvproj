@@ -48,8 +48,8 @@
 					<Item Name="X sensor convert V to meter_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/X sensor convert V to meter_Cypher.vi"/>
 					<Item Name="Y sensor convert V to meter_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/Y sensor convert V to meter_Cypher.vi"/>
 				</Item>
-				<Item Name="Asylum Acquired Data.vi" Type="VI" URL="../AFMs/Cypher/Asylum Acquired Data.vi"/>
-				<Item Name="Asylum Driver.vi" Type="VI" URL="../AFMs/Cypher/Asylum Driver.vi"/>
+				<Item Name="Cypher Acquired Data.vi" Type="VI" URL="../AFMs/Cypher/Cypher Acquired Data.vi"/>
+				<Item Name="Cypher Driver.vi" Type="VI" URL="../AFMs/Cypher/Cypher Driver.vi"/>
 				<Item Name="Tip.wrl" Type="Document" URL="../AFMs/Cypher/Tip.wrl"/>
 			</Item>
 			<Item Name="MFP3D" Type="Folder">
@@ -235,6 +235,22 @@
 				<Item Name="FilePath.glb.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/FilePath.glb.vi"/>
 				<Item Name="increment filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/increment filename.vi"/>
 				<Item Name="Format number_123456.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Format number_123456.vi"/>
+				<Item Name="Read Resistor.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Read Resistor.vi"/>
+				<Item Name="Read_relay.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/Read_relay.vi"/>
+				<Item Name="Port Index Search.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/Port Index Search.vi"/>
+				<Item Name="FT_Get_Device_Description_By_Index.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Get_Device_Description_By_Index.vi"/>
+				<Item Name="FT_Open_Device_By_Index.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Open_Device_By_Index.vi"/>
+				<Item Name="FT_Set_Baud_Rate.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Set_Baud_Rate.vi"/>
+				<Item Name="FT_Set_Bit_Mode.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Set_Bit_Mode.vi"/>
+				<Item Name="FT_EEPROM_Read.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_EEPROM_Read.vi"/>
+				<Item Name="FT_Close_Device.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Close_Device.vi"/>
+				<Item Name="Set Resistor.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Set Resistor.vi"/>
+				<Item Name="Resistor--enum.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Type_defs/Resistor--enum.ctl"/>
+				<Item Name="USB Relay Control.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/USB Relay Control.vi"/>
+				<Item Name="USB Relay Control 256.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/USB Relay Control 256.vi"/>
+				<Item Name="FT_Write_String_Data.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Write_String_Data.vi"/>
+				<Item Name="FT_EEPROM_Write.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_EEPROM_Write.vi"/>
+				<Item Name="USB Relay Control bool.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/USB Relay Control bool.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
@@ -509,6 +525,10 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -521,6 +541,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
