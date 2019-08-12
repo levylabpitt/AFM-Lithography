@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-07-31 09:59:52" Modified_Date="2019-08-02 13:32:19" Creator="John Maier" Comments="" ID="45f26c5d042322b072a981ae54b773ad">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-07-31 09:59:52" Modified_Date="2019-08-12 14:42:21" Creator="John Maier" Comments="" ID="a98bcfea973c8739c177e5aab90e6b0e">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Litho_Relay_Box_Beta</Package_File_Name>
-    <Library_Version>1.0.1.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -33,7 +33,8 @@
       <Packager/>
       <URL/>
       <Release_Notes>Version works on Cypher
-May also work on MFP3D</Release_Notes>
+May also work on MFP3D
+changes resistor when tip is withrawn</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -267,7 +268,7 @@ May also work on MFP3D</Release_Notes>
         <Path>Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5995005F45451BB0F13D80897B8F726A</GUID>
+      <GUID>3FE3075AC52A17495B35F023CD69C419</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -344,7 +345,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51700DC16EB5EC275DE1A5C398A84F3D</GUID>
+      <GUID>4395A3C5EF16500AFE87400315BE0BD7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -463,7 +464,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63965B0239C34F9803ABDA5822A4F5B0</GUID>
+      <GUID>185AD4B5135C8350F38FE88182CEC383</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -526,7 +527,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6A36FB6E22AB06F9DAC02DE29AB6B99</GUID>
+      <GUID>7EBB04279EC2E41013A74A55CC93EA35</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -589,7 +590,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>829DD46F53F6FDC32333EC62DAEE815C</GUID>
+      <GUID>CD1F7A823ACA18685C4E30D86CF8FAED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -652,7 +653,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8B0BB2894E2DF3DB6365F50B2891B08</GUID>
+      <GUID>7A9585BBAE6AF48F31BAF366CE2BE80B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -715,7 +716,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4CEA65A0FB116EDCE05AA3CB765E019</GUID>
+      <GUID>520768FB21281AD73AA6EE8D570CA3CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1128,7 +1129,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF2EAFE0405134B10DA07184DFCEF311</GUID>
+      <GUID>84020D4484ADAD4B99AC1CDB65FF2AF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1541,7 +1542,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B40FB61C5EE901D748D84C18A295C8C</GUID>
+      <GUID>23B934C2D39B60E5A1CB3C924791F1B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1954,7 +1955,7 @@ May also work on MFP3D</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0F3200BE06F94D525E326BA5CE4DD03F</GUID>
+      <GUID>F5A075CAEAE8F847ADAE2D80D704023B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2045,7 +2046,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E21708EBDD60CCBF9AB8D365D02D3B4</GUID>
+      <GUID>2A192021E1C5557082CD886B7FE27A11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2276,7 +2277,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>027D0379AE5806307C2AA4864007DE16</GUID>
+      <GUID>5EAAD4216A0ADA391A53EA64429ACD7A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2311,7 +2312,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEDA75D5D7FF24B3E568A8DEC1282ECC</GUID>
+      <GUID>0137BE4E4478CC3DB2251F968DCA1008</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2542,7 +2543,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7603366CFD5AC96D8B02B4F9333B27D</GUID>
+      <GUID>F7573755BA031E32C085E4E0B13D0630</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2759,7 +2760,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A2C54494509CF104F24BCD9676F31A8</GUID>
+      <GUID>2C635417D266F3D8365A6DE17CBE2837</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3102,7 +3103,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A4C0A8E8EB4D04AD90DC82F12D497EE</GUID>
+      <GUID>C900A2792C7672894B3459BF83AD530F</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3137,7 +3138,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D746BD2A44B57B1385114DC0146A6C51</GUID>
+      <GUID>B61FEB794A2E2CC443D433A51A6A78E4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3186,7 +3187,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>490D872941C2F2F915C531227C4E70F3</GUID>
+      <GUID>68074FC7FA141E57622E0F5AC286D59A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3221,7 +3222,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\controls\Voltage Mapping.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E16FE640633B91462565E489F760F913</GUID>
+      <GUID>95446E16B6A0E10C1C8F40A8A722E23C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3326,7 +3327,7 @@ May also work on MFP3D</Release_Notes>
         <Path>subVIs\typedefs\Voltage - cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77338E3613F3BFFFD83C3E9E6CD595A6</GUID>
+      <GUID>46102F81ECB5C4CA84124DBE7601148B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
