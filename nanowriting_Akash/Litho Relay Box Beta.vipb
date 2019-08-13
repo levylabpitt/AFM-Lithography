@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-07-31 09:59:52" Modified_Date="2019-08-13 10:41:49" Creator="John Maier" Comments="" ID="e13e778de7afa256262a7448da8bbe65">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-07-31 09:59:52" Modified_Date="2019-08-13 14:47:00" Creator="John Maier" Comments="" ID="6a86b5ee3b93b5e9ea8251b919029636">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Litho_Relay_Box_Beta</Package_File_Name>
-    <Library_Version>1.0.1.5</Library_Version>
+    <Library_Version>1.0.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -268,7 +268,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2393BEF99173AFCC744FEF595E252C88</GUID>
+      <GUID>81A17D8247D28541401A4625BA75E7C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -345,7 +345,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>100BAAF0B74D4CE18B307FA563CB85D4</GUID>
+      <GUID>1AECA3C9331F59640FBF8B4D743A6B2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -464,7 +464,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B435186A3F1D24A845507C71A6DCF914</GUID>
+      <GUID>43157CA064E64C35F5E228CCEE010C4B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -527,7 +527,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30FB59A11C30B2017A10E9A8AFB74E1D</GUID>
+      <GUID>CA71B7ED38C7552445C4E847C6B5C96A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -590,7 +590,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>471A5524529846A3281FF049AE63779C</GUID>
+      <GUID>A2CDFEAB564B11E529CC118315B725A4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -653,7 +653,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B790276D6AE6E3F4F1471F96A4B78548</GUID>
+      <GUID>AFFEE409E33D27FBF7779BC781DBFAA7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -716,7 +716,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEC0B9763919F0C79DC0154F6B79DF47</GUID>
+      <GUID>A16E3D20511102F3D480DF812EB9F39D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1129,7 +1129,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>693FDFF8296856A3879735943FC9A0A0</GUID>
+      <GUID>4DB7A441466FD793DC80CAAAE87AB33E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1542,7 +1542,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>046EA3676ED0C917D16EDAA159A330B3</GUID>
+      <GUID>63D213A5CD5A7B4EB80146262674309C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1955,7 +1955,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7857AF52F58753A7CBB1BA2B73A14F3B</GUID>
+      <GUID>568CE4AB6A2C52FD83A9DD25785D1F8F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2046,7 +2046,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E59E80334CF824A2E6605010C9F4AB1</GUID>
+      <GUID>5F3D05AED8E1F957CEBCA252CCDBF12F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2277,7 +2277,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64938340EB5E4F547934DE160D7F5FBD</GUID>
+      <GUID>0F5AF6F5A05D24A5C4997F5780224532</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2312,7 +2312,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D2926C1FD7BB3AC0D9EEF53A8294267</GUID>
+      <GUID>2BB54446A1E1CBB38A859C82AC223A49</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2543,7 +2543,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1DCACD52E4511B0FD74CE0EB3FBDA479</GUID>
+      <GUID>6429FA22C50B472B7B7E62421C685B47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2760,7 +2760,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D03A28D842FC9C06048A386E234FDF1</GUID>
+      <GUID>0F7F4FA190D8E5E803F9B495CAA5E9AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3103,7 +3103,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39979AB4FEF4BFA7DD1A29F7D7780FC9</GUID>
+      <GUID>320D7B3905D9C74D997117BD95C28B34</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3138,7 +3138,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4ADD9F91811CF702C494817BF4A1D830</GUID>
+      <GUID>C6CC1D74C17A70E239D90D39D650645A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3187,7 +3187,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BC3A48A8515F732C9EFF6FE95C63902</GUID>
+      <GUID>6A4FAA8A5FA529849F37EBF442507CBD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3222,7 +3222,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\controls\Voltage Mapping.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>499A23B11F35AEA9D2174BB46C550278</GUID>
+      <GUID>2046FA6FC0F3A8F6433C080EB4894266</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3327,7 +3327,7 @@ Changes resistor when tip is withrawn</Release_Notes>
         <Path>subVIs\typedefs\Voltage - cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D671FF4B52C0DEA34AD2F0CC42D4734</GUID>
+      <GUID>BFFC88C3596E0110647B7409E1FCA431</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
