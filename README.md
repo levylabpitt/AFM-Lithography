@@ -15,23 +15,23 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
 
 - Conducting AFM Lithography
 - Support:
-  - This release supports Asylum MFP3D and Cypher AFMs and simulation mode.
-  - There are existing branches that support Agilent and Nanosurf AFMs.
-  - Bruker is under devleopment.
-  - All supported AFMs will be unified in a future release
+   - This release supports Asylum MFP3D and Cypher AFMs and simulation mode.
+   - There are existing branches that support Agilent and Nanosurf AFMs.
+   - Bruker is under devleopment.
+   - All supported AFMs will be unified in a future release
 
-### How do I get set up?
+### How do I get started?
 
 - AFM Lithography Installer [coming soon!](https://github.com/levylabpitt/AFM-Lithography/releases)
 - Inkscape [v0.48](https://inkscape.org/release/inkscape-0.48/)
 
-## Development Requirements:
+### Development Requirements:
 - NI LabVIEW 2020
 - NI Vision Development Module
- - LabVIEW Packages (Install using VIPM)
-  - JKI State Machine
-  - LevyLab FileUtilities
-  - LevyLab Relay Box
+- LabVIEW Packages (Install using VIPM)
+   - JKI State Machine
+   - LevyLab FileUtilities
+   - LevyLab Relay Box
 
 ### Instructions
 
