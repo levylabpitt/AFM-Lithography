@@ -12,9 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="General AFM Lithography.vipb" Type="Document" URL="../../build support/General AFM Lithography.vipb"/>
-			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
 			<Item Name="AFM.ico" Type="Document" URL="../../build support/AFM.ico"/>
+			<Item Name="General AFM Lithography.vipb" Type="Document" URL="../../build support/General AFM Lithography.vipb"/>
+			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
+			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
 		</Item>
 		<Item Name="AFMs" Type="Folder">
 			<Item Name="Cypher" Type="Folder">
@@ -230,7 +231,6 @@
 		<Item Name="Coordinate from AFM to inkscape.vi" Type="VI" URL="../Coordinate from AFM to inkscape.vi"/>
 		<Item Name="Generate jpg.vi" Type="VI" URL="../Generate jpg.vi"/>
 		<Item Name="Main_v4.vi" Type="VI" URL="../Main_v4.vi"/>
-		<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="increment filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/increment filename.vi"/>
@@ -1338,7 +1338,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70AAF6EE-B707-485C-8B84-3BDBD7A4BCED}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">8</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1426,7 +1428,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{B6CF4CB9-53DF-4E07-9DD7-5087118C232D}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
+				<Property Name="INST_productVersion" Type="Str">8.5.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
