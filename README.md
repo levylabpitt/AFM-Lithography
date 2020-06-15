@@ -32,7 +32,7 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
    - JKI State Machine
    - LevyLab FileUtilities
    - LevyLab Relay Box
-   -OpenG Toolkit
+   - OpenG Toolkit
 
 ### Instructions
 
