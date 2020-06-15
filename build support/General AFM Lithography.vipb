@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-06-15 14:25:22" Creator="Patrick Irvin" Comments="" ID="a73d202dbd4a60834b9af90cb6e83f09">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-06-15 14:50:14" Creator="Patrick Irvin" Comments="" ID="df3c46d984c50b00f05037640cb629da">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
     <Library_Version>8.5.0.7</Library_Version>
@@ -275,7 +275,7 @@
         <Path>..\nanowriting_Akash\Main_v4.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8897E1EA75259628D04FE4A5095A9A81</GUID>
+      <GUID>188E4D4FE123E67DF7C4353DD7D9D8EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -352,7 +352,7 @@
         <Path>..\nanowriting_Akash\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27E7729C0D1CA78BF2D2ADA5AF4A0780</GUID>
+      <GUID>7F7889AB40D22EB241AA9B64B1987D0E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -471,7 +471,7 @@
         <Path>..\nanowriting_Akash\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>468E68C790D772DCCAFA1B1E466DFF61</GUID>
+      <GUID>2F6B896CE2EF4EBDB33FA7A7B95E786C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -506,7 +506,7 @@
         <Path>..\nanowriting_Akash\AFMs\Cypher\subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3871DC31D92E2B99B8FEB7D51CDDAAC6</GUID>
+      <GUID>D21545B34369E10DB677529D4E0E5349</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -569,7 +569,7 @@
         <Path>..\nanowriting_Akash\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6FD9A4E82478353744A92EDB51DF53AE</GUID>
+      <GUID>1D5625D434FE700FF3529001345C9BA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -632,7 +632,7 @@
         <Path>..\nanowriting_Akash\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C7CB11B011764F0D335F84A45365A50</GUID>
+      <GUID>817C1C17CE45A34342005578D1F3C935</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -695,7 +695,7 @@
         <Path>..\nanowriting_Akash\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1A063745851937495AED3A18ABC95F7</GUID>
+      <GUID>E63CDDF31FD45F2D8C9325B474E22325</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1108,7 +1108,7 @@
         <Path>..\nanowriting_Akash\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1512C002EEC7772EFD53F70EB94ABD2C</GUID>
+      <GUID>EE2FADB0E906C2F49344FB9326CA65B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1521,7 +1521,7 @@
         <Path>..\nanowriting_Akash\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CB3D8E356F2135E130C02F815891C7C</GUID>
+      <GUID>8251A2C27C7DA8D598F683A924BF94C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1934,7 +1934,7 @@
         <Path>..\nanowriting_Akash\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5A1FC3D794E9B294BCB2592E1D86554</GUID>
+      <GUID>BE2E55A760CCF1D33736DB98C081D792</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2025,7 +2025,7 @@
         <Path>..\nanowriting_Akash\subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33313C77395D153F5C7CD73804F22C7D</GUID>
+      <GUID>0C21368E9897D2C6157E389A0270F36D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2256,7 +2256,7 @@
         <Path>..\nanowriting_Akash\subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>769154080C230AD4A0FB4151C7091E23</GUID>
+      <GUID>35BAF86D4C1FDE595ABDC2E4BA5EE8F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2291,7 +2291,7 @@
         <Path>..\nanowriting_Akash\subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3F1E20C28533D9915F69E392C907039</GUID>
+      <GUID>5CF0A61E98469D153FFB796A88ADF795</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2522,7 +2522,7 @@
         <Path>..\nanowriting_Akash\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7FF1B5834D9812529A5C083A82DEED6</GUID>
+      <GUID>E5981C1A2D7320B8345F302D834029B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2739,7 +2739,7 @@
         <Path>..\nanowriting_Akash\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79932CA77F59B2AA8DF0230F248D0500</GUID>
+      <GUID>2E7FA3A177EB946B14594B644EC9FA11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3054,7 +3054,7 @@
         <Path>..\nanowriting_Akash\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>347F0E466A3BB774EF8F5F4D428A0C75</GUID>
+      <GUID>003FD784214F9DB25A86F23B6DBACB04</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
