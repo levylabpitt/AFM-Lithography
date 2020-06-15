@@ -32,6 +32,7 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
    - JKI State Machine
    - LevyLab FileUtilities
    - LevyLab Relay Box
+   - OpenG Toolkit
 
 ### Instructions
 
@@ -50,4 +51,4 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
 
 ## License
 
-BSD-3
+[BSD-3](https://choosealicense.com/licenses/bsd-3-clause/)
