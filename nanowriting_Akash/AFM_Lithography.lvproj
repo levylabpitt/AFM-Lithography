@@ -517,8 +517,6 @@
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Create TDMS_MFP3D.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Litho Relay Box Beta/AFMs/MFP3D/subVIs/Create TDMS_MFP3D.vi"/>
-				<Item Name="Create TDMS_MFP3D_Lucy.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Litho Relay Box Beta/AFMs/MFP3D_Lucy/subVIs/Create TDMS_MFP3D_Lucy.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
