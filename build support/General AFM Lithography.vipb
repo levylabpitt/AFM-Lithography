@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-06-17 14:11:26" Creator="Patrick Irvin" Comments="" ID="aa3c3f815ce431c1b5b90e55dfa81325">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-06-17 16:19:34" Creator="Patrick Irvin" Comments="" ID="ec3d7eeb442a018cdd23e75d550b4842">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>8.5.5.12</Library_Version>
+    <Library_Version>8.5.6.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -41,10 +41,8 @@
       <Copyright/>
       <Packager>LevyLab</Packager>
       <URL/>
-      <Release_Notes>- change AFM subpanel, tip.wrl directory
-- disable 3D to enable exe
-- revert surfacepic.jpg path
-- other block diagram cleanup</Release_Notes>
+      <Release_Notes>- bug fix write surfacepic.jpg (Issue #11)
+- misc. UI improvements</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -250,7 +248,7 @@
         <Path>..\lvsrc\subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1547DD1C5DC98AB309BD8EA7D4218881</GUID>
+      <GUID>4C95E8129C56BE123B0A7EBE4FC6202D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -327,7 +325,7 @@
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B1F5152407E98803AF32752EB3E0A60</GUID>
+      <GUID>F07AA72084902EB5F2B329339D1791AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -446,7 +444,7 @@
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28F2372465B0286C8A956D6ADE54F7BB</GUID>
+      <GUID>9742AD33A15BD6308C3EAA9C3962B90E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -509,7 +507,7 @@
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A39756545BD989BC6B6267C278298911</GUID>
+      <GUID>5FD28BE926A9412956929E5F4A1DF862</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -572,7 +570,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA424BE7597FBF8579673FFDF4DE25A6</GUID>
+      <GUID>B4AD0748F0319FF4210B0FFFC8C2FAAB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -635,7 +633,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F16EEEC1AB1034D5DF280AB7FEEA050C</GUID>
+      <GUID>92A65F62921D939BA4980EBD93C01E00</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -698,7 +696,7 @@
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>47DF758829C2A676492AD5815889ADDE</GUID>
+      <GUID>5730F1AF15AB994998759ED206E4511A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1111,7 +1109,7 @@
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09986A48B28C191D57CBB6433294702F</GUID>
+      <GUID>BA3B7204C5B056A174F483A0519CA063</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1524,7 +1522,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B867B2C9B7D6ABDB1D3A685F6B14A14A</GUID>
+      <GUID>3EB282A413DD3052D2D9B11C8A5A1DF8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1937,7 +1935,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C5E8ACA9A2A7EDEF2998D4131792744</GUID>
+      <GUID>7BE011B47F4A6DC636E72A33B8602BE8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2028,7 +2026,7 @@
         <Path>..\lvsrc\subVIs\3d\Translate Tip.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D800E148996787E5FEC06433096A389</GUID>
+      <GUID>DBACC670E981DF1AEAB62EB699AD7F2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2259,7 +2257,7 @@
         <Path>..\lvsrc\subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0572809A0A8DDEA271DB1146B14D20BC</GUID>
+      <GUID>ECBE815951334A43948EFFE62AC64CA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2294,7 +2292,7 @@
         <Path>..\lvsrc\subVIs\mathematics\Bezier curve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D43826967DBB1071CBDF95BD1E736C52</GUID>
+      <GUID>1DBE805CE2CA26310DFE6C8F29754B5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2525,7 +2523,7 @@
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD092661C109968776B29B0A48895A91</GUID>
+      <GUID>D5459205A4950FAA437E9FBCBF463447</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2742,7 +2740,7 @@
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>852ECFDFF689ABC9A4D1E47F5AB3BC53</GUID>
+      <GUID>B20823E7D9C4771CAC24B12B5E5E3D9E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3085,7 +3083,7 @@
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3967D8C411C09B4FD8467AB0D64AAD9</GUID>
+      <GUID>D14C9A69B30218335E0B1BED70C85D9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
