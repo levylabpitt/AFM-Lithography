@@ -158,9 +158,7 @@
 				<Item Name="Make Circle Rectangle.vi" Type="VI" URL="../subVIs/image/Make Circle Rectangle.vi"/>
 				<Item Name="SGL Wordswap.vi" Type="VI" URL="../subVIs/image/SGL Wordswap.vi"/>
 			</Item>
-			<Item Name="mathematics" Type="Folder">
-				<Item Name="Bezier curve.vi" Type="VI" URL="../subVIs/mathematics/Bezier curve.vi"/>
-			</Item>
+			<Item Name="mathematics" Type="Folder"/>
 			<Item Name="parsing" Type="Folder">
 				<Item Name="Check First Character Type.vi" Type="VI" URL="../subVIs/parsing/Check First Character Type.vi"/>
 				<Item Name="Discard One Character.vi" Type="VI" URL="../subVIs/parsing/Discard One Character.vi"/>
@@ -1327,8 +1325,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NIMdf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="General AFM Lithography Application" Type="EXE">
