@@ -179,6 +179,9 @@
 				<Item Name="XPath String Sub-Parser_Tran.vi" Type="VI" URL="../subVIs/parsing/XPath String Sub-Parser_Tran.vi"/>
 			</Item>
 			<Item Name="subpanel" Type="Folder">
+				<Item Name="Rect Edit.vi" Type="VI" URL="../subVIs/subpanel/Rect Edit.vi"/>
+				<Item Name="Funnel Edit.vi" Type="VI" URL="../subVIs/subpanel/Funnel Edit.vi"/>
+				<Item Name="Path Edit.vi" Type="VI" URL="../subVIs/subpanel/Path Edit.vi"/>
 				<Item Name="Abort If Not Refnum.vi" Type="VI" URL="../subVIs/subpanel/Abort If Not Refnum.vi"/>
 				<Item Name="Close Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Close Subpanel.vi"/>
 				<Item Name="Dynamic Generation of Formula for Vtip.vi" Type="VI" URL="../subVIs/subpanel/Dynamic Generation of Formula for Vtip.vi"/>
@@ -186,12 +189,9 @@
 				<Item Name="Function Generator--OLD.vi" Type="VI" URL="../subVIs/subpanel/Function Generator--OLD.vi"/>
 				<Item Name="Function Generator-Yuhe version.vi" Type="VI" URL="../subVIs/subpanel/Function Generator-Yuhe version.vi"/>
 				<Item Name="Function Generator.vi" Type="VI" URL="../subVIs/subpanel/Function Generator.vi"/>
-				<Item Name="Funnel Edit.vi" Type="VI" URL="../subVIs/subpanel/Funnel Edit.vi"/>
 				<Item Name="Get Selected Pattern.vi" Type="VI" URL="../subVIs/subpanel/Get Selected Pattern.vi"/>
 				<Item Name="Load AFM Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Load AFM Subpanel.vi"/>
-				<Item Name="Path Edit.vi" Type="VI" URL="../subVIs/subpanel/Path Edit.vi"/>
 				<Item Name="Ramp.vi" Type="VI" URL="../subVIs/subpanel/Ramp.vi"/>
-				<Item Name="Rect Edit.vi" Type="VI" URL="../subVIs/subpanel/Rect Edit.vi"/>
 				<Item Name="Set Driver Controls.vi" Type="VI" URL="../subVIs/subpanel/Set Driver Controls.vi"/>
 			</Item>
 			<Item Name="toolpath" Type="Folder">
@@ -219,6 +219,9 @@
 				<Item Name="Transform Point.vi" Type="VI" URL="../subVIs/toolpath/Transform Point.vi"/>
 			</Item>
 			<Item Name="typedefs" Type="Folder">
+				<Item Name="Parsed Path - Cluster.ctl" Type="VI" URL="../subVIs/typedefs/Parsed Path - Cluster.ctl"/>
+				<Item Name="Parsed Funnel - Cluster.ctl" Type="VI" URL="../subVIs/typedefs/Parsed Funnel - Cluster.ctl"/>
+				<Item Name="Parsed Rect - Cluster.ctl" Type="VI" URL="../subVIs/typedefs/Parsed Rect - Cluster.ctl"/>
 				<Item Name="Funnel Properties - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Funnel Properties - cluster.ctl"/>
 				<Item Name="Path Properties - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Path Properties - cluster.ctl"/>
 				<Item Name="Rectangle Properties - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Rectangle Properties - cluster.ctl"/>
