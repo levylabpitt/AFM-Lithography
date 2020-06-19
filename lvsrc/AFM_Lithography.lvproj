@@ -229,7 +229,7 @@
 			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
-		<Item Name="Main_v4.vi" Type="VI" URL="../Main_v4.vi"/>
+		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
@@ -1359,7 +1359,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{ED03CEB9-AADD-4E30-85C4-B50D824C7BE8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main_v4.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
