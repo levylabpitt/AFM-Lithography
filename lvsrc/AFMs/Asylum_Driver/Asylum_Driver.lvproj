@@ -14,42 +14,42 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Methods" Type="Folder">
-			<Item Name="Asylum_Driver_LowerTip.vi" Type="VI" URL="../Asylum_Driver_LowerTip.vi"/>
-			<Item Name="Asylum_Driver_StartXYPISLoops.vi" Type="VI" URL="../Asylum_Driver_StartXYPISLoops.vi"/>
-			<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../Asylum_Driver_GoToInitialPoint.vi"/>
-			<Item Name="Asylum_Driver_GetXYSetPoints.vi" Type="VI" URL="../Asylum_Driver_GetXYSetPoints.vi"/>
+			<Item Name="Asylum_Driver_LowerTip.vi" Type="VI" URL="../subVIs/Asylum_Driver_LowerTip.vi"/>
+			<Item Name="Asylum_Driver_StartXYPISLoops.vi" Type="VI" URL="../subVIs/Asylum_Driver_StartXYPISLoops.vi"/>
+			<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
+			<Item Name="Asylum_Driver_GetXYSetPoints.vi" Type="VI" URL="../subVIs/Asylum_Driver_GetXYSetPoints.vi"/>
 		</Item>
 		<Item Name="Conversions" Type="Folder">
-			<Item Name="Asylum_Interpolation.vi" Type="VI" URL="../Asylum_Interpolation.vi"/>
-			<Item Name="Asylum_Driver_XYMetersToVoltage.vi" Type="VI" URL="../Asylum_Driver_XYMetersToVoltage.vi"/>
-			<Item Name="Asylum_Driver_XYMetersToVoltageArray.vi" Type="VI" URL="../Asylum_Driver_XYMetersToVoltageArray.vi"/>
-			<Item Name="Asylum_Driver_XYMetersToVoltagePolymorphic.vi" Type="VI" URL="../Asylum_Driver_XYMetersToVoltagePolymorphic.vi"/>
-			<Item Name="Asylum_Driver_XYVoltageToMeters.vi" Type="VI" URL="../Asylum_Driver_XYVoltageToMeters.vi"/>
-			<Item Name="Asylum_Driver_GetLVDTParameters.vi" Type="VI" URL="../Asylum_Driver_GetLVDTParameters.vi"/>
+			<Item Name="Asylum_Interpolation.vi" Type="VI" URL="../subVIs/Asylum_Interpolation.vi"/>
+			<Item Name="Asylum_Driver_XYMetersToVoltage.vi" Type="VI" URL="../subVIs/Asylum_Driver_XYMetersToVoltage.vi"/>
+			<Item Name="Asylum_Driver_XYMetersToVoltageArray.vi" Type="VI" URL="../subVIs/Asylum_Driver_XYMetersToVoltageArray.vi"/>
+			<Item Name="Asylum_Driver_XYMetersToVoltagePolymorphic.vi" Type="VI" URL="../subVIs/Asylum_Driver_XYMetersToVoltagePolymorphic.vi"/>
+			<Item Name="Asylum_Driver_XYVoltageToMeters.vi" Type="VI" URL="../subVIs/Asylum_Driver_XYVoltageToMeters.vi"/>
+			<Item Name="Asylum_Driver_GetLVDTParameters.vi" Type="VI" URL="../subVIs/Asylum_Driver_GetLVDTParameters.vi"/>
 		</Item>
 		<Item Name="IBW" Type="Folder">
-			<Item Name="SGL Wordswap.vi" Type="VI" URL="../Legacy/SGL Wordswap.vi"/>
-			<Item Name="Load IBW File.vi" Type="VI" URL="../Legacy/Load IBW File.vi"/>
+			<Item Name="Legacy_SGL Wordswap.vi" Type="VI" URL="../Legacy/Legacy_SGL Wordswap.vi"/>
+			<Item Name="Legacy_Load IBW File.vi" Type="VI" URL="../Legacy/Legacy_Load IBW File.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Asylum_ReadScanSizeAndOffset.vi" Type="VI" URL="../Asylum_ReadScanSizeAndOffset.vi"/>
+			<Item Name="Asylum_ReadScanSizeAndOffset.vi" Type="VI" URL="../subVIs/Asylum_ReadScanSizeAndOffset.vi"/>
 		</Item>
 		<Item Name="Lithography" Type="Folder">
 			<Item Name="LargeWaves" Type="Folder">
-				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../Igor_LoadLargeWaveUsingFile.vi"/>
-				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../Igor_LoadWaveFromFile.vi"/>
-				<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../Igor_SaveWaveToFile.vi"/>
+				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../subVIs/Igor_LoadLargeWaveUsingFile.vi"/>
+				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../subVIs/Igor_LoadWaveFromFile.vi"/>
+				<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../subVIs/Igor_SaveWaveToFile.vi"/>
 			</Item>
 			<Item Name="Process" Type="Folder">
-				<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../Asylum_Driver_LithographyObjectPoints.vi"/>
-				<Item Name="Asylum_Driver_InitializeLithographyObject.vi" Type="VI" URL="../Asylum_Driver_InitializeLithographyObject.vi"/>
-				<Item Name="Asylum_Driver_LithographyObjects.vi" Type="VI" URL="../Asylum_Driver_LithographyObjects.vi"/>
-				<Item Name="Asylum_Driver_LithographyInitialize.vi" Type="VI" URL="../Asylum_Driver_LithographyInitialize.vi"/>
-				<Item Name="Asylum_Driver_Lithography_Convert_Units.vi" Type="VI" URL="../Asylum_Driver_Lithography_Convert_Units.vi"/>
+				<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
+				<Item Name="Asylum_Driver_InitializeLithographyObject.vi" Type="VI" URL="../subVIs/Asylum_Driver_InitializeLithographyObject.vi"/>
+				<Item Name="Asylum_Driver_LithographyObjects.vi" Type="VI" URL="../subVIs/Asylum_Driver_LithographyObjects.vi"/>
+				<Item Name="Asylum_Driver_LithographyInitialize.vi" Type="VI" URL="../subVIs/Asylum_Driver_LithographyInitialize.vi"/>
+				<Item Name="Asylum_Driver_Lithography_Convert_Units.vi" Type="VI" URL="../subVIs/Asylum_Driver_Lithography_Convert_Units.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Asylum_Driver.vi" Type="VI" URL="../Asylum_Driver.vi"/>
