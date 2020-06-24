@@ -142,14 +142,10 @@
 				<Item Name="Background.vi" Type="VI" URL="../subVIs/image/Background.vi"/>
 				<Item Name="Convert IMAQ to LV Image.vi" Type="VI" URL="../subVIs/image/Convert IMAQ to LV Image.vi"/>
 				<Item Name="Double to RGB Image.vi" Type="VI" URL="../subVIs/image/Double to RGB Image.vi"/>
-				<Item Name="Draw Line Realtime 2D.vi" Type="VI" URL="../subVIs/image/Draw Line Realtime 2D.vi"/>
 				<Item Name="Draw Lines First.vi" Type="VI" URL="../subVIs/image/Draw Lines First.vi"/>
-				<Item Name="Draw Tip.vi" Type="VI" URL="../subVIs/image/Draw Tip.vi"/>
 				<Item Name="Get Voltage RGB.vi" Type="VI" URL="../subVIs/image/Get Voltage RGB.vi"/>
 				<Item Name="Image Generator.vi" Type="VI" URL="../subVIs/image/Image Generator.vi"/>
-				<Item Name="Initialize Tip Group.vi" Type="VI" URL="../subVIs/image/Initialize Tip Group.vi"/>
 				<Item Name="Load IBW File.vi" Type="VI" URL="../subVIs/image/Load IBW File.vi"/>
-				<Item Name="Make Circle Rectangle.vi" Type="VI" URL="../subVIs/image/Make Circle Rectangle.vi"/>
 				<Item Name="SGL Wordswap.vi" Type="VI" URL="../subVIs/image/SGL Wordswap.vi"/>
 			</Item>
 			<Item Name="mathematics" Type="Folder"/>
@@ -474,8 +470,6 @@
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
-				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
-				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
