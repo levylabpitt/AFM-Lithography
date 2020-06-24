@@ -137,13 +137,6 @@
 			</Item>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
-			<Item Name="3d" Type="Folder">
-				<Item Name="Create Axis.vi" Type="VI" URL="../subVIs/3d/Create Axis.vi"/>
-				<Item Name="Create Canvas.vi" Type="VI" URL="../subVIs/3d/Create Canvas.vi"/>
-				<Item Name="Generate 3D Picture.vi" Type="VI" URL="../subVIs/3d/Generate 3D Picture.vi"/>
-				<Item Name="Get Tip From WRL.vi" Type="VI" URL="../subVIs/3d/Get Tip From WRL.vi"/>
-				<Item Name="Translate Tip.vi" Type="VI" URL="../subVIs/3d/Translate Tip.vi"/>
-			</Item>
 			<Item Name="image" Type="Folder">
 				<Item Name="Adjust Coordinate.vi" Type="VI" URL="../subVIs/image/Adjust Coordinate.vi"/>
 				<Item Name="Background.vi" Type="VI" URL="../subVIs/image/Background.vi"/>
@@ -151,8 +144,6 @@
 				<Item Name="Double to RGB Image.vi" Type="VI" URL="../subVIs/image/Double to RGB Image.vi"/>
 				<Item Name="Draw Line Realtime 2D.vi" Type="VI" URL="../subVIs/image/Draw Line Realtime 2D.vi"/>
 				<Item Name="Draw Lines First.vi" Type="VI" URL="../subVIs/image/Draw Lines First.vi"/>
-				<Item Name="Draw Realtime if Ready.vi" Type="VI" URL="../subVIs/image/Draw Realtime if Ready.vi"/>
-				<Item Name="Draw Realtime.vi" Type="VI" URL="../subVIs/image/Draw Realtime.vi"/>
 				<Item Name="Draw Tip.vi" Type="VI" URL="../subVIs/image/Draw Tip.vi"/>
 				<Item Name="Get Voltage RGB.vi" Type="VI" URL="../subVIs/image/Get Voltage RGB.vi"/>
 				<Item Name="Image Generator.vi" Type="VI" URL="../subVIs/image/Image Generator.vi"/>
@@ -505,10 +496,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRGBAColorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRGBAColorTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="LVSceneTextAlignment.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSceneTextAlignment.ctl"/>
-				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
