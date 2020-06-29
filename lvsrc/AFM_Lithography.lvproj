@@ -52,9 +52,7 @@
 					<Item Name="X sensor convert V to meter_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/X sensor convert V to meter_Cypher.vi"/>
 					<Item Name="Y sensor convert V to meter_Cypher.vi" Type="VI" URL="../AFMs/Cypher/subVIs/Y sensor convert V to meter_Cypher.vi"/>
 				</Item>
-				<Item Name="Cypher Acquired Data.vi" Type="VI" URL="../AFMs/Cypher/Cypher Acquired Data.vi"/>
 				<Item Name="Cypher Driver.vi" Type="VI" URL="../AFMs/Cypher/Cypher Driver.vi"/>
-				<Item Name="Tip.wrl" Type="Document" URL="../AFMs/Cypher/Tip.wrl"/>
 			</Item>
 			<Item Name="MFP3D" Type="Folder">
 				<Item Name="subVIs" Type="Folder">
@@ -87,9 +85,7 @@
 					<Item Name="X sensor convert V to meter_MFP3D.vi" Type="VI" URL="../AFMs/MFP3D/subVIs/X sensor convert V to meter_MFP3D.vi"/>
 					<Item Name="Y sensor convert V to meter_MFP3D.vi" Type="VI" URL="../AFMs/MFP3D/subVIs/Y sensor convert V to meter_MFP3D.vi"/>
 				</Item>
-				<Item Name="MFP3D Acquired Data.vi" Type="VI" URL="../AFMs/MFP3D/MFP3D Acquired Data.vi"/>
 				<Item Name="MFP3D Driver.vi" Type="VI" URL="../AFMs/MFP3D/MFP3D Driver.vi"/>
-				<Item Name="Tip.wrl" Type="Document" URL="../AFMs/MFP3D/Tip.wrl"/>
 			</Item>
 			<Item Name="MFP3D_Lucy" Type="Folder">
 				<Item Name="subVIs" Type="Folder">
@@ -128,12 +124,43 @@
 			</Item>
 			<Item Name="Simulation" Type="Folder">
 				<Item Name="Build Graphs.vi" Type="VI" URL="../AFMs/Simulation/Build Graphs.vi"/>
-				<Item Name="Simulation Acquired Data.vi" Type="VI" URL="../AFMs/Simulation/Simulation Acquired Data.vi"/>
 				<Item Name="Simulation Driver.vi" Type="VI" URL="../AFMs/Simulation/Simulation Driver.vi"/>
 				<Item Name="Tip.wrl" Type="Document" URL="../AFMs/Simulation/Tip.wrl"/>
 			</Item>
-			<Item Name="Asylum_Driver" Type="Folder" URL="../AFMs/Asylum_Driver">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Asylum_Driver" Type="Folder">
+				<Item Name="Legacy" Type="Folder">
+					<Item Name="Legacy_Load IBW File.vi" Type="VI" URL="../AFMs/Asylum_Driver/Legacy/Legacy_Load IBW File.vi"/>
+					<Item Name="Legacy_SGL Wordswap.vi" Type="VI" URL="../AFMs/Asylum_Driver/Legacy/Legacy_SGL Wordswap.vi"/>
+				</Item>
+				<Item Name="subVIs" Type="Folder">
+					<Item Name="Asylum_Driver_GetLVDTParameters.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetLVDTParameters.vi"/>
+					<Item Name="Asylum_Driver_GetXYSetPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetXYSetPoints.vi"/>
+					<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
+					<Item Name="Asylum_Driver_InitializeLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_InitializeLithographyObject.vi"/>
+					<Item Name="Asylum_Driver_Lithography_Convert_Units.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_Lithography_Convert_Units.vi"/>
+					<Item Name="Asylum_Driver_LithographyInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyInitialize.vi"/>
+					<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
+					<Item Name="Asylum_Driver_LithographyObjects.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjects.vi"/>
+					<Item Name="Asylum_Driver_LowerTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LowerTip.vi"/>
+					<Item Name="Asylum_Driver_RaiseTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_RaiseTip.vi"/>
+					<Item Name="Asylum_Driver_StartXYPISLoops.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_StartXYPISLoops.vi"/>
+					<Item Name="Asylum_Driver_XYMetersToVoltage.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_XYMetersToVoltage.vi"/>
+					<Item Name="Asylum_Driver_XYMetersToVoltageArray.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_XYMetersToVoltageArray.vi"/>
+					<Item Name="Asylum_Driver_XYMetersToVoltagePolymorphic.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_XYMetersToVoltagePolymorphic.vi"/>
+					<Item Name="Asylum_Driver_XYVoltageToMeters.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_XYVoltageToMeters.vi"/>
+					<Item Name="Asylum_Interpolation.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Interpolation.vi"/>
+					<Item Name="Asylum_ReadScanSizeAndOffset.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_ReadScanSizeAndOffset.vi"/>
+					<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadLargeWaveUsingFile.vi"/>
+					<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadWaveFromFile.vi"/>
+					<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWaveToFile.vi"/>
+				</Item>
+				<Item Name="TypeDefs" Type="Folder">
+					<Item Name="Events.ctl" Type="VI" URL="../AFMs/Asylum_Driver/TypeDefs/Events.ctl"/>
+				</Item>
+				<Item Name="Asylum_Driver.aliases" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.aliases"/>
+				<Item Name="Asylum_Driver.lvproj" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.lvproj"/>
+				<Item Name="Asylum_Driver.vi" Type="VI" URL="../AFMs/Asylum_Driver/Asylum_Driver.vi"/>
+				<Item Name="Todolist.txt" Type="Document" URL="../AFMs/Asylum_Driver/Todolist.txt"/>
 			</Item>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
