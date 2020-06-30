@@ -1119,6 +1119,7 @@
 				<Item Name="Asylum_OpenRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_OpenRefnum.vi"/>
 				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
 				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
