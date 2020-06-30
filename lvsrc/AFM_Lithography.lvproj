@@ -247,10 +247,12 @@
 		<Item Name="AFM API" Type="Folder">
 			<Item Name="AFM_Driver_Manager.lvclass" Type="LVClass" URL="../subVIs/AFM API/AFM_Driver_Manager/AFM_Driver_Manager.lvclass"/>
 		</Item>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
+			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
+			<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
+		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
-		<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
-		<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
-		<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
