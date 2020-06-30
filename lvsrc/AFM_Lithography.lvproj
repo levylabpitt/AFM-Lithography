@@ -154,9 +154,7 @@
 					<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadWaveFromFile.vi"/>
 					<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWaveToFile.vi"/>
 				</Item>
-				<Item Name="TypeDefs" Type="Folder">
-					<Item Name="Events.ctl" Type="VI" URL="../AFMs/Asylum_Driver/TypeDefs/Events.ctl"/>
-				</Item>
+				<Item Name="TypeDefs" Type="Folder"/>
 				<Item Name="Asylum_Driver.aliases" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.aliases"/>
 				<Item Name="Asylum_Driver.lvproj" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.lvproj"/>
 				<Item Name="Asylum_Driver.vi" Type="VI" URL="../AFMs/Asylum_Driver/Asylum_Driver.vi"/>
