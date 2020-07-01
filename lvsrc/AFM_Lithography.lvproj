@@ -133,6 +133,7 @@
 					<Item Name="Legacy_SGL Wordswap.vi" Type="VI" URL="../AFMs/Asylum_Driver/Legacy/Legacy_SGL Wordswap.vi"/>
 				</Item>
 				<Item Name="subVIs" Type="Folder">
+					<Item Name="Asylum_Driver_TerminateLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_TerminateLithographyObject.vi"/>
 					<Item Name="Asylum_Driver_GetLVDTParameters.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetLVDTParameters.vi"/>
 					<Item Name="Asylum_Driver_GetXYSetPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetXYSetPoints.vi"/>
 					<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
