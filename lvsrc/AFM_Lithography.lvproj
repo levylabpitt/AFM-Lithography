@@ -125,7 +125,6 @@
 			<Item Name="Simulation" Type="Folder">
 				<Item Name="Build Graphs.vi" Type="VI" URL="../AFMs/Simulation/Build Graphs.vi"/>
 				<Item Name="Simulation Driver.vi" Type="VI" URL="../AFMs/Simulation/Simulation Driver.vi"/>
-				<Item Name="Tip.wrl" Type="Document" URL="../AFMs/Simulation/Tip.wrl"/>
 			</Item>
 			<Item Name="Asylum_Driver" Type="Folder">
 				<Item Name="Legacy" Type="Folder">
@@ -248,6 +247,7 @@
 		</Item>
 		<Item Name="AFM API" Type="Folder">
 			<Item Name="AFM_Driver_Manager.lvclass" Type="LVClass" URL="../subVIs/AFM API/AFM_Driver_Manager/AFM_Driver_Manager.lvclass"/>
+			<Item Name="AFM_Name_Driver.vit" Type="VI" URL="../subVIs/AFM API/AFM_Driver_Template/AFM_Name_Driver.vit"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
