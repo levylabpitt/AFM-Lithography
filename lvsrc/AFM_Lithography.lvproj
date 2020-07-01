@@ -232,6 +232,12 @@
 				<Item Name="Transform Point.vi" Type="VI" URL="../subVIs/toolpath/Transform Point.vi"/>
 			</Item>
 			<Item Name="typedefs" Type="Folder">
+				<Item Name="Schedule Types" Type="Folder">
+					<Item Name="Schedule--Constant.ctl" Type="VI" URL="../subVIs/typedefs/Schedule Types/Schedule--Constant.ctl"/>
+					<Item Name="Schedule--Ramp.ctl" Type="VI" URL="../subVIs/typedefs/Schedule Types/Schedule--Ramp.ctl"/>
+					<Item Name="Schedule--Function Generator.ctl" Type="VI" URL="../subVIs/typedefs/Schedule Types/Schedule--Function Generator.ctl"/>
+					<Item Name="Schedule--Formula.ctl" Type="VI" URL="../subVIs/typedefs/Schedule Types/Schedule--Formula.ctl"/>
+				</Item>
 				<Item Name="Parsed Path - Cluster.ctl" Type="VI" URL="../subVIs/typedefs/Parsed Path - Cluster.ctl"/>
 				<Item Name="Parsed Funnel - Cluster.ctl" Type="VI" URL="../subVIs/typedefs/Parsed Funnel - Cluster.ctl"/>
 				<Item Name="Parsed Rect - Cluster.ctl" Type="VI" URL="../subVIs/typedefs/Parsed Rect - Cluster.ctl"/>
