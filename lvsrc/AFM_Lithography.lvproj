@@ -265,9 +265,10 @@
 		<Item Name="test files" Type="Folder">
 			<Item Name="SA01234A0000.ibw" Type="Document" URL="../../test files/SA01234A0000.ibw"/>
 			<Item Name="test.svg" Type="Document" URL="../../test files/test.svg"/>
+		</Item>
+		<Item Name="tests" Type="Folder">
 			<Item Name="Test EXE.vi" Type="VI" URL="../../tests/Test EXE.vi"/>
 		</Item>
-		<Item Name="tests" Type="Folder"/>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -1721,6 +1722,47 @@
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/General AFM Lithography Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Test EXE" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{24B966B6-CDD1-4170-8B5D-18F2D1EDDEA3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{34E5EA5D-C589-4DAF-B377-FB2AD76F1DE7}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6F53EFEB-967D-40BC-962C-7B86ED26A56A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test EXE</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Test EXE</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C1519694-351C-4E57-ABC0-71E9DFE65DCE}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Test EXE.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Test EXE/Test EXE.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Test EXE/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C0192DDC-512A-4FB5-AC0F-B4D8848BD328}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/tests/Test EXE.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Test EXE</Property>
+				<Property Name="TgtF_internalName" Type="Str">Test EXE</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 University of Pittsburgh</Property>
+				<Property Name="TgtF_productName" Type="Str">Test EXE</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{82CB42A7-4E30-4B53-8ECB-20758B9255A2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Test EXE.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
