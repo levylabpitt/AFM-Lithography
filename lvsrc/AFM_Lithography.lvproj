@@ -154,8 +154,9 @@
 					<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadWaveFromFile.vi"/>
 					<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWaveToFile.vi"/>
 				</Item>
-				<Item Name="TypeDefs" Type="Folder"/>
-				<Item Name="Asylum_Driver.aliases" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.aliases"/>
+				<Item Name="TypeDefs" Type="Folder">
+					<Item Name="Events.ctl" Type="VI" URL="../AFMs/Asylum_Driver/TypeDefs/Events.ctl"/>
+				</Item>
 				<Item Name="Asylum_Driver.lvproj" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.lvproj"/>
 				<Item Name="Asylum_Driver.vi" Type="VI" URL="../AFMs/Asylum_Driver/Asylum_Driver.vi"/>
 				<Item Name="Todolist.txt" Type="Document" URL="../AFMs/Asylum_Driver/Todolist.txt"/>
@@ -261,6 +262,12 @@
 			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
 			<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
 		</Item>
+		<Item Name="test files" Type="Folder">
+			<Item Name="SA01234A0000.ibw" Type="Document" URL="../../test files/SA01234A0000.ibw"/>
+			<Item Name="test.svg" Type="Document" URL="../../test files/test.svg"/>
+			<Item Name="Test EXE.vi" Type="VI" URL="../../tests/Test EXE.vi"/>
+		</Item>
+		<Item Name="tests" Type="Folder"/>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -1237,32 +1244,16 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteValue.vi"/>
-				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
-				<Item Name="Asylum_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/Asylum_EnsureIgorStringFormat.vi"/>
 				<Item Name="Asylum_SendIgorCommand.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_SendIgorCommand.vi"/>
-				<Item Name="Debug Log.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Debug Log/Debug Log.lvlib"/>
-				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
-				<Item Name="Assert Fixed-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Fixed-Point Numeric Type.vim"/>
-				<Item Name="Assert Complex Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Complex Numeric Type.vim"/>
-				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
-				<Item Name="Assert Real Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Real Floating-Point Numeric Type.vim"/>
-				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Tests/mock/DebugModeSingleton.vi"/>
 				<Item Name="Asylum_WriteString.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteString.vi"/>
-				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
 				<Item Name="Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/PISLoop/Asylum_SetPISLoop.vi"/>
-				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
 				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
-				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
 				<Item Name="ArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/ArraytoIgorWave.vi"/>
 				<Item Name="NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/LVArraytoIgorWave/NumericArraytoIgorWave.vi"/>
-				<Item Name="StringArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/LVArraytoIgorWave/StringArraytoIgorWave.vi"/>
 				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWavePair.vi"/>
-				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
 				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWave.vi"/>
-				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
 				<Item Name="Asylum_CloseRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_CloseRefnum.vi"/>
 				<Item Name="Asylum_OpenRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_OpenRefnum.vi"/>
-				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
 				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 				<Item Name="SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO/SMO.lvclass"/>
@@ -1290,6 +1281,15 @@
 				<Item Name="Rectangle Size__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/Rectangle Size__lava_lib_ui_tools.vi"/>
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
+				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
+				<Item Name="Asylum_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/Asylum_EnsureIgorStringFormat.vi"/>
+				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
+				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
+				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
+				<Item Name="StringArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/LVArraytoIgorWave/StringArraytoIgorWave.vi"/>
+				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
+				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
+				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1562,11 +1562,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NIMdf.dll"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NIMdf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="General AFM Lithography Application" Type="EXE">
