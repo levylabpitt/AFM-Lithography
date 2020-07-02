@@ -206,6 +206,7 @@
 				<Item Name="Load AFM Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Load AFM Subpanel.vi"/>
 				<Item Name="Ramp.vi" Type="VI" URL="../subVIs/subpanel/Ramp.vi"/>
 				<Item Name="Set Driver Controls.vi" Type="VI" URL="../subVIs/subpanel/Set Driver Controls.vi"/>
+				<Item Name="CheckVariantAttributes.vi" Type="VI" URL="../subVIs/subpanel/CheckVariantAttributes.vi"/>
 			</Item>
 			<Item Name="toolpath" Type="Folder">
 				<Item Name="Bezier.vi" Type="VI" URL="../subVIs/toolpath/Bezier.vi"/>
