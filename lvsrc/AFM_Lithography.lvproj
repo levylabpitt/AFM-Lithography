@@ -249,7 +249,6 @@
 				<Item Name="Schedule - enum.ctl" Type="VI" URL="../subVIs/typedefs/Schedule - enum.ctl"/>
 				<Item Name="Signal Type - enum.ctl" Type="VI" URL="../subVIs/typedefs/Signal Type - enum.ctl"/>
 				<Item Name="Voltage - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Voltage - cluster.ctl"/>
-				<Item Name="Configuration.ctl" Type="VI" URL="../Controls/Configuration.ctl"/>
 			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
@@ -261,6 +260,7 @@
 			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
 			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
 			<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
+			<Item Name="Configuration.ctl" Type="VI" URL="../Controls/Configuration.ctl"/>
 		</Item>
 		<Item Name="test files" Type="Folder">
 			<Item Name="SA01234A0000.ibw" Type="Document" URL="../../test files/SA01234A0000.ibw"/>
