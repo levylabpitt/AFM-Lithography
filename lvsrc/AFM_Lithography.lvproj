@@ -249,7 +249,7 @@
 				<Item Name="Schedule - enum.ctl" Type="VI" URL="../subVIs/typedefs/Schedule - enum.ctl"/>
 				<Item Name="Signal Type - enum.ctl" Type="VI" URL="../subVIs/typedefs/Signal Type - enum.ctl"/>
 				<Item Name="Voltage - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Voltage - cluster.ctl"/>
-				<Item Name="Configuration.ctl" Type="VI" URL="../subVIs/typedefs/Configuration.ctl"/>
+				<Item Name="Configuration.ctl" Type="VI" URL="../Controls/Configuration.ctl"/>
 			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
