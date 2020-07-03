@@ -267,6 +267,7 @@
 		<Item Name="tests" Type="Folder">
 			<Item Name="Test EXE.vi" Type="VI" URL="../../tests/Test EXE.vi"/>
 			<Item Name="Unit_Test_Driver.vi" Type="VI" URL="../../tests/AFM_Driver_Manager/Unit_Test_Driver.vi"/>
+			<Item Name="TestAFM_Driver_Manager.vi" Type="VI" URL="../../tests/AFM_Driver_Manager/TestAFM_Driver_Manager.vi"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
