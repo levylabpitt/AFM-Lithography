@@ -58,9 +58,24 @@
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Resistor--enum.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Type_defs/Resistor--enum.ctl"/>
+				<Item Name="Set Resistor.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Set Resistor.vi"/>
+				<Item Name="Read_relay.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/Read_relay.vi"/>
+				<Item Name="Port Index Search.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/Port Index Search.vi"/>
+				<Item Name="FT_Get_Device_Description_By_Index.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Get_Device_Description_By_Index.vi"/>
+				<Item Name="FT_Open_Device_By_Index.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Open_Device_By_Index.vi"/>
+				<Item Name="FT_Set_Baud_Rate.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Set_Baud_Rate.vi"/>
+				<Item Name="FT_Set_Bit_Mode.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Set_Bit_Mode.vi"/>
+				<Item Name="FT_EEPROM_Read.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_EEPROM_Read.vi"/>
+				<Item Name="FT_Close_Device.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Close_Device.vi"/>
+				<Item Name="USB Relay Control.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/USB Relay Control.vi"/>
+				<Item Name="USB Relay Control 256.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/USB Relay Control 256.vi"/>
+				<Item Name="FT_Write_String_Data.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_Write_String_Data.vi"/>
+				<Item Name="FT_EEPROM_Write.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/FT_EEPROM_Write.vi"/>
+				<Item Name="USB Relay Control bool.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/USB Relay Control bool.vi"/>
+				<Item Name="ftd2xx.dll" Type="Document" URL="/&lt;userlib&gt;/LevyLab/Relay Box/sub-VIs/ftd2xx.dll"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="ArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/ArraytoIgorWave.vi"/>
 				<Item Name="Asylum_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/Asylum_EnsureIgorStringFormat.vi"/>
 				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
@@ -100,7 +115,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/LVArraytoIgorWave/NumericArraytoIgorWave.vi"/>
-				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -141,7 +156,14 @@
 				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Tests/mock/DebugModeSingleton.vi"/>
 				<Item Name="Asylum_OpenRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_OpenRefnum.vi"/>
 				<Item Name="Asylum_CloseRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_CloseRefnum.vi"/>
+				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
+				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 			</Item>
+			<Item Name="Asylum_Driver_TerminateLithographyObject.vi" Type="VI" URL="../subVIs/Asylum_Driver_TerminateLithographyObject.vi"/>
+			<Item Name="Asylum_Driver_RaiseTip.vi" Type="VI" URL="../subVIs/Asylum_Driver_RaiseTip.vi"/>
+			<Item Name="AFM_Driver_Manager.lvclass" Type="LVClass" URL="../../../subVIs/AFM API/AFM_Driver_Manager/AFM_Driver_Manager.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

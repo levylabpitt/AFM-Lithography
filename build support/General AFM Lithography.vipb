@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-07-02 10:53:31" Creator="Patrick Irvin" Comments="" ID="8f7e396aadb82edc3f8db52981fd31ad">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-07-06 10:00:31" Creator="Patrick Irvin" Comments="" ID="531aad2b5b550c75d4e05a07ee659821">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>8.6.0.2</Library_Version>
+    <Library_Version>8.6.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -20,7 +20,8 @@
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.3.0.56</External_Dependencies>
       <External_Dependencies>lava_lib_ui_tools &gt;= 1.4.1.74</External_Dependencies>
-      <External_Dependencies>levylab_lib_asylum_afm_api &gt;= 1.0.0.1</External_Dependencies>
+      <External_Dependencies>levylab_lib_asylum_afm_api &gt;= 1.0.0.2</External_Dependencies>
+      <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.5.12</External_Dependencies>
       <External_Dependencies>levylab_lib_relay_box &gt;= 1.1.0.8</External_Dependencies>
       <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
       <External_Dependencies>mgi_lib_cluster &gt;= 1.1.0.1</External_Dependencies>
@@ -38,10 +39,13 @@
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.0.3.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.5.11.73</Additional_External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.3.0.56</Direct_Dependencies>
       <Direct_Dependencies>lava_lib_ui_tools-1.4.1.74</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_asylum_afm_api-1.0.0.1</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_asylum_afm_api-1.0.0.2</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_fileutilities-1.2.5.12</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_relay_box-1.1.0.8</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_cluster-1.1.0.1</Direct_Dependencies>
@@ -283,7 +287,7 @@
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85384EA7C43328B6CB87EB1EACB4F943</GUID>
+      <GUID>1F49F676D595DCEB746EF7B9EBC261E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -374,7 +378,7 @@
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E9DC1C5E82514DCEDD548EFC4A88BF5</GUID>
+      <GUID>F9610C5DAA6EAC56563056F19DF9CE78</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -479,7 +483,7 @@
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2DCBAFE3EA7D23166C41BEDCE66F5C9</GUID>
+      <GUID>4F9B7A264C4A4268006395DF428885A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -542,7 +546,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8091D5D40C85FF2FB0AFC1D8B324B4FE</GUID>
+      <GUID>05E83C3C5C83C66A907F52AC1F1E5C16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -591,7 +595,7 @@
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>226FCCB4E32E5E090599DE44874960B3</GUID>
+      <GUID>9A006BBA9344B4E80B69BE934C3F0014</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -640,7 +644,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>47BAEF177C3625496A5E403E5B18B406</GUID>
+      <GUID>4409C45264BAFF6DB0CFFC62805C1EF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -703,7 +707,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE8B2CFEDBC231E642C4FFB826BC352E</GUID>
+      <GUID>AA0CF4EFD3B9D899BE8747EC3467834E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -752,7 +756,7 @@
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65BEFC145F6322D728C4EA2E73AE8B6B</GUID>
+      <GUID>3C8F6D96803C035904C4CCFDC19DB695</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -801,7 +805,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\Legacy\Legacy_SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7590D674B16F37723138A13FB1FCF843</GUID>
+      <GUID>792D742AFE52B9C110498F5A3615114D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1116,7 +1120,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Igor_SaveWaveToFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6BE2762743D059CE23662C2EFDC83F6</GUID>
+      <GUID>16F267044EE10E4B02AABDF49ABEF77B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1529,7 +1533,7 @@
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CC60D813B1C33E802BDD6ADB09550DA</GUID>
+      <GUID>97944A314402B8AE7EC44A24F1E4B0F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1942,7 +1946,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92A674D1C46E968B2FB1016E023E262C</GUID>
+      <GUID>33683A8E382BB11574340F4D88F5EB2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2355,7 +2359,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95A40047879B8C0857CABF000C3E6780</GUID>
+      <GUID>B0C0FACC07D3E55346A46A2EBE5C3E45</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2404,7 +2408,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0321CEFFC86AD4ED6284591084AD28A6</GUID>
+      <GUID>D7506251CE6D68DEA3245276D438734F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2551,7 +2555,7 @@
         <Path>..\lvsrc\subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0280A90D79D84755BBE6E65A976039A</GUID>
+      <GUID>AB99F1A03D8E5D1A8A9881CCD2946B11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2782,7 +2786,7 @@
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54854129C8640FC747E484A6B922082F</GUID>
+      <GUID>5EEEF0CD8D04B7B418A7D8452920A7C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3013,7 +3017,7 @@
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2E9C6CDB42B6F82B59B0C3DEBBB428B</GUID>
+      <GUID>EF828C622F9CF94E00D3DCB2BD6862B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3356,7 +3360,7 @@
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2863F513D2DD8032A4EB15F3F453C817</GUID>
+      <GUID>E29E46910635C8F45BD2E315FA3485CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3755,21 +3759,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.Watchdog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TestAFM_Driver_Manager.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\TestAFM_Driver_Manager.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>797297B6081B428C62503CD21BDB8725</GUID>
+      <GUID>BCA7690483A7A4D40FF32A3384D9AD72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3804,7 +3794,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66617D0D2E055DF91B0704606436D6C7</GUID>
+      <GUID>39C63E0DEF723EB7504167C01CF7A1E4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

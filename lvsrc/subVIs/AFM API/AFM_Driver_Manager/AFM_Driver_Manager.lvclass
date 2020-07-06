@@ -194,6 +194,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082139138</Property>
 		</Item>
 	</Item>
+	<Item Name="Watchdog" Type="Folder"/>
 	<Item Name="AFM_Driver_Manager.Initialize.vi" Type="VI" URL="../AFM_Driver_Manager.Initialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='E&amp;'46^%=GFW:8*@47&amp;O97&gt;F=CZM&gt;G.M98.T!!!715:.8U2S;8:F=F^.97ZB:W6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!]1(!!(A!!("J"2EV@2(*J&gt;G6S8UVB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;5&amp;'46^%=GFW:8*@47&amp;O97&gt;F=C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
