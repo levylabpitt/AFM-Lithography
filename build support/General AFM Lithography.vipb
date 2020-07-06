@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-07-06 15:23:58" Creator="Patrick Irvin" Comments="" ID="7a99191cd8b793b31f3e231d931040a5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2020-07-06 19:15:49" Creator="Patrick Irvin" Comments="" ID="50b1727d9e4123a672484362ada50814">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>8.6.0.5</Library_Version>
+    <Library_Version>8.6.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -79,8 +79,7 @@
       <Copyright/>
       <Packager>LevyLab</Packager>
       <URL/>
-      <Release_Notes>- test build
-- update package dependencies
+      <Release_Notes>- update package dependencies
 - this build uses Joe's new AFM Driver Manager and Asylum driver</Release_Notes>
     </Description>
     <Destinations>
@@ -287,7 +286,7 @@
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39F305479717217E68B3A32AFB1E3604</GUID>
+      <GUID>3ECAE363C4F3E01CCAEB477220738732</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -378,7 +377,7 @@
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DBBCD66801810B418ABB47EC2A8DD92</GUID>
+      <GUID>B9B537A6DD02183A44E2C90532E7F53C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -483,7 +482,7 @@
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF7BDDB0A3456722A280342241B6FC17</GUID>
+      <GUID>D473E1FDCC6829B3BFA24779E42CB365</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -546,7 +545,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34D932825B93AADA446CAF81C1A9290C</GUID>
+      <GUID>24E7FBA508871EA4257DDBFBA15F94B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -595,7 +594,7 @@
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9324460A513264A11BC291D02CE0E4C8</GUID>
+      <GUID>36B87BA38AA8305339E228A1CD142A8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -644,7 +643,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28FF9765A2C43E49A5BD2510D9A0FD34</GUID>
+      <GUID>A6C3C2398B89303F6D73384597BF99C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -707,7 +706,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8A1223EE5FB665F852F8671E0AEDFA1</GUID>
+      <GUID>9BAFE5BB10B6D75A0B3206464861B260</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -756,7 +755,7 @@
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B280697E5C7CF4D8396AC9F31FDC0C82</GUID>
+      <GUID>018A52DB01466A625E06133B398995E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -805,7 +804,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\Legacy\Legacy_SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D49C7E417C5626C4B9E6220275B709DC</GUID>
+      <GUID>9297030FCF54500AE2F8760C96313670</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1120,7 +1119,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Igor_SaveWaveToFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>552F9E265D63BA0900060D86FCFE69BE</GUID>
+      <GUID>B213447646894CDE66C34C82CD6BD24A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1533,7 +1532,7 @@
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB8C05565D582B18AF340EE3B9E2869D</GUID>
+      <GUID>293AC07E9842B785B4A964AEA3D206CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1946,7 +1945,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2450703A33F1F08245E7EE0CC18BD94</GUID>
+      <GUID>ED0825C324A2F546DF119ED494042449</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2359,7 +2358,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C29C7550604D1D299FEC0642BB9075BF</GUID>
+      <GUID>F03CB32B531E737352405E91DE99F06E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2408,7 +2407,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD6C975DA44F0EABAA29CBDBA1232270</GUID>
+      <GUID>12060EDC43416F09DDD04098E75BAE68</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2555,7 +2554,7 @@
         <Path>..\lvsrc\subVIs\image\SGL Wordswap.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48960F72AB589838EBA13DC643D125CB</GUID>
+      <GUID>1A9EDC8974463275BD74610EF814E8D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2786,7 +2785,7 @@
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>719A0CF956BF432B9D20832E3D69AFAA</GUID>
+      <GUID>0DEC14C8257DD108BD9BD97A1279734F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3017,7 +3016,7 @@
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F17442A53F7BA85E7A4F4C42CBE729E1</GUID>
+      <GUID>2312F0C49034A6652E662F89F56D9D7F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3360,7 +3359,7 @@
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C9EE453CBE60A0991F385B2BCD77683</GUID>
+      <GUID>9060BED3431DC9F552FB4CC4E6190A8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3675,7 +3674,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.StopAllDrivers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E78FE0349A7AE69034D5068971AF237</GUID>
+      <GUID>5B78B72B95858E72FDBCA509D121CC44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3710,7 +3709,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F1A9D46EF4DD0EA583C484B062408DC</GUID>
+      <GUID>36D299EE796934DFF6953C496685A15A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
