@@ -148,6 +148,7 @@
 					<Item Name="Asylum_Driver_XYVoltageToMeters.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_XYVoltageToMeters.vi"/>
 					<Item Name="Asylum_Interpolation.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Interpolation.vi"/>
 					<Item Name="Asylum_ReadScanSizeAndOffset.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_ReadScanSizeAndOffset.vi"/>
+					<Item Name="Asylum_ReadScanSizeAndOffset_fromLUT.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_ReadScanSizeAndOffset_fromLUT.vi"/>
 					<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadLargeWaveUsingFile.vi"/>
 					<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadWaveFromFile.vi"/>
 					<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWaveToFile.vi"/>
@@ -272,7 +273,6 @@
 			<Item Name="Test IBW.vi" Type="VI" URL="../../tests/Test IBW.vi"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
-		<Item Name="Asylum_ReadScanSizeAndOffset_fromLUT.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_ReadScanSizeAndOffset_fromLUT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
