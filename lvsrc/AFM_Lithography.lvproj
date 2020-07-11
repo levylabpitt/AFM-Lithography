@@ -255,6 +255,8 @@
 			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
 			<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
 			<Item Name="TwoPartSlider.ctl" Type="VI" URL="../Controls/TwoPartSlider.ctl"/>
+			<Item Name="SwitchControl.ctl" Type="VI" URL="../Controls/SwitchControl.ctl"/>
+			<Item Name="SwitchControlGreen.ctl" Type="VI" URL="../Controls/SwitchControlGreen.ctl"/>
 		</Item>
 		<Item Name="test files" Type="Folder">
 			<Item Name="SA01234A0000.ibw" Type="Document" URL="../../test files/SA01234A0000.ibw"/>
