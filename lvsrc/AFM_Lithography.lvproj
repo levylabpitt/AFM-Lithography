@@ -1655,8 +1655,8 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/applibs/distkit/MDF/NIMdf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="General AFM Lithography Application" Type="EXE">
@@ -1685,7 +1685,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/AFM.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{15315DE8-71EB-4441-9698-D0308CDE2C4E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7B5B1D8C-B1BD-44BE-B164-87515DA603D1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>
@@ -1736,7 +1736,11 @@
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{B6CF4CB9-53DF-4E07-9DD7-5087118C232D}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="Destination[1].name" Type="Str">AFM Lithography</Property>
+				<Property Name="Destination[1].parent" Type="Str">{B6CF4CB9-53DF-4E07-9DD7-5087118C232D}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{57C41B25-A232-4945-B942-D7EC8ECBE6EF}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI Vision Common Resources 2020</Property>
@@ -1791,7 +1795,7 @@
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">General AFM Lithography Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{B6CF4CB9-53DF-4E07-9DD7-5087118C232D}</Property>
+				<Property Name="INST_defaultDir" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
 				<Property Name="INST_productVersion" Type="Str">8.6.0</Property>
@@ -1807,12 +1811,12 @@
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{B6CF4CB9-53DF-4E07-9DD7-5087118C232D}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{B6CF4CB9-53DF-4E07-9DD7-5087118C232D}</Property>
+				<Property Name="Source[0].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">Application.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">General AFM Lithography</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">AFM_Lithography</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Application</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">AFM Lithography</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{BDFCACBB-2363-47F8-9D41-04FA0182D54E}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
