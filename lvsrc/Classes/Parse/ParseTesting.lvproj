@@ -41,6 +41,7 @@
 				<Item Name="Command Types" Type="Folder"/>
 				<Item Name="Error Generation" Type="Folder"/>
 				<Item Name="Test Path Tokenizer.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Path Tokenizer.vi"/>
+				<Item Name="Test Tokenizer Command Types.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Command Types.vi"/>
 			</Item>
 			<Item Name="Tests.vi" Type="VI" URL="../Tests/Tests.vi"/>
 		</Item>
@@ -52,7 +53,6 @@
 		<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
 		<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
 		<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
-		<Item Name="Test Tokenizer Command Types.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Command Types.vi"/>
 		<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
 		<Item Name="NextCommand.ctl" Type="VI" URL="../PathTokenizer/NextCommand.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
