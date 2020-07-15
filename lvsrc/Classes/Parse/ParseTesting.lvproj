@@ -50,8 +50,11 @@
 		<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
 		<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
 		<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
-		<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
 		<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
+		<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
+		<Item Name="Test Tokenizer Command Types.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Command Types.vi"/>
+		<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
+		<Item Name="NextCommand.ctl" Type="VI" URL="../PathTokenizer/NextCommand.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
