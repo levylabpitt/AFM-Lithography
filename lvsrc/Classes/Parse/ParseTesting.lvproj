@@ -38,10 +38,15 @@
 				<Item Name="Implicit/Explicit" Type="Folder">
 					<Item Name="Test Tokenizer Implicit Commands.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Implicit Commands.vi"/>
 				</Item>
-				<Item Name="Command Types" Type="Folder"/>
-				<Item Name="Error Generation" Type="Folder"/>
+				<Item Name="Command Types" Type="Folder">
+					<Item Name="Test Tokenizer Command Types.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Command Types.vi"/>
+				</Item>
+				<Item Name="Error Generation" Type="Folder">
+					<Item Name="Test Tokenizer Error Generation.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Error Generation.vi"/>
+				</Item>
 				<Item Name="Test Path Tokenizer.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Path Tokenizer.vi"/>
-				<Item Name="Test Tokenizer Command Types.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Command Types.vi"/>
+				<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
+				<Item Name="Tokenizer speed test.vi" Type="VI" URL="../Tests/TestPathTokenizer/Tokenizer speed test.vi"/>
 			</Item>
 			<Item Name="Tests.vi" Type="VI" URL="../Tests/Tests.vi"/>
 		</Item>
@@ -53,7 +58,6 @@
 		<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
 		<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
 		<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
-		<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
 		<Item Name="NextCommand.ctl" Type="VI" URL="../PathTokenizer/NextCommand.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -131,6 +135,7 @@
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
