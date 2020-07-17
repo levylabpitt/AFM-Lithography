@@ -45,20 +45,31 @@
 					<Item Name="Test Tokenizer Error Generation.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Error Generation.vi"/>
 				</Item>
 				<Item Name="Test Path Tokenizer.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Path Tokenizer.vi"/>
-				<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
 				<Item Name="Tokenizer speed test.vi" Type="VI" URL="../Tests/TestPathTokenizer/Tokenizer speed test.vi"/>
 			</Item>
+			<Item Name="CSS Properties" Type="Folder">
+				<Item Name="TestCSSProperties.vi" Type="VI" URL="../Tests/New folder/TestCSSProperties.vi"/>
+			</Item>
+			<Item Name="TestSVGParse.vi" Type="VI" URL="../Tests/TestSVGParse/TestSVGParse.vi"/>
 			<Item Name="Tests.vi" Type="VI" URL="../Tests/Tests.vi"/>
+			<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
+		</Item>
+		<Item Name="Path Commands" Type="Folder">
+			<Item Name="PathCommands.lvclass" Type="LVClass" URL="../PathCommands/PathCommands.lvclass"/>
+			<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
+			<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
+			<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
+			<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
+		</Item>
+		<Item Name="Path Tokenization" Type="Folder">
+			<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
+		</Item>
+		<Item Name="Style" Type="Folder">
+			<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../CSSProperties/CSSProperties.lvclass"/>
 		</Item>
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
-		<Item Name="Parse.Paths.lvclass" Type="LVClass" URL="../ParsePaths/Parse.Paths.lvclass"/>
-		<Item Name="PathCommands.lvclass" Type="LVClass" URL="../PathCommands/PathCommands.lvclass"/>
-		<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
-		<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
-		<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
-		<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
-		<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
-		<Item Name="NextCommand.ctl" Type="VI" URL="../PathTokenizer/NextCommand.ctl"/>
+		<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
+		<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -453,6 +464,9 @@
 				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="String to Character Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to Character Array__ogtk.vi"/>
+				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
+				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
+				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

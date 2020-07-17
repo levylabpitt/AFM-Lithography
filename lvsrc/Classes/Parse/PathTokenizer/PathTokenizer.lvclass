@@ -249,6 +249,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
 	</Item>
+	<Item Name="NextCommand.ctl" Type="VI" URL="../NextCommand.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#4!!!!!1#,!0%!!!!!!!!!!B61982I6'^L:7ZJ?G6S,GRW9WRB=X-04G6Y&gt;%.P&lt;7VB&lt;G1O9X2M!&amp;V!&amp;A!'$E&gt;F&gt;#"$&lt;W^S:'FO982F$E.I:7.L)%6Y='RJ9WFU#5.I:7.L)%6O:"*6='2B&gt;'5A1W^P=G1A1W^V&lt;H1,2W6U)%.P&lt;7VB&lt;G1%28BJ&gt;!!%27ZV&lt;1!!!1!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+	</Item>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;6"B&gt;'B5&lt;WNF&lt;GF[:8)O&lt;(:D&lt;'&amp;T=Q!25'&amp;U;&amp;2P;W6O;8JF=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1$$`````%6"B&gt;'AA1W^N&lt;7&amp;O:#"5:8BU!$*!=!!?!!!8&amp;6"B&gt;'B5&lt;WNF&lt;GF[:8)O&lt;(:D&lt;'&amp;T=Q!15'&amp;U;&amp;2P;W6O;8JF=C"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!##!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
