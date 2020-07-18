@@ -73,11 +73,16 @@
 		<Item Name="Style" Type="Folder">
 			<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../CSSProperties/CSSProperties.lvclass"/>
 		</Item>
-		<Item Name="Transforms" Type="Folder"/>
+		<Item Name="Transforms" Type="Folder">
+			<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../TransformTokenizer/TransformTokenizer.lvclass"/>
+			<Item Name="Transform.lvclass" Type="LVClass" URL="../Transform/Transform.lvclass"/>
+			<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../Transform.Matrix/Transform.Matrix.lvclass"/>
+			<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Transform.Translate/Transform.Translate.lvclass"/>
+		</Item>
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
 		<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
 		<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
-		<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../TransformTokenizer/TransformTokenizer.lvclass"/>
+		<Item Name="TestTransforms.vi" Type="VI" URL="../Tests/TestTransforms/TestTransforms.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -156,6 +161,7 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
