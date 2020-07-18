@@ -22,7 +22,7 @@
 				<Item Name="TestClosePath.vi" Type="VI" URL="../Tests/TestPathCommands/TestClosePath.vi"/>
 				<Item Name="TestCurveto.vi" Type="VI" URL="../Tests/TestPathCommands/TestCurveto.vi"/>
 			</Item>
-			<Item Name="Tokenizer" Type="Folder">
+			<Item Name="Path Tokenizer" Type="Folder">
 				<Item Name="Formatting" Type="Folder">
 					<Item Name="Test Tokenizer Relative Multi Command Formats.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Relative Multi Command Formats.vi"/>
 					<Item Name="Test Tokenizer Absolute First Mixed Command Formats.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Absolute First Mixed Command Formats.vi"/>
@@ -34,6 +34,7 @@
 					<Item Name="Test Tokenizer Relative Single Command Formats.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Relative Single Command Formats.vi"/>
 					<Item Name="Test Tokenizer Absolute Single Command Formats.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Absolute Single Command Formats.vi"/>
 					<Item Name="Test Tokenizer Absolute Multi Command Formats.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Absolute Multi Command Formats.vi"/>
+					<Item Name="Test Tokenizer Number Recognition.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Number Recognition.vi"/>
 				</Item>
 				<Item Name="Implicit/Explicit" Type="Folder">
 					<Item Name="Test Tokenizer Implicit Commands.vi" Type="VI" URL="../Tests/TestPathTokenizer/Test Tokenizer Implicit Commands.vi"/>
@@ -50,7 +51,12 @@
 			<Item Name="CSS Properties" Type="Folder">
 				<Item Name="TestCSSProperties.vi" Type="VI" URL="../Tests/New folder/TestCSSProperties.vi"/>
 			</Item>
-			<Item Name="TestSVGParse.vi" Type="VI" URL="../Tests/TestSVGParse/TestSVGParse.vi"/>
+			<Item Name="SVG Parse" Type="Folder">
+				<Item Name="TestSVGParse.vi" Type="VI" URL="../Tests/TestSVGParse/TestSVGParse.vi"/>
+			</Item>
+			<Item Name="Transform" Type="Folder">
+				<Item Name="TestTransformTokenizer.vi" Type="VI" URL="../Tests/TestTransformTokenizer/TestTransformTokenizer.vi"/>
+			</Item>
 			<Item Name="Tests.vi" Type="VI" URL="../Tests/Tests.vi"/>
 			<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
 		</Item>
@@ -67,9 +73,11 @@
 		<Item Name="Style" Type="Folder">
 			<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../CSSProperties/CSSProperties.lvclass"/>
 		</Item>
+		<Item Name="Transforms" Type="Folder"/>
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
 		<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
 		<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
+		<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../TransformTokenizer/TransformTokenizer.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
