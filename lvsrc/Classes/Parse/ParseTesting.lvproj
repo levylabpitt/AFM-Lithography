@@ -78,6 +78,8 @@
 			<Item Name="Transform.lvclass" Type="LVClass" URL="../Transform/Transform.lvclass"/>
 			<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../Transform.Matrix/Transform.Matrix.lvclass"/>
 			<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Transform.Translate/Transform.Translate.lvclass"/>
+			<Item Name="Transform.Rotate.lvclass" Type="LVClass" URL="../Transform.Rotate/Transform.Rotate.lvclass"/>
+			<Item Name="Transform.Skew.lvclass" Type="LVClass" URL="../Transform.Skew/Transform.Skew.lvclass"/>
 		</Item>
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
 		<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
