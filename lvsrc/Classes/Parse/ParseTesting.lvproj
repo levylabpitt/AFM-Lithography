@@ -56,6 +56,7 @@
 			</Item>
 			<Item Name="Transform" Type="Folder">
 				<Item Name="TestTransformTokenizer.vi" Type="VI" URL="../Tests/TestTransformTokenizer/TestTransformTokenizer.vi"/>
+				<Item Name="TestTransforms.vi" Type="VI" URL="../Tests/TestTransforms/TestTransforms.vi"/>
 			</Item>
 			<Item Name="Tests.vi" Type="VI" URL="../Tests/Tests.vi"/>
 			<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
@@ -84,7 +85,7 @@
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
 		<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
 		<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
-		<Item Name="TestTransforms.vi" Type="VI" URL="../Tests/TestTransforms/TestTransforms.vi"/>
+		<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Rectangle/Rectangle.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
