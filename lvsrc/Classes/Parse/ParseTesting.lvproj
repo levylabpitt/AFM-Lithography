@@ -86,6 +86,7 @@
 		<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
 		<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Rectangle/Rectangle.lvclass"/>
 		<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
+		<Item Name="Image.lvclass" Type="LVClass" URL="../Image/Image.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
