@@ -60,6 +60,7 @@
 			</Item>
 			<Item Name="Tests.vi" Type="VI" URL="../Tests/Tests.vi"/>
 			<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
+			<Item Name="TestIntegration.vi" Type="VI" URL="../Tests/TestIntegration/TestIntegration.vi"/>
 		</Item>
 		<Item Name="Path Commands" Type="Folder">
 			<Item Name="PathCommands.lvclass" Type="LVClass" URL="../PathCommands/PathCommands.lvclass"/>
@@ -188,6 +189,7 @@
 				<Item Name="Check for Contained Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Check for Contained Data Type.vi"/>
 				<Item Name="ArrayToCluster.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/JKI SMO/Utilities/ArrayToCluster.vi"/>
 				<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
