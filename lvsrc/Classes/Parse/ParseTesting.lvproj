@@ -89,6 +89,8 @@
 		<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
 		<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Image/SVGImage.lvclass"/>
 		<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../ParseVectorFile/ParseVectorFile.lvclass"/>
+		<Item Name="CompatabilityTesting.vi" Type="VI" URL="../Tests/CompatabilityTesting.vi"/>
+		<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../OldInterfaceGlue.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -527,6 +529,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/project/Caraya/Run Tests in Active Project.vi"/>
+			<Item Name="Parsed Rect - Cluster.ctl" Type="VI" URL="../../../subVIs/typedefs/Parsed Rect - Cluster.ctl"/>
+			<Item Name="Parsed Path - Cluster.ctl" Type="VI" URL="../../../subVIs/typedefs/Parsed Path - Cluster.ctl"/>
+			<Item Name="Parsed Funnel - Cluster.ctl" Type="VI" URL="../../../subVIs/typedefs/Parsed Funnel - Cluster.ctl"/>
+			<Item Name="Path Is Funnel.vi" Type="VI" URL="../../../subVIs/parsing/Path Is Funnel.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
