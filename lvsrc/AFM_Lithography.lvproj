@@ -1721,8 +1721,8 @@
 				<Property Name="DistPart[1].productName" Type="Str">NI Vision Runtime 2020</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{9B1296BE-6823-4A4E-9F79-F2ACED5EC8F9}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{CED05116-2329-4D0D-92CA-CEC520182EB0}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 f1</Property>
 				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
@@ -1771,7 +1771,7 @@
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
 				<Property Name="INST_productVersion" Type="Str">8.6.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{9F7F30E7-BC80-4F5C-BFCB-D9EC8A31CAE3}</Property>
