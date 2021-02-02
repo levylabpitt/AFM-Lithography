@@ -204,28 +204,41 @@
 				<Item Name="CheckVariantAttributes.vi" Type="VI" URL="../subVIs/subpanel/CheckVariantAttributes.vi"/>
 			</Item>
 			<Item Name="toolpath" Type="Folder">
-				<Item Name="Bezier.vi" Type="VI" URL="../subVIs/toolpath/Bezier.vi"/>
-				<Item Name="Calculate Intersection.vi" Type="VI" URL="../subVIs/toolpath/Calculate Intersection.vi"/>
-				<Item Name="Estimated Time Required.vi" Type="VI" URL="../subVIs/toolpath/Estimated Time Required.vi"/>
-				<Item Name="Funnel Path Points.vi" Type="VI" URL="../subVIs/toolpath/Funnel Path Points.vi"/>
-				<Item Name="funnels to Commands.vi" Type="VI" URL="../subVIs/toolpath/funnels to Commands.vi"/>
-				<Item Name="Get Rectangle Corners.vi" Type="VI" URL="../subVIs/toolpath/Get Rectangle Corners.vi"/>
-				<Item Name="Interpolate Points (Distance).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Points (Distance).vi"/>
-				<Item Name="Interpolate Points (Number).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Points (Number).vi"/>
-				<Item Name="Interpolate Signal (Number).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Signal (Number).vi"/>
-				<Item Name="Interpolator_Yuhe.vi" Type="VI" URL="../subVIs/toolpath/Interpolator_Yuhe.vi"/>
-				<Item Name="Lithographify.vi" Type="VI" URL="../subVIs/toolpath/Lithographify.vi"/>
-				<Item Name="Lithographify_funnel&amp;rec.vi" Type="VI" URL="../subVIs/toolpath/Lithographify_funnel&amp;rec.vi"/>
+				<Item Name="Funnel" Type="Folder">
+					<Item Name="Funnel_ToolPath_Testing.vi" Type="VI" URL="../subVIs/toolpath/Funnel_ToolPath_Testing.vi"/>
+					<Item Name="Funnel Path Points.vi" Type="VI" URL="../subVIs/toolpath/Funnel Path Points.vi"/>
+					<Item Name="funnels to Commands.vi" Type="VI" URL="../subVIs/toolpath/funnels to Commands.vi"/>
+				</Item>
+				<Item Name="Paths" Type="Folder">
+					<Item Name="Paths to Commands.vi" Type="VI" URL="../subVIs/toolpath/Paths to Commands.vi"/>
+					<Item Name="Path Points.vi" Type="VI" URL="../subVIs/toolpath/Path Points.vi"/>
+					<Item Name="Path Apply Inkscape Ratio.vi" Type="VI" URL="../subVIs/toolpath/Path Apply Inkscape Ratio.vi"/>
+					<Item Name="Calculate Intersection.vi" Type="VI" URL="../subVIs/toolpath/Calculate Intersection.vi"/>
+				</Item>
+				<Item Name="Rectangles" Type="Folder">
+					<Item Name="Get Rectangle Corners.vi" Type="VI" URL="../subVIs/toolpath/Get Rectangle Corners.vi"/>
+					<Item Name="Rectangle Apply Inkscape Ratio.vi" Type="VI" URL="../subVIs/toolpath/Rectangle Apply Inkscape Ratio.vi"/>
+					<Item Name="Rectangles to Commands.vi" Type="VI" URL="../subVIs/toolpath/Rectangles to Commands.vi"/>
+				</Item>
+				<Item Name="Interpolation" Type="Folder">
+					<Item Name="Bezier.vi" Type="VI" URL="../subVIs/toolpath/Bezier.vi"/>
+					<Item Name="Interpolate Points (Distance).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Points (Distance).vi"/>
+					<Item Name="Interpolate Points (Number).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Points (Number).vi"/>
+					<Item Name="Interpolate Signal (Number).vi" Type="VI" URL="../subVIs/toolpath/Interpolate Signal (Number).vi"/>
+					<Item Name="Interpolator_Yuhe.vi" Type="VI" URL="../subVIs/toolpath/Interpolator_Yuhe.vi"/>
+				</Item>
+				<Item Name="Setting Application" Type="Folder">
+					<Item Name="Lithographify.vi" Type="VI" URL="../subVIs/toolpath/Lithographify.vi"/>
+					<Item Name="Lithographify_funnel&amp;rec.vi" Type="VI" URL="../subVIs/toolpath/Lithographify_funnel&amp;rec.vi"/>
+					<Item Name="Signal Generator.vi" Type="VI" URL="../subVIs/toolpath/Signal Generator.vi"/>
+				</Item>
+				<Item Name="SVG Coordinate Manipulation" Type="Folder">
+					<Item Name="Transform Point.vi" Type="VI" URL="../subVIs/toolpath/Transform Point.vi"/>
+					<Item Name="Relative Coordinates.vi" Type="VI" URL="../subVIs/toolpath/Relative Coordinates.vi"/>
+				</Item>
 				<Item Name="Order Patterns.vi" Type="VI" URL="../subVIs/toolpath/Order Patterns.vi"/>
-				<Item Name="Path Apply Inkscape Ratio.vi" Type="VI" URL="../subVIs/toolpath/Path Apply Inkscape Ratio.vi"/>
-				<Item Name="Path Points.vi" Type="VI" URL="../subVIs/toolpath/Path Points.vi"/>
-				<Item Name="Paths to Commands.vi" Type="VI" URL="../subVIs/toolpath/Paths to Commands.vi"/>
-				<Item Name="Rectangle Apply Inkscape Ratio.vi" Type="VI" URL="../subVIs/toolpath/Rectangle Apply Inkscape Ratio.vi"/>
-				<Item Name="Rectangles to Commands.vi" Type="VI" URL="../subVIs/toolpath/Rectangles to Commands.vi"/>
-				<Item Name="Relative Coordinates.vi" Type="VI" URL="../subVIs/toolpath/Relative Coordinates.vi"/>
-				<Item Name="Signal Generator.vi" Type="VI" URL="../subVIs/toolpath/Signal Generator.vi"/>
+				<Item Name="Estimated Time Required.vi" Type="VI" URL="../subVIs/toolpath/Estimated Time Required.vi"/>
 				<Item Name="Toolpath.vi" Type="VI" URL="../subVIs/toolpath/Toolpath.vi"/>
-				<Item Name="Transform Point.vi" Type="VI" URL="../subVIs/toolpath/Transform Point.vi"/>
 			</Item>
 			<Item Name="typedefs" Type="Folder">
 				<Item Name="Schedule Types" Type="Folder">
@@ -272,7 +285,6 @@
 			<Item Name="Test IBW.vi" Type="VI" URL="../../tests/Test IBW.vi"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
-		<Item Name="Funnel_ToolPath_Testing.vi" Type="VI" URL="../subVIs/toolpath/Funnel_ToolPath_Testing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
