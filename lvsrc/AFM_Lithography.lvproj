@@ -205,7 +205,7 @@
 			</Item>
 			<Item Name="toolpath" Type="Folder">
 				<Item Name="Funnel" Type="Folder">
-					<Item Name="Funnel_ToolPath_Testing.vi" Type="VI" URL="../subVIs/toolpath/Funnel_ToolPath_Testing.vi"/>
+					<Item Name="FunnelGenerateFillPath.vi" Type="VI" URL="../subVIs/toolpath/FunnelGenerateFillPath.vi"/>
 					<Item Name="Funnel Path Points.vi" Type="VI" URL="../subVIs/toolpath/Funnel Path Points.vi"/>
 					<Item Name="funnels to Commands.vi" Type="VI" URL="../subVIs/toolpath/funnels to Commands.vi"/>
 				</Item>
