@@ -99,6 +99,7 @@
 		<Item Name="CompatabilityTesting.vi" Type="VI" URL="../Tests/CompatabilityTesting.vi"/>
 		<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../OldInterfaceGlue.vi"/>
 		<Item Name="GDSII Playground.vi" Type="VI" URL="../GDSII Playground.vi"/>
+		<Item Name="GDSII Prototype.vi" Type="VI" URL="../GDSII Prototype.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
