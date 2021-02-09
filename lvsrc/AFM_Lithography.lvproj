@@ -13,6 +13,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
+			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
+			<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
+			<Item Name="TwoPartSlider.ctl" Type="VI" URL="../Controls/TwoPartSlider.ctl"/>
+			<Item Name="SwitchControl.ctl" Type="VI" URL="../Controls/SwitchControl.ctl"/>
+			<Item Name="SwitchControlGreen.ctl" Type="VI" URL="../Controls/SwitchControlGreen.ctl"/>
+		</Item>
 		<Item Name="build support" Type="Folder">
 			<Item Name="AFM.ico" Type="Document" URL="../../build support/AFM.ico"/>
 			<Item Name="General AFM Lithography.vipb" Type="Document" URL="../../build support/General AFM Lithography.vipb"/>
@@ -263,14 +271,6 @@
 		<Item Name="AFM API" Type="Folder">
 			<Item Name="AFM_Driver_Manager.lvclass" Type="LVClass" URL="../subVIs/AFM API/AFM_Driver_Manager/AFM_Driver_Manager.lvclass"/>
 			<Item Name="AFM_Name_Driver.vit" Type="VI" URL="../subVIs/AFM API/AFM_Driver_Template/AFM_Name_Driver.vit"/>
-		</Item>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
-			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
-			<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
-			<Item Name="TwoPartSlider.ctl" Type="VI" URL="../Controls/TwoPartSlider.ctl"/>
-			<Item Name="SwitchControl.ctl" Type="VI" URL="../Controls/SwitchControl.ctl"/>
-			<Item Name="SwitchControlGreen.ctl" Type="VI" URL="../Controls/SwitchControlGreen.ctl"/>
 		</Item>
 		<Item Name="test files" Type="Folder">
 			<Item Name="SA01234A0000.ibw" Type="Document" URL="../../test files/SA01234A0000.ibw"/>
@@ -1658,7 +1658,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70AAF6EE-B707-485C-8B84-3BDBD7A4BCED}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">8</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
