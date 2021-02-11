@@ -62,42 +62,13 @@
 			<Item Name="Tokenizer Playground.vi" Type="VI" URL="../PathTokenizer/Tokenizer Playground.vi"/>
 			<Item Name="TestIntegration.vi" Type="VI" URL="../Tests/TestIntegration/TestIntegration.vi"/>
 		</Item>
-		<Item Name="SVG" Type="Folder">
-			<Item Name="Path Commands" Type="Folder">
-				<Item Name="PathCommands.lvclass" Type="LVClass" URL="../PathCommands/PathCommands.lvclass"/>
-				<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
-				<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
-				<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
-				<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
-			</Item>
-			<Item Name="Path Tokenization" Type="Folder">
-				<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
-			</Item>
-			<Item Name="Style" Type="Folder">
-				<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../CSSProperties/CSSProperties.lvclass"/>
-			</Item>
-			<Item Name="Transforms" Type="Folder">
-				<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../TransformTokenizer/TransformTokenizer.lvclass"/>
-				<Item Name="Transform.lvclass" Type="LVClass" URL="../Transform/Transform.lvclass"/>
-				<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../Transform.Matrix/Transform.Matrix.lvclass"/>
-				<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Transform.Translate/Transform.Translate.lvclass"/>
-				<Item Name="Transform.Rotate.lvclass" Type="LVClass" URL="../Transform.Rotate/Transform.Rotate.lvclass"/>
-				<Item Name="Transform.Skew.lvclass" Type="LVClass" URL="../Transform.Skew/Transform.Skew.lvclass"/>
-			</Item>
-			<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Rectangle/Rectangle.lvclass"/>
-			<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
-			<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Image/SVGImage.lvclass"/>
-			<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
-		</Item>
 		<Item Name="GDSII" Type="Folder">
 			<Item Name="ParseGDSII.lvclass" Type="LVClass" URL="../ParseGDSII/ParseGDSII.lvclass"/>
 			<Item Name="Layer.lvclass" Type="LVClass" URL="../Layer/Layer.lvclass"/>
 			<Item Name="Record.lvclass" Type="LVClass" URL="../Record/Record.lvclass"/>
 		</Item>
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
-		<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../ParseVectorFile/ParseVectorFile.lvclass"/>
 		<Item Name="CompatabilityTesting.vi" Type="VI" URL="../Tests/CompatabilityTesting.vi"/>
-		<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../OldInterfaceGlue.vi"/>
 		<Item Name="GDSII Playground.vi" Type="VI" URL="../GDSII Playground.vi"/>
 		<Item Name="GDSII Prototype.vi" Type="VI" URL="../GDSII Prototype.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -541,6 +512,25 @@
 			<Item Name="Parsed Rect - Cluster.ctl" Type="VI" URL="../../../subVIs/typedefs/Parsed Rect - Cluster.ctl"/>
 			<Item Name="Parsed Path - Cluster.ctl" Type="VI" URL="../../../subVIs/typedefs/Parsed Path - Cluster.ctl"/>
 			<Item Name="Parsed Funnel - Cluster.ctl" Type="VI" URL="../../../subVIs/typedefs/Parsed Funnel - Cluster.ctl"/>
+			<Item Name="PathCommands.lvclass" Type="LVClass" URL="../PathCommands/PathCommands.lvclass"/>
+			<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
+			<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
+			<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
+			<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
+			<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../PathTokenizer/PathTokenizer.lvclass"/>
+			<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../CSSProperties/CSSProperties.lvclass"/>
+			<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../TransformTokenizer/TransformTokenizer.lvclass"/>
+			<Item Name="Transform.lvclass" Type="LVClass" URL="../Transform/Transform.lvclass"/>
+			<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../Transform.Matrix/Transform.Matrix.lvclass"/>
+			<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Transform.Translate/Transform.Translate.lvclass"/>
+			<Item Name="Transform.Rotate.lvclass" Type="LVClass" URL="../Transform.Rotate/Transform.Rotate.lvclass"/>
+			<Item Name="Transform.Skew.lvclass" Type="LVClass" URL="../Transform.Skew/Transform.Skew.lvclass"/>
+			<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Rectangle/Rectangle.lvclass"/>
+			<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../ParseXML/ParseSVG.lvclass"/>
+			<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Image/SVGImage.lvclass"/>
+			<Item Name="Path.lvclass" Type="LVClass" URL="../ParsePaths/Path.lvclass"/>
+			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../ParseVectorFile/ParseVectorFile.lvclass"/>
+			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../OldInterfaceGlue.vi"/>
 			<Item Name="Path Is Funnel.vi" Type="VI" URL="../../../subVIs/parsing/Path Is Funnel.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

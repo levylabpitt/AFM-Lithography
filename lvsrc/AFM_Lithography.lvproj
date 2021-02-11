@@ -284,7 +284,39 @@
 			<Item Name="Test EXE.vi" Type="VI" URL="../../tests/Test EXE.vi"/>
 			<Item Name="Test IBW.vi" Type="VI" URL="../../tests/Test IBW.vi"/>
 		</Item>
+		<Item Name="Parser" Type="Folder">
+			<Item Name="SVG" Type="Folder">
+				<Item Name="Path Commands" Type="Folder">
+					<Item Name="PathCommands.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands/PathCommands.lvclass"/>
+					<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
+					<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
+					<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
+					<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
+				</Item>
+				<Item Name="Path Tokenization" Type="Folder">
+					<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../Classes/Parse/PathTokenizer/PathTokenizer.lvclass"/>
+				</Item>
+				<Item Name="Style" Type="Folder">
+					<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../Classes/Parse/CSSProperties/CSSProperties.lvclass"/>
+				</Item>
+				<Item Name="Transforms" Type="Folder">
+					<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../Classes/Parse/TransformTokenizer/TransformTokenizer.lvclass"/>
+					<Item Name="Transform.lvclass" Type="LVClass" URL="../Classes/Parse/Transform/Transform.lvclass"/>
+					<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Matrix/Transform.Matrix.lvclass"/>
+					<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Translate/Transform.Translate.lvclass"/>
+					<Item Name="Transform.Rotate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Rotate/Transform.Rotate.lvclass"/>
+					<Item Name="Transform.Skew.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Skew/Transform.Skew.lvclass"/>
+				</Item>
+				<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Classes/Parse/Rectangle/Rectangle.lvclass"/>
+				<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../Classes/Parse/ParseXML/ParseSVG.lvclass"/>
+				<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Classes/Parse/Image/SVGImage.lvclass"/>
+				<Item Name="Path.lvclass" Type="LVClass" URL="../Classes/Parse/ParsePaths/Path.lvclass"/>
+			</Item>
+			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
+			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
+		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
+		<Item Name="Test Parser Compatability.vi" Type="VI" URL="../../tests/Test Parser Compatability.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
@@ -395,6 +427,9 @@
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
+				<Item Name="String to Character Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to Character Array__ogtk.vi"/>
+				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
+				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -1366,6 +1401,7 @@
 				<Item Name="FF154AA9FA361469346938CA7F095A4AEmpty 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AEmpty 2D Array (U64)__ogtk.vi"/>
 				<Item Name="FF154AA9FA361469346938CA7F095A4AEmpty 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AEmpty 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="FF154AA9FA361469346938CA7F095A4AEmpty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AEmpty 2D Array (LVObject)__ogtk.vi"/>
+				<Item Name="URI.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/JKI SMO/URI Parsing/URI.lvlib"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
