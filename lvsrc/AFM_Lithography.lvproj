@@ -283,6 +283,7 @@
 			</Item>
 			<Item Name="Test EXE.vi" Type="VI" URL="../../tests/Test EXE.vi"/>
 			<Item Name="Test IBW.vi" Type="VI" URL="../../tests/Test IBW.vi"/>
+			<Item Name="Test Parser Compatibility.vi" Type="VI" URL="../../tests/Test Parser Compatibility.vi"/>
 		</Item>
 		<Item Name="Parser" Type="Folder">
 			<Item Name="SVG" Type="Folder">
@@ -316,7 +317,6 @@
 			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
-		<Item Name="Test Parser Compatability.vi" Type="VI" URL="../../tests/Test Parser Compatability.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
