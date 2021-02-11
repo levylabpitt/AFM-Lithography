@@ -159,7 +159,9 @@
 					<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadWaveFromFile.vi"/>
 					<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWaveToFile.vi"/>
 				</Item>
-				<Item Name="TypeDefs" Type="Folder"/>
+				<Item Name="TypeDefs" Type="Folder">
+					<Item Name="Asylum Configuration.ctl" Type="VI" URL="../AFMs/Asylum_Driver/Type Defs/Asylum Configuration.ctl"/>
+				</Item>
 				<Item Name="Asylum_Driver.lvproj" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.lvproj"/>
 				<Item Name="Asylum_Driver.vi" Type="VI" URL="../AFMs/Asylum_Driver/Asylum_Driver.vi"/>
 				<Item Name="Todolist.txt" Type="Document" URL="../AFMs/Asylum_Driver/Todolist.txt"/>
@@ -265,6 +267,7 @@
 				<Item Name="Signal Type - enum.ctl" Type="VI" URL="../subVIs/typedefs/Signal Type - enum.ctl"/>
 				<Item Name="Voltage - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Voltage - cluster.ctl"/>
 				<Item Name="Configuration.ctl" Type="VI" URL="../Controls/Configuration.ctl"/>
+				<Item Name="Base INI Folder Path.vi" Type="VI" URL="../subVIs/typedefs/Base INI Folder Path.vi"/>
 			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
