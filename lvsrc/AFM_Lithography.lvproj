@@ -1680,6 +1680,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/project/Caraya/Run Tests in Active Project.vi"/>
+			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
+			<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Path Settings/Path Settings.lvclass"/>
+			<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../Classes/Settings/ObjectSettings/ObjectSettings.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="General AFM Lithography Application" Type="EXE">
