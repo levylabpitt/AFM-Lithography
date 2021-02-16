@@ -502,6 +502,7 @@
 			<Item Name="Signal Type - enum.ctl" Type="VI" URL="../../../subVIs/typedefs/Signal Type - enum.ctl"/>
 			<Item Name="Schedule--Function Generator.ctl" Type="VI" URL="../../../subVIs/typedefs/Schedule Types/Schedule--Function Generator.ctl"/>
 			<Item Name="Schedule--Ramp.ctl" Type="VI" URL="../../../subVIs/typedefs/Schedule Types/Schedule--Ramp.ctl"/>
+			<Item Name="Base INI Folder Path.vi" Type="VI" URL="../../../subVIs/typedefs/Base INI Folder Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
