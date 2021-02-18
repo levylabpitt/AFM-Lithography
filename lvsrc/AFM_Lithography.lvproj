@@ -319,6 +319,15 @@
 			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
 			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
 		</Item>
+		<Item Name="Settings Database" Type="Folder">
+			<Item Name="Object Settings" Type="Folder">
+				<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../Classes/Settings/ObjectSettings/ObjectSettings.lvclass"/>
+				<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Path Settings/Path Settings.lvclass"/>
+				<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Funnel Settings/Funnel Settings.lvclass"/>
+				<Item Name="Rectangle Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Rectangle Settings/Rectangle Settings.lvclass"/>
+			</Item>
+			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
+		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -1405,6 +1414,7 @@
 				<Item Name="FF154AA9FA361469346938CA7F095A4AEmpty 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AEmpty 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="FF154AA9FA361469346938CA7F095A4AEmpty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AEmpty 2D Array (LVObject)__ogtk.vi"/>
 				<Item Name="URI.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/JKI SMO/URI Parsing/URI.lvlib"/>
+				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1697,7 +1707,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70AAF6EE-B707-485C-8B84-3BDBD7A4BCED}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">8</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
