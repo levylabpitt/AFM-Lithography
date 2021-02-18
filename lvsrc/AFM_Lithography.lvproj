@@ -319,6 +319,15 @@
 			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
 			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
 		</Item>
+		<Item Name="Settings Database" Type="Folder">
+			<Item Name="Object Settings" Type="Folder">
+				<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../Classes/Settings/ObjectSettings/ObjectSettings.lvclass"/>
+				<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Path Settings/Path Settings.lvclass"/>
+				<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Funnel Settings/Funnel Settings.lvclass"/>
+				<Item Name="Rectangle Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Rectangle Settings/Rectangle Settings.lvclass"/>
+			</Item>
+			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
+		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -1681,11 +1690,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/project/Caraya/Run Tests in Active Project.vi"/>
-			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
-			<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Path Settings/Path Settings.lvclass"/>
-			<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../Classes/Settings/ObjectSettings/ObjectSettings.lvclass"/>
-			<Item Name="Rectangle Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Rectangle Settings/Rectangle Settings.lvclass"/>
-			<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Funnel Settings/Funnel Settings.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="General AFM Lithography Application" Type="EXE">
