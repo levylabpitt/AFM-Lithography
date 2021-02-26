@@ -21,7 +21,10 @@
 				<Item Name="Test Refresh Active Rectangle is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Rectangle is First.vi"/>
 				<Item Name="Test Refresh.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh.vi"/>
 			</Item>
-			<Item Name="Copy To All" Type="Folder"/>
+			<Item Name="Copy To All" Type="Folder">
+				<Item Name="Test Copy All Paths.vi" Type="VI" URL="../Tests/Setting Database/Test Copy All Paths.vi"/>
+				<Item Name="Test Copy All Rectangles.vi" Type="VI" URL="../Tests/Setting Database/Test Copy All Rectangles.vi"/>
+			</Item>
 			<Item Name="Test Shared Resource Location.vi" Type="VI" URL="../Tests/Setting Database/Test Shared Resource Location.vi"/>
 			<Item Name="Test SDB Template.vit" Type="VI" URL="../Tests/Setting Database/Test SDB Template.vit"/>
 		</Item>
