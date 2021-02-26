@@ -31,6 +31,12 @@
 				<Item Name="Shared Resource" Type="Folder">
 					<Item Name="Test Shared Resource Location.vi" Type="VI" URL="../Tests/Setting Database/Test Shared Resource Location.vi"/>
 				</Item>
+				<Item Name="Set Active" Type="Folder">
+					<Item Name="Test Set Active Path.vi" Type="VI" URL="../Tests/Setting Database/Test Set Active Path.vi"/>
+					<Item Name="Test Set Active Funnel.vi" Type="VI" URL="../Tests/Setting Database/Test Set Active Funnel.vi"/>
+					<Item Name="Test Set Active Rectangle.vi" Type="VI" URL="../Tests/Setting Database/Test Set Active Rectangle.vi"/>
+					<Item Name="Test Set Active.vi" Type="VI" URL="../Tests/Setting Database/Test Set Active.vi"/>
+				</Item>
 				<Item Name="Test SDB Template.vit" Type="VI" URL="../Tests/Setting Database/Test SDB Template.vit"/>
 				<Item Name="Test Settings Database.vi" Type="VI" URL="../Tests/Setting Database/Test Settings Database.vi"/>
 			</Item>
