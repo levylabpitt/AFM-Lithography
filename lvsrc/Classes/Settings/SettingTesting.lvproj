@@ -20,6 +20,9 @@
 					<Item Name="Test Refresh Active Path is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Path is First.vi"/>
 					<Item Name="Test Refresh Active Funnel is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Funnel is First.vi"/>
 					<Item Name="Test Refresh Active Rectangle is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Rectangle is First.vi"/>
+					<Item Name="Test Refresh Existing Funnel Settings.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Existing Funnel Settings.vi"/>
+					<Item Name="Test Refresh Existing Path Settings.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Existing Path Settings.vi"/>
+					<Item Name="Test Refresh Existing Rectangle Settings.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Existing Rectangle Settings.vi"/>
 					<Item Name="Test Refresh.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh.vi"/>
 				</Item>
 				<Item Name="Copy To All" Type="Folder">
