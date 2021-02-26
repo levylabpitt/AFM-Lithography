@@ -12,6 +12,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Refresh" Type="Folder">
+				<Item Name="Test Refresh Returned Amounts.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Returned Amounts.vi"/>
+				<Item Name="Test Refresh New Active Objects.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh New Active Objects.vi"/>
+				<Item Name="Test Refresh Active Path is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Path is First.vi"/>
+				<Item Name="Test Refresh Active Funnel is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Funnel is First.vi"/>
+				<Item Name="Test Refresh Active Rectangle is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Rectangle is First.vi"/>
+				<Item Name="Test Refresh.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh.vi"/>
+			</Item>
+			<Item Name="Copy To All" Type="Folder"/>
+			<Item Name="Test Shared Resource Location.vi" Type="VI" URL="../Tests/Setting Database/Test Shared Resource Location.vi"/>
+			<Item Name="Test SDB Template.vit" Type="VI" URL="../Tests/Setting Database/Test SDB Template.vit"/>
+		</Item>
 		<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../ObjectSettings/ObjectSettings.lvclass"/>
 		<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Funnel Settings/Funnel Settings.lvclass"/>
 		<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Path Settings/Path Settings.lvclass"/>
@@ -430,8 +443,6 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
-				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
