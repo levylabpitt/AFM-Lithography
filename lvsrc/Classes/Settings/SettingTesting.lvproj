@@ -13,20 +13,27 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Refresh" Type="Folder">
-				<Item Name="Test Refresh Returned Amounts.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Returned Amounts.vi"/>
-				<Item Name="Test Refresh New Active Objects.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh New Active Objects.vi"/>
-				<Item Name="Test Refresh Active Path is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Path is First.vi"/>
-				<Item Name="Test Refresh Active Funnel is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Funnel is First.vi"/>
-				<Item Name="Test Refresh Active Rectangle is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Rectangle is First.vi"/>
-				<Item Name="Test Refresh.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh.vi"/>
+			<Item Name="Settings Database" Type="Folder">
+				<Item Name="Refresh" Type="Folder">
+					<Item Name="Test Refresh Returned Amounts.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Returned Amounts.vi"/>
+					<Item Name="Test Refresh New Active Objects.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh New Active Objects.vi"/>
+					<Item Name="Test Refresh Active Path is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Path is First.vi"/>
+					<Item Name="Test Refresh Active Funnel is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Funnel is First.vi"/>
+					<Item Name="Test Refresh Active Rectangle is First.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh Active Rectangle is First.vi"/>
+					<Item Name="Test Refresh.vi" Type="VI" URL="../Tests/Setting Database/Test Refresh.vi"/>
+				</Item>
+				<Item Name="Copy To All" Type="Folder">
+					<Item Name="Test Copy All Paths.vi" Type="VI" URL="../Tests/Setting Database/Test Copy All Paths.vi"/>
+					<Item Name="Test Copy All Rectangles.vi" Type="VI" URL="../Tests/Setting Database/Test Copy All Rectangles.vi"/>
+					<Item Name="Test Copy All Funnels.vi" Type="VI" URL="../Tests/Setting Database/Test Copy All Funnels.vi"/>
+					<Item Name="Test Copy Active To All.vi" Type="VI" URL="../Tests/Setting Database/Test Copy Active To All.vi"/>
+				</Item>
+				<Item Name="Shared Resource" Type="Folder">
+					<Item Name="Test Shared Resource Location.vi" Type="VI" URL="../Tests/Setting Database/Test Shared Resource Location.vi"/>
+				</Item>
+				<Item Name="Test SDB Template.vit" Type="VI" URL="../Tests/Setting Database/Test SDB Template.vit"/>
+				<Item Name="Test Settings Database.vi" Type="VI" URL="../Tests/Setting Database/Test Settings Database.vi"/>
 			</Item>
-			<Item Name="Copy To All" Type="Folder">
-				<Item Name="Test Copy All Paths.vi" Type="VI" URL="../Tests/Setting Database/Test Copy All Paths.vi"/>
-				<Item Name="Test Copy All Rectangles.vi" Type="VI" URL="../Tests/Setting Database/Test Copy All Rectangles.vi"/>
-			</Item>
-			<Item Name="Test Shared Resource Location.vi" Type="VI" URL="../Tests/Setting Database/Test Shared Resource Location.vi"/>
-			<Item Name="Test SDB Template.vit" Type="VI" URL="../Tests/Setting Database/Test SDB Template.vit"/>
 		</Item>
 		<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../ObjectSettings/ObjectSettings.lvclass"/>
 		<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Funnel Settings/Funnel Settings.lvclass"/>
