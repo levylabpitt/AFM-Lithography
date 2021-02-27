@@ -327,6 +327,7 @@
 				<Item Name="Rectangle Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Rectangle Settings/Rectangle Settings.lvclass"/>
 			</Item>
 			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
+			<Item Name="SettingsDatabase--Old Interface Glue.vi" Type="VI" URL="../Classes/Settings/Setting Database/SettingsDatabase--Old Interface Glue.vi"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
