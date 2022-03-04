@@ -315,6 +315,7 @@
 				<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../Classes/Parse/ParseXML/ParseSVG.lvclass"/>
 				<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Classes/Parse/Image/SVGImage.lvclass"/>
 				<Item Name="Path.lvclass" Type="LVClass" URL="../Classes/Parse/ParsePaths/Path.lvclass"/>
+				<Item Name="Dot.lvclass" Type="LVClass" URL="../Classes/Parse/Dot/Dot.lvclass"/>
 			</Item>
 			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
 			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
@@ -1402,6 +1403,8 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="LMH-Toolbox.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/Toolbox/LMH-Toolbox.lvlib"/>
+				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
