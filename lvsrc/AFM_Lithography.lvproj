@@ -136,15 +136,23 @@
 			<Item Name="Asylum_Driver" Type="Folder">
 				<Item Name="Legacy" Type="Folder"/>
 				<Item Name="subVIs" Type="Folder">
-					<Item Name="Asylum_Driver_TerminateLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_TerminateLithographyObject.vi"/>
+					<Item Name="Top Level" Type="Folder">
+						<Item Name="Asylum_Driver_LithographyObjects.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjects.vi"/>
+						<Item Name="Asylum_Driver_LithographyInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyInitialize.vi"/>
+						<Item Name="Asylum_Driver_Lithography_Convert_Units.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_Lithography_Convert_Units.vi"/>
+					</Item>
+					<Item Name="Main Sequence" Type="Folder">
+						<Item Name="Asylum_Driver_TerminateLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_TerminateLithographyObject.vi"/>
+						<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
+						<Item Name="Asylum_Driver_InitializeLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_InitializeLithographyObject.vi"/>
+						<Item Name="Asylum_Driver_PreObjectInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PreObjectInitialize.vi"/>
+						<Item Name="Asylum_Driver_PostObjectInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PostObjectInitialize.vi"/>
+						<Item Name="Asylum_Driver_PreObjectTerminate.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PreObjectTerminate.vi"/>
+						<Item Name="Asylum_Driver_PostObjectTerminate.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PostObjectTerminate.vi"/>
+					</Item>
+					<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
 					<Item Name="Asylum_Driver_GetLVDTParameters.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetLVDTParameters.vi"/>
 					<Item Name="Asylum_Driver_GetXYSetPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetXYSetPoints.vi"/>
-					<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
-					<Item Name="Asylum_Driver_InitializeLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_InitializeLithographyObject.vi"/>
-					<Item Name="Asylum_Driver_Lithography_Convert_Units.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_Lithography_Convert_Units.vi"/>
-					<Item Name="Asylum_Driver_LithographyInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyInitialize.vi"/>
-					<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
-					<Item Name="Asylum_Driver_LithographyObjects.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjects.vi"/>
 					<Item Name="Asylum_Driver_LowerTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LowerTip.vi"/>
 					<Item Name="Asylum_Driver_RaiseTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_RaiseTip.vi"/>
 					<Item Name="Asylum_Driver_StartXYPISLoops.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_StartXYPISLoops.vi"/>
