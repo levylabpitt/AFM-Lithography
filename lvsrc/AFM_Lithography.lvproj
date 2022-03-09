@@ -205,22 +205,28 @@
 				<Item Name="XPath String Sub-Parser_Tran.vi" Type="VI" URL="../subVIs/parsing/XPath String Sub-Parser_Tran.vi"/>
 			</Item>
 			<Item Name="subpanel" Type="Folder">
-				<Item Name="Rect Edit.vi" Type="VI" URL="../subVIs/subpanel/Rect Edit.vi"/>
-				<Item Name="Funnel Edit.vi" Type="VI" URL="../subVIs/subpanel/Funnel Edit.vi"/>
-				<Item Name="Path Edit.vi" Type="VI" URL="../subVIs/subpanel/Path Edit.vi"/>
+				<Item Name="Edit Subpanels" Type="Folder">
+					<Item Name="Helpers" Type="Folder">
+						<Item Name="CheckVariantAttributes.vi" Type="VI" URL="../subVIs/subpanel/CheckVariantAttributes.vi"/>
+					</Item>
+					<Item Name="Rect Edit.vi" Type="VI" URL="../subVIs/subpanel/Rect Edit.vi"/>
+					<Item Name="Funnel Edit.vi" Type="VI" URL="../subVIs/subpanel/Funnel Edit.vi"/>
+					<Item Name="Path Edit.vi" Type="VI" URL="../subVIs/subpanel/Path Edit.vi"/>
+					<Item Name="Dot Edit.vi" Type="VI" URL="../subVIs/subpanel/Dot Edit.vi"/>
+				</Item>
+				<Item Name="Legacy" Type="Folder">
+					<Item Name="Dynamic Generation of Formula for Vtip.vi" Type="VI" URL="../subVIs/subpanel/Dynamic Generation of Formula for Vtip.vi"/>
+					<Item Name="Function Generator - var 2 pulse.vi" Type="VI" URL="../subVIs/subpanel/Function Generator - var 2 pulse.vi"/>
+					<Item Name="Function Generator--OLD.vi" Type="VI" URL="../subVIs/subpanel/Function Generator--OLD.vi"/>
+					<Item Name="Function Generator-Yuhe version.vi" Type="VI" URL="../subVIs/subpanel/Function Generator-Yuhe version.vi"/>
+					<Item Name="Function Generator.vi" Type="VI" URL="../subVIs/subpanel/Function Generator.vi"/>
+					<Item Name="Load AFM Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Load AFM Subpanel.vi"/>
+					<Item Name="Close Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Close Subpanel.vi"/>
+					<Item Name="Ramp.vi" Type="VI" URL="../subVIs/subpanel/Ramp.vi"/>
+					<Item Name="Set Driver Controls.vi" Type="VI" URL="../subVIs/subpanel/Set Driver Controls.vi"/>
+				</Item>
 				<Item Name="Abort If Not Refnum.vi" Type="VI" URL="../subVIs/subpanel/Abort If Not Refnum.vi"/>
-				<Item Name="Close Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Close Subpanel.vi"/>
-				<Item Name="Dynamic Generation of Formula for Vtip.vi" Type="VI" URL="../subVIs/subpanel/Dynamic Generation of Formula for Vtip.vi"/>
-				<Item Name="Function Generator - var 2 pulse.vi" Type="VI" URL="../subVIs/subpanel/Function Generator - var 2 pulse.vi"/>
-				<Item Name="Function Generator--OLD.vi" Type="VI" URL="../subVIs/subpanel/Function Generator--OLD.vi"/>
-				<Item Name="Function Generator-Yuhe version.vi" Type="VI" URL="../subVIs/subpanel/Function Generator-Yuhe version.vi"/>
-				<Item Name="Function Generator.vi" Type="VI" URL="../subVIs/subpanel/Function Generator.vi"/>
 				<Item Name="Get Selected Pattern.vi" Type="VI" URL="../subVIs/subpanel/Get Selected Pattern.vi"/>
-				<Item Name="Load AFM Subpanel.vi" Type="VI" URL="../subVIs/subpanel/Load AFM Subpanel.vi"/>
-				<Item Name="Ramp.vi" Type="VI" URL="../subVIs/subpanel/Ramp.vi"/>
-				<Item Name="Set Driver Controls.vi" Type="VI" URL="../subVIs/subpanel/Set Driver Controls.vi"/>
-				<Item Name="CheckVariantAttributes.vi" Type="VI" URL="../subVIs/subpanel/CheckVariantAttributes.vi"/>
-				<Item Name="Dot Edit.vi" Type="VI" URL="../subVIs/subpanel/Dot Edit.vi"/>
 			</Item>
 			<Item Name="toolpath" Type="Folder">
 				<Item Name="Funnel" Type="Folder">
