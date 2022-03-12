@@ -149,6 +149,7 @@
 						<Item Name="Asylum_Driver_PostObjectInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PostObjectInitialize.vi"/>
 						<Item Name="Asylum_Driver_PreObjectTerminate.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PreObjectTerminate.vi"/>
 						<Item Name="Asylum_Driver_PostObjectTerminate.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PostObjectTerminate.vi"/>
+						<Item Name="Asylum_Driver_ExecuteLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_ExecuteLithographyObject.vi"/>
 					</Item>
 					<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
 					<Item Name="Asylum_Driver_GetLVDTParameters.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetLVDTParameters.vi"/>
@@ -261,6 +262,7 @@
 					<Item Name="Transform Point.vi" Type="VI" URL="../subVIs/toolpath/Transform Point.vi"/>
 					<Item Name="Relative Coordinates.vi" Type="VI" URL="../subVIs/toolpath/Relative Coordinates.vi"/>
 				</Item>
+				<Item Name="Dots" Type="Folder"/>
 				<Item Name="Order Patterns.vi" Type="VI" URL="../subVIs/toolpath/Order Patterns.vi"/>
 				<Item Name="Estimated Time Required.vi" Type="VI" URL="../subVIs/toolpath/Estimated Time Required.vi"/>
 				<Item Name="Toolpath.vi" Type="VI" URL="../subVIs/toolpath/Toolpath.vi"/>
