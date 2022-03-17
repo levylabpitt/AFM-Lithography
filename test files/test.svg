@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.02"
-     inkscape:cx="17391.753"
+     inkscape:cx="-2208.247"
      inkscape:cy="19965.272"
      inkscape:document-units="px"
      inkscape:current-layer="svg2"
@@ -121,4 +121,15 @@
      cx="13000"
      cy="18500"
      r="100" />
+  <path
+     style="fill:none;stroke:#00ff00;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M 11550,20150 23900,18750"
+     id="path1392"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#00ff00;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 11200,26850 c 1203.007,3334.458 2168.666,2633.989 3250,3900 l 3300,-1750"
+     id="path1394"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
 </svg>
