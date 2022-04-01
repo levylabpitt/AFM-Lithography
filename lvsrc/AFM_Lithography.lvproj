@@ -220,6 +220,10 @@
 					<Item Name="Helpers" Type="Folder">
 						<Item Name="CheckVariantAttributes.vi" Type="VI" URL="../subVIs/subpanel/CheckVariantAttributes.vi"/>
 					</Item>
+					<Item Name="Dot SubSubpanels" Type="Folder">
+						<Item Name="QuantumDot Edit.vi" Type="VI" URL="../subVIs/subpanel/subsubpanel/QuantumDot Edit.vi"/>
+						<Item Name="IVCurve Edit.vi" Type="VI" URL="../subVIs/subpanel/subsubpanel/IVCurve Edit.vi"/>
+					</Item>
 					<Item Name="Rect Edit.vi" Type="VI" URL="../subVIs/subpanel/Rect Edit.vi"/>
 					<Item Name="Funnel Edit.vi" Type="VI" URL="../subVIs/subpanel/Funnel Edit.vi"/>
 					<Item Name="Path Edit.vi" Type="VI" URL="../subVIs/subpanel/Path Edit.vi"/>
