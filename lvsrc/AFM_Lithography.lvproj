@@ -357,6 +357,7 @@
 				<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Path Settings/Path Settings.lvclass"/>
 				<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Funnel Settings/Funnel Settings.lvclass"/>
 				<Item Name="Rectangle Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Rectangle Settings/Rectangle Settings.lvclass"/>
+				<Item Name="Dot Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Dot Settings/Dot Settings.lvclass"/>
 			</Item>
 			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
 			<Item Name="SettingsDatabase--Old Interface Glue.vi" Type="VI" URL="../Classes/Settings/Setting Database/SettingsDatabase--Old Interface Glue.vi"/>
