@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="40000"
    height="40000"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="test.svg">
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="test.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.02"
-     inkscape:cx="-2208.247"
-     inkscape:cy="19965.272"
+     inkscape:zoom="0.08"
+     inkscape:cx="17531.25"
+     inkscape:cy="19768.75"
      inkscape:document-units="px"
      inkscape:current-layer="svg2"
      showgrid="false"
@@ -36,7 +36,8 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:showpageshadow="false" />
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -51,7 +52,7 @@
   </metadata>
   <image
      id="image2993"
-     xlink:href="file:///C:/AFM/surfacepic.jpg"
+     xlink:href="../../../../../../AFM/surfacepic.jpg"
      x="0"
      y="0"
      width="40000"
@@ -107,7 +108,7 @@
      y="20773.98" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:53.33333206px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:53.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      x="12020.815"
      y="20554.562"
      id="text843"><tspan
@@ -119,6 +120,24 @@
      style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path825"
      cx="13000"
+     cy="18500"
+     r="100" />
+  <circle
+     style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path825-3"
+     cx="14000"
+     cy="18500"
+     r="100" />
+  <circle
+     style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path825-9"
+     cx="15000"
+     cy="18500"
+     r="100" />
+  <circle
+     style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path825-3-5"
+     cx="16000"
      cy="18500"
      r="100" />
   <path
