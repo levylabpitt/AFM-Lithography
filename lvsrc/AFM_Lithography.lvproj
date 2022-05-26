@@ -40,7 +40,6 @@
 					</Item>
 					<Item Name="Main Sequence" Type="Folder">
 						<Item Name="Asylum_Driver_TerminateLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_TerminateLithographyObject.vi"/>
-						<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
 						<Item Name="Asylum_Driver_InitializeLithographyObject.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_InitializeLithographyObject.vi"/>
 						<Item Name="Asylum_Driver_PreObjectInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PreObjectInitialize.vi"/>
 						<Item Name="Asylum_Driver_PostObjectInitialize.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_PostObjectInitialize.vi"/>
@@ -51,12 +50,14 @@
 					<Item Name="Helpers" Type="Folder">
 						<Item Name="Actions" Type="Folder">
 							<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
+							<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
 							<Item Name="Asylum_Driver_LowerTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LowerTip.vi"/>
 							<Item Name="Asylum_Driver_RaiseTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_RaiseTip.vi"/>
 							<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadLargeWaveUsingFile.vi"/>
 							<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadWaveFromFile.vi"/>
 							<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWaveToFile.vi"/>
 							<Item Name="Asylum_Driver_StartXYPISLoops.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_StartXYPISLoops.vi"/>
+							<Item Name="Asylum_Driver_LithographyObjectDots.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectDots.vi"/>
 						</Item>
 						<Item Name="Conversions" Type="Folder">
 							<Item Name="Asylum_Driver_XYMetersToVoltageArray.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_XYMetersToVoltageArray.vi"/>
