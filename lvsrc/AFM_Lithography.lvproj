@@ -52,13 +52,14 @@
 							<Item Name="Plugins" Type="Folder">
 								<Item Name="Asylum_Driver_Plugin_IVCurve.vi" Type="VI" URL="../AFMs/Asylum_Driver/Plugins/Asylum_Driver_Plugin_IVCurve.vi"/>
 							</Item>
+							<Item Name="Igor_SaveWavesToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWavesToFile.vi"/>
 							<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
 							<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
 							<Item Name="Asylum_Driver_LowerTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LowerTip.vi"/>
 							<Item Name="Asylum_Driver_RaiseTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_RaiseTip.vi"/>
 							<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadLargeWaveUsingFile.vi"/>
 							<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_LoadWaveFromFile.vi"/>
-							<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWaveToFile.vi"/>
+							<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveArrayToFile.vi"/>
 							<Item Name="Asylum_Driver_StartXYPISLoops.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_StartXYPISLoops.vi"/>
 							<Item Name="Asylum_Driver_LithographyObjectDots.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectDots.vi"/>
 						</Item>
