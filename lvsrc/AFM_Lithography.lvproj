@@ -13,6 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Playground" Type="Folder">
+			<Item Name="Ini to Variant Attributes" Type="Folder">
+				<Item Name="Variant Attributes to Cluster.vi" Type="VI" URL="../Playground/INI Var Attrib/Variant Attributes to Cluster.vi"/>
+				<Item Name="Playground_Variant Attributes to Cluster.vi" Type="VI" URL="../Playground/INI Var Attrib/Playground_Variant Attributes to Cluster.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
 			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
@@ -307,6 +313,11 @@
 				<Item Name="Voltage - cluster.ctl" Type="VI" URL="../subVIs/typedefs/Voltage - cluster.ctl"/>
 				<Item Name="Configuration.ctl" Type="VI" URL="../Controls/Configuration.ctl"/>
 				<Item Name="Base INI Folder Path.vi" Type="VI" URL="../subVIs/typedefs/Base INI Folder Path.vi"/>
+			</Item>
+			<Item Name="File" Type="Folder">
+				<Item Name="CheckFileConformity.vi" Type="VI" URL="../subVIs/File/CheckFileConformity.vi"/>
+				<Item Name="GenerateDefaultSVGFile.vi" Type="VI" URL="../subVIs/File/GenerateDefaultSVGFile.vi"/>
+				<Item Name="GenerateDefaultIBWFile.vi" Type="VI" URL="../subVIs/File/GenerateDefaultIBWFile.vi"/>
 			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
