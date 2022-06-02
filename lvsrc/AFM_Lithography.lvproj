@@ -724,7 +724,6 @@
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-				<Item Name="USB Relay Control.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/USB Relay Control.vi"/>
 				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
 				<Item Name="MGI Level&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Level&apos;s VI Reference.vi"/>
 				<Item Name="MGI Top Level VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Top Level VI Reference.vi"/>
@@ -733,18 +732,11 @@
 				<Item Name="MGI Defer Panel Updates.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Defer Panel Updates.vi"/>
 				<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Build Support/PostBuildSupport/PostBuildSupport.lvclass"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
-				<Item Name="Set Resistor.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Set Resistor.vi"/>
-				<Item Name="Read Resistor.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Read Resistor.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
-				<Item Name="Read_relay.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/subVIs/Read_relay.vi"/>
-				<Item Name="Port Index Search.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/subVIs/Port Index Search.vi"/>
+				<Item Name="Resistor--enum.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Typedefs/Resistor--enum.ctl"/>
+				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Relay-Box.lvclass"/>
 				<Item Name="D2XX_Functions.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Relay Box/D2XX_Functions/D2XX_Functions.lvlib"/>
 				<Item Name="ftd2xx.dll" Type="Document" URL="/&lt;userlib&gt;/LevyLab/Relay Box/D2XX_Functions/i386/ftd2xx.dll"/>
-				<Item Name="FT_EEPROM_Read.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/subVIs/FT_EEPROM_Read.vi"/>
-				<Item Name="USB Relay Control 256.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/subVIs/USB Relay Control 256.vi"/>
-				<Item Name="FT_EEPROM_Write.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/subVIs/FT_EEPROM_Write.vi"/>
-				<Item Name="USB Relay Control bool.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/subVIs/USB Relay Control bool.vi"/>
-				<Item Name="Resistor--enum.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Typedefs/Resistor--enum.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -2101,7 +2093,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/AFM.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{625AD9BA-5B12-4CEC-8258-014F70916444}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BEAFCE37-4C07-4E75-9481-3D342ECFB330}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>
@@ -2141,7 +2133,7 @@
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">General AFM Lithography Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 University of Pittsburgh</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 University of Pittsburgh</Property>
 				<Property Name="TgtF_productName" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BDFCACBB-2363-47F8-9D41-04FA0182D54E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">AFM Lithogaphy.exe</Property>
@@ -2158,18 +2150,47 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{346E6CBC-2AEE-4A6E-B646-0DF98EAFA580}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI Vision Common Resources 2020 SP1</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{13B38F6E-AF24-442E-8326-9B8B085C4992}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Vision Runtime 2020 SP1</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str"></Property>
-				<Property Name="DistPart[2].productID" Type="Str"></Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2019</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{446D49A5-F830-4ADF-8C78-F03284D6882D}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2019</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -2179,7 +2200,7 @@
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
 				<Property Name="INST_productVersion" Type="Str">10.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">19000000</Property>
+				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{9F7F30E7-BC80-4F5C-BFCB-D9EC8A31CAE3}</Property>
@@ -2193,12 +2214,7 @@
 				<Property Name="Source[0].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">AFM Lithogaphy.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">AFM Lithography</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LevyLab</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{BDFCACBB-2363-47F8-9D41-04FA0182D54E}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/General AFM Lithography Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
