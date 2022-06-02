@@ -28,8 +28,6 @@
 			<Item Name="Asylum_Driver_GetLVDTParameters.vi" Type="VI" URL="../subVIs/Asylum_Driver_GetLVDTParameters.vi"/>
 		</Item>
 		<Item Name="IBW" Type="Folder">
-			<Item Name="Legacy_SGL Wordswap.vi" Type="VI" URL="../Legacy/Legacy_SGL Wordswap.vi"/>
-			<Item Name="Legacy_Load IBW File.vi" Type="VI" URL="../Legacy/Legacy_Load IBW File.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -42,7 +40,6 @@
 			<Item Name="LargeWaves" Type="Folder">
 				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../subVIs/Igor_LoadLargeWaveUsingFile.vi"/>
 				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../subVIs/Igor_LoadWaveFromFile.vi"/>
-				<Item Name="Igor_SaveWaveToFile.vi" Type="VI" URL="../subVIs/Igor_SaveWaveToFile.vi"/>
 			</Item>
 			<Item Name="Process" Type="Folder">
 				<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
@@ -58,9 +55,6 @@
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Resistor--enum.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Typedefs/Resistor--enum.ctl"/>
-				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Relay-Box.lvclass"/>
-				<Item Name="D2XX_Functions.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Relay Box/D2XX_Functions/D2XX_Functions.lvlib"/>
-				<Item Name="ftd2xx.dll" Type="Document" URL="/&lt;userlib&gt;/LevyLab/Relay Box/D2XX_Functions/i386/ftd2xx.dll"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="RemoteControl.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/SMOs/RemoteControl/RemoteControl.lvclass"/>
@@ -394,6 +388,9 @@
 				<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
 				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Strain/Instrument.Strain.lvclass"/>
 				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
+				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Relay-Box.lvclass"/>
+				<Item Name="D2XX_Functions.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Relay Box/D2XX_Functions/D2XX_Functions.lvlib"/>
+				<Item Name="ftd2xx.dll" Type="Document" URL="/&lt;userlib&gt;/LevyLab/Relay Box/D2XX_Functions/i386/ftd2xx.dll"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
