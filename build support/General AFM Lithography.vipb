@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-03 06:37:05" Creator="Patrick Irvin" Comments="" ID="f6604c99f7ef56637360ebd08d098bf4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-03 14:39:47" Creator="Patrick Irvin" Comments="" ID="7009981b12729707e459560da97f2b78">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>10.0.0.6</Library_Version>
+    <Library_Version>10.0.1.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -69,9 +69,24 @@
       <Copyright/>
       <Packager>LevyLab</Packager>
       <URL/>
-      <Release_Notes>- Save for LV2019
-- Updated Dependencies
-- Bugfix: IMAQ image in exe is dark. Attempted fix: Unchecking box for "Allow future versions of LabVIEW RunTime to run this application."</Release_Notes>
+      <Release_Notes>[10.0.1]
+**This release has been built using LV2019**
+
+Bugfixes:
+- Setpoint issue with the asylum driver
+- IMAQ image in exe is dark. Attempted fix: Unchecking box for "Allow future versions of LabVIEW RunTime to run this application."
+- Parser error fixes CSS transformation matrix issue
+- Setting active database at startup
+- Improved error handling if the user does not select a *.svg or *.ibw file
+
+New features:
+- There are now checks to ensure you're in contact mode before you perform lithography (z setpoints are totally different in contact and AC mode, if in AC mode you'll drive the tip into the surface hard).
+- The driver now automatically shows the tip
+- Configuration files are now completely human readable
+- Miscellaneous UI improvements
+
+Beta Feature:
+- Integrated IV curve collection</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -277,7 +292,7 @@
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A880E651C4688DFB34C8C09C05458F1B</GUID>
+      <GUID>93366100F321840786186607C27EC024</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -368,7 +383,7 @@
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB4BD3602523275F457A9F897CCBBD75</GUID>
+      <GUID>89C7C24E230583FBB22AF7F13A00D803</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -473,7 +488,7 @@
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>470F85DF65BB7F5C074276FAA8E1F6F9</GUID>
+      <GUID>416EEC5BB2E08280A071FCAC29477992</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -536,7 +551,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F512BA987ECF0E7CAA5F9C88AED5CC42</GUID>
+      <GUID>59D28DD0A387C76B8EF04482461203AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -585,7 +600,7 @@
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15C4E78B9FB1F52832D887D7316DC1F4</GUID>
+      <GUID>8C72F6A75F690817F5232A858FCFF7EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -634,7 +649,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>109C452BEEE923795A55482592AFBAFF</GUID>
+      <GUID>BD07B1B2ED36CCCAF0759FA52596699A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -683,7 +698,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D66E1948585EBE16214E408EF1627A32</GUID>
+      <GUID>998429199991BB37DA88AF083D0FFBB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -732,7 +747,7 @@
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27B25FA7DC0E57FA1A88FBE2195994C6</GUID>
+      <GUID>960159DB94AC81EB7EB3B32B71CDE32B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -753,7 +768,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>AFMs\Asylum_Driver\Legacy</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>CF18D7BFC57E28DF91EC93CF5C3FB4D5</GUID>
+      <GUID>BE438687245763534C99447938FB3374</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1054,7 +1069,7 @@
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Igor_LoadWaveFromFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41C05F7C4ED2D668111CAB5D14728444</GUID>
+      <GUID>8D7852A0F3E8FF965763D51AA83192B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1467,7 +1482,7 @@
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C5B4895121DF0E0254F155CE1333417</GUID>
+      <GUID>C946992F9AE78C92B1F7039EA2A25011</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1880,7 +1895,7 @@
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF89F686CC1B6459FBF93E13966D6907</GUID>
+      <GUID>24D05907263F3BE030047CD1511CA894</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2293,7 +2308,7 @@
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4092CED75D387B5629B64EE965E8E6AB</GUID>
+      <GUID>F461ED0E9A3D629765518D668D0929AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2342,7 +2357,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECC9E68C61BEE743F055AF431FBC1AD1</GUID>
+      <GUID>2F2D74C389AC35CF2E1C87BDD8D54FEB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2461,7 +2476,7 @@
         <Path>..\lvsrc\subVIs\image\Image Generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA3A1DCD43D0EB7FC62761C660854687</GUID>
+      <GUID>9C51D78E200F338A87A40FFEF46250BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2692,7 +2707,7 @@
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C89C3F52AA8CE5AF6B90456C6AB274AE</GUID>
+      <GUID>7266F0A436D5592B9C403E75892AE4C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2909,7 +2924,7 @@
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>11695B4DAF378A9C5F832FBF7BD75361</GUID>
+      <GUID>EB00FAC5FBD41EA376814D33EF06FAFD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3238,7 +3253,7 @@
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCCE3A9E06005872564856EBC6307A45</GUID>
+      <GUID>7CA63423B3DF60B76BC20452D52DBBA6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3553,7 +3568,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.StopAllDrivers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D679FA0B97E11FCB8802E2BD1C609895</GUID>
+      <GUID>6CA4C85D5955C4CBAC29415B6B2B89E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3588,7 +3603,7 @@
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58D517D1EA15A6246F9225BF7FB2308E</GUID>
+      <GUID>A119CD1048EBED8845B9912F8FC188EB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
