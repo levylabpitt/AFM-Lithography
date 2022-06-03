@@ -2083,17 +2083,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70AAF6EE-B707-485C-8B84-3BDBD7A4BCED}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">10</Property>
-				<Property Name="Destination[0].destName" Type="Str">AFM Lithogaphy.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application/AFM Lithogaphy.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">AFM Lithography.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/AFM Lithography.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/AFM.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{63866F71-8D13-414F-9014-47EFADD8663B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A753FE2-B850-4337-B957-844C761707C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>
@@ -2136,8 +2136,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 University of Pittsburgh</Property>
 				<Property Name="TgtF_productName" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BDFCACBB-2363-47F8-9D41-04FA0182D54E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">AFM Lithogaphy.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AFM Lithography.exe</Property>
 			</Item>
 			<Item Name="General AFM Lithography Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">LevyLab</Property>
@@ -2154,16 +2153,16 @@
 				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2019</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{CEF5E531-69E2-461E-8628-0998E4DD0317}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{FA0DB08E-BC18-4194-9ADC-026B7C8D5CEA}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2019</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{5C8FA6FD-3492-4E87-A381-BC8CE6AF493F}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2021</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{1D64A5FC-338A-4C3D-A3BD-8FC65A2B5D36}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI Vision Common Resources 2019 SP1</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{57C41B25-A232-4945-B942-D7EC8ECBE6EF}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI Vision Common Resources 2020</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{8CE8EC53-1D09-473C-B102-DA624A1F49AA}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI Vision Runtime 2019 SP1</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{633A1550-642D-4DAB-A449-234FEFC53097}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI Vision Runtime 2020</Property>
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[4].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
@@ -2216,7 +2215,7 @@
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
 				<Property Name="INST_productVersion" Type="Str">10.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
+				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{9F7F30E7-BC80-4F5C-BFCB-D9EC8A31CAE3}</Property>
@@ -2229,7 +2228,11 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">AFM Lithogaphy.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">AFM Lithography.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">AFM Lithography</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LevyLab</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{BDFCACBB-2363-47F8-9D41-04FA0182D54E}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">General AFM Lithography Application</Property>

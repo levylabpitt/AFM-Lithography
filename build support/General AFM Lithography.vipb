@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-02 14:20:42" Creator="Patrick Irvin" Comments="" ID="63dcd792e09e34afb2a611d64f620266">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-02 20:38:25" Creator="Patrick Irvin" Comments="" ID="f5b2ac0e55dc9419128929415dec1e7b">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>10.0.0.3</Library_Version>
+    <Library_Version>10.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -69,9 +69,7 @@
       <Copyright/>
       <Packager>LevyLab</Packager>
       <URL/>
-      <Release_Notes>Switched to LV 2019
-
-Fixed numerous bugs</Release_Notes>
+      <Release_Notes>Bugfix: IMAQ image in exe is dark. Attempted fix: Unchecking box for "Allow future versions of LabVIEW RunTime to run this application."</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -277,7 +275,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>427461235C2D31A97764FFD9ACB0691D</GUID>
+      <GUID>2C10C7B734BF845BD631EA150B2E24FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -368,7 +366,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D98A3770D5B425BFC2A2AEF0D09C1ABA</GUID>
+      <GUID>094DECE76CE463916B5C638E60C18C02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -473,7 +471,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA0E4176EFED76B3B7D1A464D7C47377</GUID>
+      <GUID>D68C65A5AE3BBF5D7BCC5DF2A5F7FC3C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -536,7 +534,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AF54596002A5E22E5F9CBDDB304E600</GUID>
+      <GUID>75D8851157B2DA2DF1D8118EE107B07A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -585,7 +583,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3EB284934DE85D56EE2824E2199596DA</GUID>
+      <GUID>A753A502A27263A72E5A3FD6EE2DD0DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -634,7 +632,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D73B447E6226BA8513149C7729CF0AD2</GUID>
+      <GUID>14825DF53834324F438A5A4393376CBF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -683,7 +681,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C14B2C5A1429A78561CD8C08694D065</GUID>
+      <GUID>CA0F96D204C6089759BA8E58F7A28284</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -732,7 +730,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>47D3080F872826D633E65795FCB26026</GUID>
+      <GUID>351C445630A64679AA90507FDAAFCBF5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -753,7 +751,7 @@ Fixed numerous bugs</Release_Notes>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>AFMs\Asylum_Driver\Legacy</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>EA5371F2D7B490859184814B27311510</GUID>
+      <GUID>8BFF5E3F60320E24F85C011A66B11223</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1054,7 +1052,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Igor_LoadWaveFromFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E087945FE082E24390E51E39B5615A44</GUID>
+      <GUID>C4DCDDE47F61B5BC94C1C77062FD8512</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1467,7 +1465,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9F9D8B371580A1DBAB579452289D698</GUID>
+      <GUID>293F6630BE5FDF80049454B7FC14579A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1880,7 +1878,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C356D7A8B054D7EA0E171D065551529</GUID>
+      <GUID>6C2ED975306B3EE59F6D94223EFF8DF1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2293,7 +2291,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5D5FF1B09BA445D749ADD98338AACAD</GUID>
+      <GUID>C36E3DDC65E5945D642E7F161B3133C9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2342,7 +2340,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0D62427C09BE7A809FA0D5182426FAA</GUID>
+      <GUID>BC7728E2A0EE030BDBC52F299E8B51EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2461,7 +2459,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\image\Image Generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC3A37A4E7CCB927711EBBEF87E1CFE5</GUID>
+      <GUID>E67007B1BD580B8A455EDEC3967D2217</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2692,7 +2690,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16B3886FF48ADA6EEB3783F7984F68A5</GUID>
+      <GUID>67A56BD78ED1425DF085C893F2E194ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2909,7 +2907,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>567A632AD47B9318AC07E2E21C772102</GUID>
+      <GUID>239E35839D845179A2D5F55C7C027176</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3101,20 +3099,6 @@ Fixed numerous bugs</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Lithographify_funnel_rec.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subVIs\toolpath\Lithographify_funnel_rec.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Order Patterns.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -3252,7 +3236,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB9C57858E47975B0FAE330AA344C9C9</GUID>
+      <GUID>81704F93577F9383BA37BD7B1B2E1B43</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3567,7 +3551,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.StopAllDrivers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA878498C458BA47F6ACC47150B13027</GUID>
+      <GUID>533240FAA203CFB92BB8207FFEF5C91C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3602,7 +3586,7 @@ Fixed numerous bugs</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1822817D80F016A76FE03AE9DB532B1E</GUID>
+      <GUID>852F19AD09F7155FABDE6574ACB90800</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
