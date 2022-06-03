@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-03 15:20:12" Creator="Patrick Irvin" Comments="" ID="6301edf93caf1ff87e4f7d08b198ccca">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-03 17:23:25" Creator="Patrick Irvin" Comments="" ID="1b4234d7c74b7d30086b16173eaada80">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
     <Library_Version>10.0.1.2</Library_Version>
@@ -69,8 +69,7 @@
       <Copyright/>
       <Packager>LevyLab</Packager>
       <URL/>
-      <Release_Notes>[10.0.1]
-**This release has been built using LV2019**
+      <Release_Notes>**This release has been built using LV2019**
 
 Bugfixes:
 - Setpoint issue with the asylum driver
@@ -292,7 +291,7 @@ Beta Feature:
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF3BBE494EEA99458C3770ED997B2CB4</GUID>
+      <GUID>86AAC4ACF25ABD7F627AE50A2FF5DD01</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -383,7 +382,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB4129CDDB833CF29E2151DCCE458044</GUID>
+      <GUID>EF85498CD9766B45F3DC82E2A5616879</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -488,7 +487,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F264BAFEB6A3B53BDD3148CB8A5EBE1</GUID>
+      <GUID>86274ED4151BEC2FFE69A26515A2EFEC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -551,7 +550,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3A776A8D6441F767C322501FD6EDD016</GUID>
+      <GUID>C074C25D62B4AC8B2D3BF83C6E2ADA01</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -600,7 +599,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6CE6730CA2E083854094D11091B29B4</GUID>
+      <GUID>0F25A943F9AD8513AE7FBA4881361CA6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -649,7 +648,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5FABE418C1BCFF8945846C5F07A6E88</GUID>
+      <GUID>5288644127E424173EE8926049FA8B4B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -698,7 +697,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0E3EBBAE86EB5946FC9E0541397FA1E</GUID>
+      <GUID>8F61307033487FF448603643953213ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -747,7 +746,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8E3C8866B9529DE022F8C3781F678BD</GUID>
+      <GUID>647FBEAB892A1B9E97F2326643F8A32E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -768,7 +767,7 @@ Beta Feature:
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>AFMs\Asylum_Driver\Legacy</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>5394655FFF04524EE9EF1CC54541469A</GUID>
+      <GUID>ABB51DA2A1DB2BF9118635BCB0E2B331</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1069,7 +1068,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Igor_LoadWaveFromFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9410DAF9A4C772E91ABD1D1BEE2B8CBD</GUID>
+      <GUID>8C197E872A0A717048D82F78C09114F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1482,7 +1481,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3ED9BD6B8BAD858B5DB76A93CA9861F</GUID>
+      <GUID>8D24E241BC8A8F585DBE6A1537850F61</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1895,7 +1894,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE32C9CEAEB82BF6CC28117C0BAFDAD2</GUID>
+      <GUID>8BD0EEAD41252F9BE78CE781683AF493</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2308,7 +2307,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>502B4A1062A83F2DF10E4355F9EBAD61</GUID>
+      <GUID>B1926F38432D3C631E9665A8B2BAB854</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2357,7 +2356,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5563D1B0538B26B92CDA80B1B03D418</GUID>
+      <GUID>2A4385242AA5A0C24076BA2ED72A71CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2476,7 +2475,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\image\Image Generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>165FEF4F415B87CF080781FA0CFDA5AF</GUID>
+      <GUID>057F92406874EE8596145BF99076E938</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2707,7 +2706,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B00517E77364874F4DE4C1FA8E999933</GUID>
+      <GUID>56EAD4100762F3ADF7F978E30D69A31E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2924,7 +2923,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07A856FEBEBBF4BA0A5E4B012729AC56</GUID>
+      <GUID>E93155346CC012494DC6AF5D81F9E175</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3253,7 +3252,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8EF77CD1D4CC5842FBAEC2B59460CA48</GUID>
+      <GUID>B47C93F1812DBFDF5317ADF0EAEE76C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3568,7 +3567,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.StopAllDrivers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FF821AD56EEDBF1E797052C326CFF7C</GUID>
+      <GUID>38634B946F44FE66D02B4B14CB00BF13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3603,7 +3602,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBC7929401FCF909E4783E72D4AE7576</GUID>
+      <GUID>D36B60676D9B761328DAA56EA0501966</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
