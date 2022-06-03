@@ -15,17 +15,19 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
 
 - Conducting AFM Lithography
 - Support:
-   - This release supports Asylum MFP3D and Cypher AFMs and simulation mode.
-   - There are existing branches that support Agilent and Nanosurf AFMs.
-   - Bruker is under devleopment.
-   - All supported AFMs will be unified in a future release
+   - This release supports Asylum MFP3D and Cypher AFMs.
+   - There are existing branches that support Agilent and Nanosurf AFMs. Please contact us to learn more.
+   - Bruker AFMs are still under devleopment.
+   - All supported AFMs will be unified in a future release.
 
 ### How do I get started?
 
-- AFM Lithography Installer [coming soon!](https://github.com/levylabpitt/AFM-Lithography/releases)
+- AFM Lithography Installer (https://github.com/levylabpitt/AFM-Lithography/releases)
 - Inkscape [v0.48](https://inkscape.org/release/inkscape-0.48/)
-
+   - For releases >= 10.0 the newest version of Inkscape can be used
+  
 ### Development Requirements:
+
 - NI LabVIEW 2020
 - NI Vision Development Module
 - LabVIEW Packages (Install using VIPM)
@@ -33,21 +35,23 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
    - LevyLab FileUtilities
    - LevyLab Relay Box
    - OpenG Toolkit
+   - JKI State Machine Objects
 
 ### Instructions
 
 1. Define the toolpath in Inkscape
-2. Run Main_v4.vi
-  a. Load a Background Image from the AFM
-  b. Load your Inkscape file
-  c. Use the "Patterns and Writing" tab to define writing parameters (e.g. tip speed and voltage for each shape)
-  d. Check that the patterns you want to write overlap the AFM image using the "Rendered 2D Image" tab.
-  e. When you are ready to execute click the "Run" button.
+2. Run AFM_Lithography.vi
+    1. Load a Background Image from the AFM
+    2. Load your Inkscape file
+    3. Use the "Patterns and Writing" tab to define writing parameters (e.g. tip speed and voltage for each shape)
+    4. Check that the patterns you want to write overlap the AFM image using the "Rendered 2D Image" tab.
+    5. When you are ready to execute click the "Run" button.
 
 ### How do I get help?
 * Patrick Irvin: p.irvin@levylab.org
 * Yuhe Tang: yuhe.tang@levylab.org
 * Joe Albro: joe.albro@levylab.org
+* or create an issue on GitHub
 
 ## License
 
