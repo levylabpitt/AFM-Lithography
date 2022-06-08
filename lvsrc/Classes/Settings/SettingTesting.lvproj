@@ -521,6 +521,7 @@
 			<Item Name="Base INI Folder Path.vi" Type="VI" URL="../../../subVIs/typedefs/Base INI Folder Path.vi"/>
 			<Item Name="Schedule--Constant.ctl" Type="VI" URL="../../../subVIs/typedefs/Schedule Types/Schedule--Constant.ctl"/>
 			<Item Name="Dot Settings.lvclass" Type="LVClass" URL="../Dot Settings/Dot Settings.lvclass"/>
+			<Item Name="PrivateEvents--Setting Database.RefreshPaths.ctl" Type="VI" URL="../Setting Database/Typedefs/PrivateEvents--Setting Database.RefreshPaths.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
