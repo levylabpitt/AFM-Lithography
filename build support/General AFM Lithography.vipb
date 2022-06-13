@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-08 20:21:25" Creator="Patrick Irvin" Comments="" ID="1fa3e6a8400fceb0b9e574f5cb1272e7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-06-10 13:40:08" Creator="Patrick Irvin" Comments="" ID="9a1e45a1ecf14fbbb956ca887f4715f4">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>10.0.1.10</Library_Version>
+    <Library_Version>10.0.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -83,6 +83,7 @@ New features:
 - The driver now automatically shows the tip
 - Configuration files are now completely human readable
 - Miscellaneous UI improvements
+- Dot settings can now be saved as default
 
 Beta Feature:
 - Integrated IV curve collection</Release_Notes>
@@ -291,7 +292,7 @@ Beta Feature:
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14EEA2FAD5DA8DEA09D60604929B1ED2</GUID>
+      <GUID>AEFB0B10DF176BA9C77DCCDA1EDCA2E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +383,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A15323D5F6D2A0432F4EFF1B243DAF2</GUID>
+      <GUID>B3DB57EA94ECACAED201D1B587F80E11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -487,7 +488,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78B0E6C3960A3B1E8805E0B2A9A271B8</GUID>
+      <GUID>88C621640046063D7CD274AEC1E856BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -550,7 +551,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0314F097EEA427FE31E2F593A952DF80</GUID>
+      <GUID>791771865DB7610558DE35EA01DCBFA9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -599,7 +600,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>133678337A5C32EAF7C313CA374B2195</GUID>
+      <GUID>FBC2C0C93289C5129141F1F8F61BED1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -648,7 +649,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3A2C4D7464CB47E1554A6DDD93AD7E0</GUID>
+      <GUID>EA141F58C2E3F38909853F9471B3D862</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -697,7 +698,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1A1663B0567DB8CE2EAF0CDA1B79AF0</GUID>
+      <GUID>7A7B687DF8C161334BA7F4FBD328548E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -746,7 +747,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACDF85E487287D9B8D2C09D18894304E</GUID>
+      <GUID>A3334B0168621A789B9B5784C42E1B7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -767,7 +768,7 @@ Beta Feature:
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>AFMs\Asylum_Driver\Legacy</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>E802A6D3E29325B2E0ED86FDA2FB0916</GUID>
+      <GUID>F749FEEBBB20806D49E51803EEBEABA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1068,7 +1069,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Igor_LoadWaveFromFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0F62D29E62260AF74147BDE79E95085C</GUID>
+      <GUID>A9727328E58D32AF6AECA9FF45944A48</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1481,7 +1482,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6FF18E10CB0C65B4F5C7043DCC80BAC</GUID>
+      <GUID>7B62B81322C8611BACA8BD407B139E5A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1894,7 +1895,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>957AA543C2888944150CD76CBB9A848F</GUID>
+      <GUID>7E39CEFA0234D4BE6737C2B08532FFAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2307,7 +2308,7 @@ Beta Feature:
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F23E50B1A588161BBC6D5B3C59A7ADC8</GUID>
+      <GUID>F5B5EB178A37335FEA82DEB97A35C936</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2356,7 +2357,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19423713D7C32C7C73E720FBAD677BC2</GUID>
+      <GUID>877419737EE42C4A21228D665F9B885C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2475,7 +2476,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\image\Image Generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6FE4067805EA80BADE81A8AB69F14B6F</GUID>
+      <GUID>4B8AF5B32D0BFAE565324F2A0A95A3FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2706,7 +2707,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6BD481E21292087FC8BAA78DEE9C644</GUID>
+      <GUID>34ABBC2DCBB1AC89C28D581879AD0D82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2923,7 +2924,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D8B4597FBDEA5E65B2F2F0DDEFE3F23</GUID>
+      <GUID>83EEF360EFEBDD09B05CC273A5EF12DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3252,7 +3253,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19CB9D09F2083134761B2A68A51CB9DC</GUID>
+      <GUID>79530CAE86F3A363019FDE60A446A5C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3567,7 +3568,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.StopAllDrivers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A286F0B9898BD52F0C3E5577AF86E67</GUID>
+      <GUID>7F8DFA1A13B006A686E7A75DBE64954C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3602,7 +3603,7 @@ Beta Feature:
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A272640F9128CA197C5AE4BFBBEEE66</GUID>
+      <GUID>19880A57F835C06FB0DD1E63DF38E468</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
