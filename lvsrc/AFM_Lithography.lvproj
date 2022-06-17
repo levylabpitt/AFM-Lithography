@@ -28,6 +28,7 @@
 			<Item Name="SwitchControlGreen.ctl" Type="VI" URL="../Controls/SwitchControlGreen.ctl"/>
 		</Item>
 		<Item Name="build support" Type="Folder">
+			<Item Name="AFMLitho.ico" Type="Document" URL="../../build support/AFMLitho.ico"/>
 			<Item Name="AFM.ico" Type="Document" URL="../../build support/AFM.ico"/>
 			<Item Name="General AFM Lithography.vipb" Type="Document" URL="../../build support/General AFM Lithography.vipb"/>
 			<Item Name="General AFM Lithography.vipc" Type="Document" URL="../../build support/General AFM Lithography.vipc"/>
@@ -2094,8 +2095,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/AFM.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2A753FE2-B850-4337-B957-844C761707C6}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/AFMLitho.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DDC8895E-F0A8-4A33-A3BC-E48FEA7C4EDF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>
