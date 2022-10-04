@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-10-03 15:24:23" Creator="Patrick Irvin" Comments="" ID="2a4ab08802183f12c9a9aed90e49a105">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2022-10-03 19:43:01" Creator="Patrick Irvin" Comments="" ID="68c075c3d13b44764f000bce39b134e9">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>10.0.1.15</Library_Version>
+    <Library_Version>10.0.1.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>

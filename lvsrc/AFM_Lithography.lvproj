@@ -57,6 +57,9 @@
 					<Item Name="Helpers" Type="Folder">
 						<Item Name="Actions" Type="Folder">
 							<Item Name="Plugins" Type="Folder">
+								<Item Name="Communication" Type="Folder">
+									<Item Name="MakeCommandUnique.vi" Type="VI" URL="../AFMs/Asylum_Driver/Plugins/Communication/MakeCommandUnique.vi"/>
+								</Item>
 								<Item Name="Asylum_Driver_Plugin_IVCurve.vi" Type="VI" URL="../AFMs/Asylum_Driver/Plugins/Asylum_Driver_Plugin_IVCurve.vi"/>
 							</Item>
 							<Item Name="Igor_SaveWavesToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWavesToFile.vi"/>
@@ -2092,7 +2095,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70AAF6EE-B707-485C-8B84-3BDBD7A4BCED}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">10</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AFM Lithography.exe</Property>
