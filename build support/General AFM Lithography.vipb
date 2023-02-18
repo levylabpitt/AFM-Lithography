@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2023-02-16 16:22:51" Creator="Patrick Irvin" Comments="" ID="f1221a2630d087489731b9981ddd59a4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2023-02-17 17:34:37" Creator="Patrick Irvin" Comments="" ID="34091ed92e63d94a9d7c7c4082028f78">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>10.0.1.18</Library_Version>
+    <Library_Version>10.0.1.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -70,7 +70,7 @@
       <Packager>LevyLab</Packager>
       <URL/>
       <Release_Notes>Bug Fixes:
-Attempted fix for scaling and offset issues.</Release_Notes>
+Rescaled values to match the conversion units during meters to LVDT voltage conversions and vice versa.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -276,7 +276,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ABC1857A464B82D8D3030F6332FA69F0</GUID>
+      <GUID>86C9AF3ECD10C04CE1D5A64B874A149E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -367,7 +367,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02512847701ED855C5B2903253D0EEF4</GUID>
+      <GUID>40F4BB3DB9A98361D8BCD28159877F11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -472,7 +472,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE10D958CBDEF25869BF76F45B881522</GUID>
+      <GUID>D45854EE3962F06AE0C6FD931B5F4F91</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -535,7 +535,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08704A5B15F90362B38579BFD70C68E4</GUID>
+      <GUID>0B4C096869FD7E6C50EAE79CDF7E569C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -584,7 +584,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\Cypher\Cypher Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66613F9F34AE2A63FF9B28429CAF2F6E</GUID>
+      <GUID>DDEB7E98A696A556780A9D7E732407D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -633,7 +633,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D\MFP3D Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE6D6A95BDAC3412683DAE94163C4BAB</GUID>
+      <GUID>6DB2B5150BBD02F7E4ECED0D4B58D4D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -682,7 +682,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\MFP3D_Lucy Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59C3F1CB5D8800E1162F6EBF0A7D7AB1</GUID>
+      <GUID>67B196309AAD747CE50ED705D5516E3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -731,7 +731,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3E86D10BC697E898A7A56083708F8E1</GUID>
+      <GUID>6D9CD57F16776958EF05BC9FAAE64855</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -752,7 +752,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>AFMs\Asylum_Driver\Legacy</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>E5F1B70B06BFAB10766B1DAB8029C12E</GUID>
+      <GUID>574126158649EDBD207FE971D3F77511</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1053,7 +1053,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Igor_LoadWaveFromFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9146B1E650B13107D7952E6C031EDC3F</GUID>
+      <GUID>565CCCCFA091A9CA0AF6CE4315324AD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1466,7 +1466,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A236FC3502A66E4147227E0CFAFF530</GUID>
+      <GUID>54DBD64F67819641B8D09E7EC88E5089</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1879,7 +1879,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C28CDF0E20F0294EF5FEF89FAFAE85F</GUID>
+      <GUID>8540D3C4A26FDF01F2B51F0291FEEACC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2292,7 +2292,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D18CD8CBD14582DADE270C5D67B7D428</GUID>
+      <GUID>73BC74F15FBB623C6479D2760A6B8FF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2341,7 +2341,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACFB55854EFB66B6CA5515E9506A4DF9</GUID>
+      <GUID>CB9FA7F550DD0363B333B9C1D84658F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2460,7 +2460,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\image\Image Generator.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29AD29313A75BFC487269738A7713596</GUID>
+      <GUID>4B1D9428555A99EB3BD4EB74D10DBFAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2691,7 +2691,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9915BCCD21BCE18556743D40B6F4C559</GUID>
+      <GUID>D6026E5BE31A40EAA9576DFFFE3B8D1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2908,7 +2908,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>371618B17F9CE7070B88D2A2891011EB</GUID>
+      <GUID>7A58F5B12ACD07D4BF984C9707F39129</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3237,7 +3237,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>21AE124D226CF7277BB83CD1D5E8C877</GUID>
+      <GUID>7D3D2C392838FE0F5783E62D6E6651BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3552,7 +3552,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.StopAllDrivers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A34476E43218477A26FACE76E4DB5781</GUID>
+      <GUID>CF8A4A172E6201E68B24AD381BAB7376</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3587,7 +3587,7 @@ Attempted fix for scaling and offset issues.</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66B4288A533F0E16FB5678B30CC25EFC</GUID>
+      <GUID>80BB0CB69D1CEBD7C686FD67874A5F62</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
