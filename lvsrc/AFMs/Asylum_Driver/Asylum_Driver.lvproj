@@ -482,24 +482,39 @@
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
+				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
+				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Waves/Asylum_SetOutWave.vi"/>
+				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Waves/Asylum_SetOutWavePair.vi"/>
+				<Item Name="Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/PISLoop/Asylum_SetPISLoop.vi"/>
+				<Item Name="Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_WriteString.vi"/>
+				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_WriteValue.vi"/>
+				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/DebugModeSingleton.vi"/>
+				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
+				<Item Name="Igor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SendCommand.vi"/>
+				<Item Name="Igor_CloseRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_CloseRefnum.vi"/>
+				<Item Name="Igor_OpenRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_OpenRefnum.vi"/>
+				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CIgor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/F76862F773BC86A2EC4A020FD9F87D8CIgor_EnsureIgorStringFormat.vi"/>
+				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
+				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CDebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/F76862F773BC86A2EC4A020FD9F87D8CDebugModeSingleton.vi"/>
+				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CBuild Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/error/error.llb/F76862F773BC86A2EC4A020FD9F87D8CBuild Error Cluster__ogtk.vi"/>
+				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CIgor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/F76862F773BC86A2EC4A020FD9F87D8CIgor_SendCommand.vi"/>
+				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
+				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
+				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
+				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
+				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
+				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadWaveFromFile.vi"/>
+				<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SaveArrayToFile.vi"/>
+				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
+				<Item Name="Igor_NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_NumericArraytoIgorWave.vi"/>
+				<Item Name="Igor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_EnsureIgorStringFormat.vi"/>
+				<Item Name="Igor_StringArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_StringArraytoIgorWave.vi"/>
+				<Item Name="Igor_ArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_ArraytoIgorWave.vi"/>
+				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadLargeWaveUsingFile.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
-				<Item Name="ArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/ArraytoIgorWave.vi"/>
-				<Item Name="Asylum_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/Asylum_EnsureIgorStringFormat.vi"/>
-				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
 				<Item Name="Asylum_SendIgorCommand.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_SendIgorCommand.vi"/>
-				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWave.vi"/>
-				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWavePair.vi"/>
-				<Item Name="Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/PISLoop/Asylum_SetPISLoop.vi"/>
-				<Item Name="Asylum_WriteString.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteString.vi"/>
-				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteValue.vi"/>
-				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
-				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
-				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
-				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
-				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
-				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -523,7 +538,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/LVArraytoIgorWave/NumericArraytoIgorWave.vi"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -532,7 +546,6 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="StringArraytoIgorWave.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Igor Data/LVArraytoIgorWave/StringArraytoIgorWave.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -540,10 +553,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
-				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
-				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Imaq Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Create"/>
@@ -558,11 +567,6 @@
 				<Item Name="Assert Fixed-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Fixed-Point Numeric Type.vim"/>
 				<Item Name="Assert Complex Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Complex Numeric Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
-				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Tests/mock/DebugModeSingleton.vi"/>
-				<Item Name="Asylum_OpenRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_OpenRefnum.vi"/>
-				<Item Name="Asylum_CloseRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Asylum_CloseRefnum.vi"/>
-				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
-				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO/SMO.lvclass"/>
@@ -765,7 +769,6 @@
 			<Item Name="Asylum_Driver_TerminateLithographyObject.vi" Type="VI" URL="../subVIs/Asylum_Driver_TerminateLithographyObject.vi"/>
 			<Item Name="Asylum_Driver_RaiseTip.vi" Type="VI" URL="../subVIs/Asylum_Driver_RaiseTip.vi"/>
 			<Item Name="AFM_Driver_Manager.lvclass" Type="LVClass" URL="../../../subVIs/AFM API/AFM_Driver_Manager/AFM_Driver_Manager.lvclass"/>
-			<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="../subVIs/Igor_SaveArrayToFile.vi"/>
 			<Item Name="Asylum_Driver_PreObjectInitialize.vi" Type="VI" URL="../subVIs/Asylum_Driver_PreObjectInitialize.vi"/>
 			<Item Name="Asylum_Driver_PostObjectInitialize.vi" Type="VI" URL="../subVIs/Asylum_Driver_PostObjectInitialize.vi"/>
 			<Item Name="Asylum_Driver_ExecuteLithographyObject.vi" Type="VI" URL="../subVIs/Asylum_Driver_ExecuteLithographyObject.vi"/>
@@ -789,11 +792,9 @@
 			<Item Name="Asylum Configuration.ctl" Type="VI" URL="../Type Defs/Asylum Configuration.ctl"/>
 			<Item Name="Base INI Folder Path.vi" Type="VI" URL="../../../subVIs/typedefs/Base INI Folder Path.vi"/>
 			<Item Name="Asylum_Driver_GetImagingMode.vi" Type="VI" URL="../subVIs/Asylum_Driver_GetImagingMode.vi"/>
-			<Item Name="Instrument.Framework-Template.lvclass" Type="LVClass" URL="/../../Documents/GitHub/Instrument-Framework/.lvsrc/Framework-Template/SMOs/Instrument.Framework-Template/Instrument.Framework-Template.lvclass"/>
 			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
 			<Item Name="lp-client.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
-			<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="../subVIs/Igor_LoadLargeWaveUsingFile.vi"/>
-			<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="../subVIs/Igor_LoadWaveFromFile.vi"/>
+			<Item Name="Untitled 15" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
