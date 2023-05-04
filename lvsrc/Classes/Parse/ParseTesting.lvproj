@@ -64,20 +64,28 @@
 		</Item>
 		<Item Name="GDSII" Type="Folder">
 			<Item Name="GDSII" Type="Folder">
-				<Item Name="ConvertByteArrayToGDSII8ByteReal.vi" Type="VI" URL="../GDSII/GDSII/ConvertByteArrayToGDSII8ByteReal.vi"/>
 				<Item Name="GDSII_Parser_Prototype.vi" Type="VI" URL="../GDSII/GDSII/GDSII_Parser_Prototype.vi"/>
-				<Item Name="Patrick GDSII.vi" Type="VI" URL="../GDSII/GDSII/Patrick GDSII.vi"/>
-				<Item Name="StringToEightByteReal.vi" Type="VI" URL="../GDSII/GDSII/StringToEightByteReal.vi"/>
+				<Item Name="xxxStringToEightByteReal.vi" Type="VI" URL="../GDSII/GDSII/xxxStringToEightByteReal.vi"/>
+				<Item Name="xxxArray-to-Real-v2.vi" Type="VI" URL="../GDSII/GDSII/xxxArray-to-Real-v2.vi"/>
 				<Item Name="Test_StringToEightByteReal.vi" Type="VI" URL="../GDSII/GDSII/Test_StringToEightByteReal.vi"/>
-				<Item Name="Patrick Excess-64.vi" Type="VI" URL="../GDSII/GDSII/Patrick Excess-64.vi"/>
+				<Item Name="Patrick-Test-Excess-64.vi" Type="VI" URL="../GDSII/GDSII/Patrick-Test-Excess-64.vi"/>
+				<Item Name="Excess-64-Byte-Array-to-Real.vi" Type="VI" URL="../GDSII/GDSII/Excess-64-Byte-Array-to-Real.vi"/>
+				<Item Name="Patrick GDSII.vi" Type="VI" URL="../GDSII/GDSII/Patrick GDSII.vi"/>
+				<Item Name="4-Byte-Array-to-Real-Array.vi" Type="VI" URL="../GDSII/GDSII/4-Byte-Array-to-Real-Array.vi"/>
+				<Item Name="8-Byte-Array-to-Real-Array.vi" Type="VI" URL="../GDSII/GDSII/8-Byte-Array-to-Real-Array.vi"/>
+				<Item Name="4-Byte-to-Byte-Array.vi" Type="VI" URL="../GDSII/GDSII/4-Byte-to-Byte-Array.vi"/>
+				<Item Name="8-Byte-to-Byte-Array.vi" Type="VI" URL="../GDSII/GDSII/8-Byte-to-Byte-Array.vi"/>
+				<Item Name="Walk Up to File.vi" Type="VI" URL="../GDSII/GDSII/Walk Up to File.vi"/>
+			</Item>
+			<Item Name="test files" Type="Folder">
+				<Item Name="Aditi_GDSII.gds" Type="Document" URL="../GDSII/test files/Aditi_GDSII.gds"/>
+				<Item Name="example.gds" Type="Document" URL="../GDSII/test files/example.gds"/>
 			</Item>
 			<Item Name="ParseGDSII.lvclass" Type="LVClass" URL="../GDSII/ParseGDSII/ParseGDSII.lvclass"/>
 			<Item Name="Layer.lvclass" Type="LVClass" URL="../GDSII/Layer/Layer.lvclass"/>
 			<Item Name="Record.lvclass" Type="LVClass" URL="../GDSII/Record/Record.lvclass"/>
 			<Item Name="GDSII Playground.vi" Type="VI" URL="../GDSII/GDSII Playground.vi"/>
 			<Item Name="GDSII Prototype.vi" Type="VI" URL="../GDSII/GDSII Prototype.vi"/>
-			<Item Name="Aditi_GDSII.gds" Type="Document" URL="../GDSII/Aditi_GDSII.gds"/>
-			<Item Name="example.gds" Type="Document" URL="../GDSII/example.gds"/>
 		</Item>
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
 		<Item Name="CompatabilityTesting.vi" Type="VI" URL="../Tests/CompatabilityTesting.vi"/>
