@@ -493,11 +493,7 @@
 				<Item Name="Igor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SendCommand.vi"/>
 				<Item Name="Igor_CloseRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_CloseRefnum.vi"/>
 				<Item Name="Igor_OpenRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_OpenRefnum.vi"/>
-				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CIgor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/F76862F773BC86A2EC4A020FD9F87D8CIgor_EnsureIgorStringFormat.vi"/>
 				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
-				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CDebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/F76862F773BC86A2EC4A020FD9F87D8CDebugModeSingleton.vi"/>
-				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CBuild Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/error/error.llb/F76862F773BC86A2EC4A020FD9F87D8CBuild Error Cluster__ogtk.vi"/>
-				<Item Name="F76862F773BC86A2EC4A020FD9F87D8CIgor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Asylum AFM API_internal_deps/F76862F773BC86A2EC4A020FD9F87D8CIgor_SendCommand.vi"/>
 				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
 				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
 				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
@@ -762,9 +758,10 @@
 				<Item Name="Cipher Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Cipher Phases Enum (Typedef).ctl"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
-				<Item Name="IMAQ Symmetry" Type="VI" URL="/&lt;vilib&gt;/vision/Image Manipulation.llb/IMAQ Symmetry"/>
 				<Item Name="Encryption Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Encryption Phases Enum (Typedef).ctl"/>
 				<Item Name="Mix Bytes Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Mix Bytes Phases Enum (Typedef).ctl"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 			</Item>
 			<Item Name="Asylum_Driver_TerminateLithographyObject.vi" Type="VI" URL="../subVIs/Asylum_Driver_TerminateLithographyObject.vi"/>
 			<Item Name="Asylum_Driver_RaiseTip.vi" Type="VI" URL="../subVIs/Asylum_Driver_RaiseTip.vi"/>
@@ -792,9 +789,8 @@
 			<Item Name="Asylum Configuration.ctl" Type="VI" URL="../Type Defs/Asylum Configuration.ctl"/>
 			<Item Name="Base INI Folder Path.vi" Type="VI" URL="../../../subVIs/typedefs/Base INI Folder Path.vi"/>
 			<Item Name="Asylum_Driver_GetImagingMode.vi" Type="VI" URL="../subVIs/Asylum_Driver_GetImagingMode.vi"/>
-			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
-			<Item Name="lp-client.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
-			<Item Name="Untitled 15" Type="Document"/>
+			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
+			<Item Name="lp-client.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
