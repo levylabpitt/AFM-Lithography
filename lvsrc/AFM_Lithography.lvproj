@@ -62,7 +62,6 @@
 								</Item>
 								<Item Name="Asylum_Driver_Plugin_IVCurve.vi" Type="VI" URL="../AFMs/Asylum_Driver/Plugins/Asylum_Driver_Plugin_IVCurve.vi"/>
 							</Item>
-							<Item Name="Igor_SaveWavesToFile.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Igor_SaveWavesToFile.vi"/>
 							<Item Name="Asylum_Driver_GoToInitialPoint.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GoToInitialPoint.vi"/>
 							<Item Name="Asylum_Driver_LithographyObjectPoints.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LithographyObjectPoints.vi"/>
 							<Item Name="Asylum_Driver_LowerTip.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_LowerTip.vi"/>
@@ -858,6 +857,8 @@
 				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadLargeWaveUsingFile.vi"/>
 				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadWaveFromFile.vi"/>
 				<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SaveArrayToFile.vi"/>
+				<Item Name="Build_Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_GetValue.vi"/>
+				<Item Name="Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_GetValue.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
