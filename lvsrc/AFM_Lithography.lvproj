@@ -1611,14 +1611,8 @@
 				<Item Name="Get Local UTC Offset.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Get Local UTC Offset.vi"/>
 				<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/UTC Offsets -- enum.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="Advanced Encryption Standard (AES).lvlib" Type="Library" URL="/&lt;vilib&gt;/IgorTitov/AES/Advanced Encryption Standard (AES).lvlib"/>
-				<Item Name="Decryption Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Decryption Phases Enum (Typedef).ctl"/>
-				<Item Name="Decipher Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Decipher Phases Enum (Typedef).ctl"/>
-				<Item Name="Cipher Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Cipher Phases Enum (Typedef).ctl"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
-				<Item Name="Encryption Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Encryption Phases Enum (Typedef).ctl"/>
-				<Item Name="Mix Bytes Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Mix Bytes Phases Enum (Typedef).ctl"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
