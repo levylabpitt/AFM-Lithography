@@ -209,6 +209,7 @@
 				<Item Name="Get Voltage RGB.vi" Type="VI" URL="../subVIs/image/Get Voltage RGB.vi"/>
 				<Item Name="Image Generator.vi" Type="VI" URL="../subVIs/image/Image Generator.vi"/>
 				<Item Name="Read IBW File.vi" Type="VI" URL="../subVIs/image/Read IBW File.vi"/>
+				<Item Name="SaveBackground.vi" Type="VI" URL="../subVIs/image/SaveBackground.vi"/>
 			</Item>
 			<Item Name="mathematics" Type="Folder"/>
 			<Item Name="parsing" Type="Folder">
