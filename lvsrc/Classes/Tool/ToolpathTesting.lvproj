@@ -167,6 +167,7 @@
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 			<Item Name="Base INI Folder Path.vi" Type="VI" URL="../../../subVIs/typedefs/Base INI Folder Path.vi"/>
 			<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../../Parse/CSSProperties/CSSProperties.lvclass"/>
