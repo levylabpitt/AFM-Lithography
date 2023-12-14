@@ -283,6 +283,7 @@
 					<Item Name="Lithographify.vi" Type="VI" URL="../subVIs/toolpath/Lithographify.vi"/>
 					<Item Name="Lithographify_funnel&amp;rec.vi" Type="VI" URL="../subVIs/toolpath/Lithographify_funnel&amp;rec.vi"/>
 					<Item Name="Signal Generator.vi" Type="VI" URL="../subVIs/toolpath/Signal Generator.vi"/>
+					<Item Name="Path_Function_Deviation.vi" Type="VI" URL="../subVIs/toolpath/Path_Function_Deviation.vi"/>
 				</Item>
 				<Item Name="SVG Coordinate Manipulation" Type="Folder">
 					<Item Name="Transform Point.vi" Type="VI" URL="../subVIs/toolpath/Transform Point.vi"/>
