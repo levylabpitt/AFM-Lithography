@@ -118,41 +118,37 @@
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
 				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
-				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Relay-Box.lvclass"/>
-				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
-				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Waves/Asylum_SetOutWave.vi"/>
-				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Waves/Asylum_SetOutWavePair.vi"/>
-				<Item Name="Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/PISLoop/Asylum_SetPISLoop.vi"/>
-				<Item Name="Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_WriteString.vi"/>
-				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_WriteValue.vi"/>
-				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/DebugModeSingleton.vi"/>
-				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
-				<Item Name="Igor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SendCommand.vi"/>
-				<Item Name="Igor_CloseRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_CloseRefnum.vi"/>
-				<Item Name="Igor_OpenRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_OpenRefnum.vi"/>
-				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
-				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
-				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
-				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
-				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
-				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
-				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadWaveFromFile.vi"/>
-				<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SaveArrayToFile.vi"/>
-				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
-				<Item Name="Igor_NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_NumericArraytoIgorWave.vi"/>
-				<Item Name="Igor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_EnsureIgorStringFormat.vi"/>
-				<Item Name="Igor_StringArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_StringArraytoIgorWave.vi"/>
-				<Item Name="Igor_ArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_ArraytoIgorWave.vi"/>
-				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadLargeWaveUsingFile.vi"/>
-				<Item Name="Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_GetValue.vi"/>
-				<Item Name="Build_Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_GetValue.vi"/>
-				<Item Name="8E2AB065DB06BB2AA6B360AEF936104CD2XX-lv.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/_Relay Box_internal_deps/8E2AB065DB06BB2AA6B360AEF936104CD2XX-lv.lvlib"/>
-				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/D2XX-LV/D2XX-lv.lvlib"/>
-				<Item Name="8E2AB065DB06BB2AA6B360AEF936104CD2XX.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/_Relay Box_internal_deps/8E2AB065DB06BB2AA6B360AEF936104CD2XX.lvlib"/>
-				<Item Name="8E2AB065DB06BB2AA6B360AEF936104CFit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Relay Box_internal_deps/8E2AB065DB06BB2AA6B360AEF936104CFit VI window to Largest Dec__ogtk.vi"/>
-				<Item Name="8E2AB065DB06BB2AA6B360AEF936104CCurrent VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/_Relay Box_internal_deps/8E2AB065DB06BB2AA6B360AEF936104CCurrent VIs Parents Ref__ogtk.vi"/>
-				<Item Name="RemoteControl.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/RemoteControl/RemoteControl.lvlib"/>
-				<Item Name="Debug.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Debug/Debug.lvlib"/>
+				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Levylab/Relay Box/Relay-Box.lvclass"/>
+				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
+				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWave.vi"/>
+				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWavePair.vi"/>
+				<Item Name="Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/PISLoop/Asylum_SetPISLoop.vi"/>
+				<Item Name="Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteString.vi"/>
+				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteValue.vi"/>
+				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/DebugModeSingleton.vi"/>
+				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
+				<Item Name="Igor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_SendCommand.vi"/>
+				<Item Name="Igor_CloseRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_CloseRefnum.vi"/>
+				<Item Name="Igor_OpenRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_OpenRefnum.vi"/>
+				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
+				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
+				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
+				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
+				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
+				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
+				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_LoadWaveFromFile.vi"/>
+				<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_SaveArrayToFile.vi"/>
+				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
+				<Item Name="Igor_NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/Igor_NumericArraytoIgorWave.vi"/>
+				<Item Name="Igor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/Igor_EnsureIgorStringFormat.vi"/>
+				<Item Name="Igor_StringArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/Igor_StringArraytoIgorWave.vi"/>
+				<Item Name="Igor_ArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_ArraytoIgorWave.vi"/>
+				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_LoadLargeWaveUsingFile.vi"/>
+				<Item Name="Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_GetValue.vi"/>
+				<Item Name="Build_Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_GetValue.vi"/>
+				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;userlib&gt;/Levylab/D2XX-LV/D2XX-lv.lvlib"/>
+				<Item Name="RemoteControl.lvlib" Type="Library" URL="/&lt;userlib&gt;/Levylab/RemoteControl/RemoteControl.lvlib"/>
+				<Item Name="Debug.lvlib" Type="Library" URL="/&lt;userlib&gt;/Levylab/Debug/Debug.lvlib"/>
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Configuration/Configuration.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
