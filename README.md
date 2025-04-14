@@ -28,12 +28,13 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
   
 ### Development Requirements:
 
-- NI LabVIEW 2020
+- NI LabVIEW 2019
 - NI Vision Development Module
 - LabVIEW Packages (Install using VIPM)
    - JKI State Machine
    - LevyLab FileUtilities
    - LevyLab Relay Box
+   - Levylab Instrument Framework
    - OpenG Toolkit
    - JKI State Machine Objects
 
@@ -49,8 +50,8 @@ Software developed in the [LevyLab](https//www.levylab.org) at the [University o
 
 ### How do I get help?
 * Patrick Irvin: p.irvin@levylab.org
-* Yuhe Tang: yuhe.tang@levylab.org
 * Joe Albro: joe.albro@levylab.org
+* Mahmoud Ibrahim: mahmoud.ibrahim@levylab.org
 * or create an issue on GitHub
 
 ## License
