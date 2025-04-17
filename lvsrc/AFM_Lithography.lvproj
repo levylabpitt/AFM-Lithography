@@ -1900,7 +1900,6 @@
 			<Item Name="Instrument UI.AFM_DLog.UI--Cluster.ctl" Type="VI" URL="../shared/Instrument UI.AFM_DLog/Instrument UI.AFM_DLog.UI--Cluster.ctl"/>
 			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
-			<Item Name="Read Abort Notifier.vi" Type="VI" URL="../AFMs/AFM Driver/Read Abort Notifier.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="General AFM Lithography Application" Type="EXE">
