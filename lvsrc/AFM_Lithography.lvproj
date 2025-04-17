@@ -97,6 +97,7 @@
 							<Item Name="Asylum_ReadScanSizeAndOffset_fromLUT.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_ReadScanSizeAndOffset_fromLUT.vi"/>
 							<Item Name="Asylum_Driver_GetImagingMode.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Driver_GetImagingMode.vi"/>
 						</Item>
+						<Item Name="Asylum_Driver_SendObjectDataToLithography.vi" Type="VI" URL="../AFMs/Asylum_Driver/Asylum_Driver_SendObjectDataToLithography.vi"/>
 						<Item Name="Asylum_Interpolation.vi" Type="VI" URL="../AFMs/Asylum_Driver/subVIs/Asylum_Interpolation.vi"/>
 					</Item>
 				</Item>
@@ -106,6 +107,8 @@
 				<Item Name="Asylum_Driver.lvproj" Type="Document" URL="../AFMs/Asylum_Driver/Asylum_Driver.lvproj"/>
 				<Item Name="Asylum_Driver.vi" Type="VI" URL="../AFMs/Asylum_Driver/Asylum_Driver.vi"/>
 				<Item Name="Todolist.txt" Type="Document" URL="../AFMs/Asylum_Driver/Todolist.txt"/>
+				<Item Name="AFM_Driver.lvclass" Type="LVClass" URL="../AFMs/AFM Driver/AFM_Driver.lvclass"/>
+				<Item Name="Asylum_Driver.lvclass" Type="LVClass" URL="../AFMs/AFM_Driver_Asylum/Asylum_Driver.lvclass"/>
 			</Item>
 			<Item Name="Legacy" Type="Folder">
 				<Item Name="MFP3D_Lucy" Type="Folder">
@@ -398,7 +401,6 @@
 			<Item Name="SettingsDatabase--Old Interface Glue.vi" Type="VI" URL="../Classes/Settings/Setting Database/SettingsDatabase--Old Interface Glue.vi"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
-		<Item Name="Asylum_Driver_SendObjectDataToLithography.vi" Type="VI" URL="../AFMs/Asylum_Driver/Asylum_Driver_SendObjectDataToLithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
