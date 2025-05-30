@@ -77,13 +77,22 @@
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">QD Settings</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 			<Item Name="Read QD Settings.vi" Type="VI" URL="../Accessors/Read QD Settings.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(D!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"6!#A!/28*B=W5A2(6S982J&lt;WY!!".!#A!.28*B=W5A6G^M&gt;'&amp;H:1!61!I!$F&gt;S;82F)%2V=G&amp;U;7^O!!!41!I!$6&gt;S;82F)&amp;:P&lt;(2B:W5!$%!B"E6S98.F0Q!!$%!B"F&gt;S;82F0Q!!4Q$R!!!!!!!!!!)52'^U)&amp;.F&gt;(2J&lt;G&gt;T,GRW9WRB=X-0551A5W6U&gt;'FO:X-O9X2M!#*!5!!'!!5!"A!(!!A!#1!+#V&amp;%)&amp;.F&gt;(2J&lt;G&gt;T!$*!=!!?!!!7&amp;%2P&gt;#"4:82U;7ZH=SZM&gt;G.M98.T!!!12'^U)&amp;.F&gt;(2J&lt;G&gt;T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2%&lt;X1A5W6U&gt;'FO:X-O&lt;(:D&lt;'&amp;T=Q!!$U2P&gt;#"4:82U;7ZH=S"J&lt;A"B!0!!$!!$!!1!#Q!-!!1!"!!%!!1!$1!%!!1!$A-!!(A!!!E!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!0!!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(D!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"6!#A!/28*B=W5A2(6S982J&lt;WY!!".!#A!.28*B=W5A6G^M&gt;'&amp;H:1!61!I!$F&gt;S;82F)%2V=G&amp;U;7^O!!!41!I!$6&gt;S;82F)&amp;:P&lt;(2B:W5!$%!B"E6S98.F0Q!!$%!B"F&gt;S;82F0Q!!4Q$R!!!!!!!!!!)52'^U)&amp;.F&gt;(2J&lt;G&gt;T,GRW9WRB=X-0551A5W6U&gt;'FO:X-O9X2M!#*!5!!'!!5!"A!(!!A!#1!+#V&amp;%)&amp;.F&gt;(2J&lt;G&gt;T!$*!=!!?!!!7&amp;%2P&gt;#"4:82U;7ZH=SZM&gt;G.M98.T!!!12'^U)&amp;.F&gt;(2J&lt;G&gt;T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2%&lt;X1A5W6U&gt;'FO:X-O&lt;(:D&lt;'&amp;T=Q!!$U2P&gt;#"4:82U;7ZH=S"J&lt;A"B!0!!$!!$!!1!#Q!-!!1!"!!%!!1!$1!%!!1!$A-!!(A!!!E!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!0!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+			</Item>
+			<Item Name="Write QD Settings.vi" Type="VI" URL="../Accessors/Write QD Settings.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(D!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%2P&gt;#"4:82U;7ZH=SZM&gt;G.M98.T!!!12'^U)&amp;.F&gt;(2J&lt;G&gt;T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!I!$E6S98.F)%2V=G&amp;U;7^O!!!41!I!$56S98.F)&amp;:P&lt;(2B:W5!&amp;5!+!!Z8=GFU:3"%&gt;8*B&gt;'FP&lt;A!!%U!+!!V8=GFU:3"7&lt;WRU97&gt;F!!R!)1:&amp;=G&amp;T:4]!!!R!)1:8=GFU:4]!!%]!]1!!!!!!!!!#&amp;%2P&gt;#"4:82U;7ZH=SZM&gt;G.M98.T$V&amp;%)&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!C1&amp;!!"A!(!!A!#1!+!!M!$!N22#"4:82U;7ZH=Q!Q1(!!(A!!&amp;B2%&lt;X1A5W6U&gt;'FO:X-O&lt;(:D&lt;'&amp;T=Q!!$U2P&gt;#"4:82U;7ZH=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!U!$A-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!0!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 			</Item>
 		</Item>
 		<Item Name="Settings" Type="Property Definition">
