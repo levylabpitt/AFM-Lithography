@@ -201,6 +201,7 @@
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="image" Type="Folder">
+				<Item Name="AFM_OverlayConfigurator.vi" Type="VI" URL="../subVIs/AFM_OverlayConfigurator.vi"/>
 				<Item Name="Adjust Coordinate.vi" Type="VI" URL="../subVIs/image/Adjust Coordinate.vi"/>
 				<Item Name="Background.vi" Type="VI" URL="../subVIs/image/Background.vi"/>
 				<Item Name="Convert IMAQ to LV Image.vi" Type="VI" URL="../subVIs/image/Convert IMAQ to LV Image.vi"/>
@@ -1519,6 +1520,7 @@
 				<Item Name="UTC Offset to Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/UTC Offset to Seconds.vi"/>
 				<Item Name="Compare Timestamps.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Compare Timestamps.vi"/>
 				<Item Name="Timestamp Compare Units -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Timestamp Compare Units -- enum.ctl"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="D2XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FTDI/D2XX/D2XX.lvlib"/>
