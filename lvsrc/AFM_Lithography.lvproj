@@ -27,6 +27,7 @@
 				<Item Name="Variant Attributes to Cluster.vi" Type="VI" URL="../Playground/INI Var Attrib/Variant Attributes to Cluster.vi"/>
 				<Item Name="Playground_Variant Attributes to Cluster.vi" Type="VI" URL="../Playground/INI Var Attrib/Playground_Variant Attributes to Cluster.vi"/>
 			</Item>
+			<Item Name="Tooling Playground.vi" Type="VI" URL="../Playground/Tooling Playground.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
