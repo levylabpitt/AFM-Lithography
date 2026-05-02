@@ -23,8 +23,8 @@
      borderopacity="1.0"
      id="base"
      inkscape:current-layer="svg2"
-     inkscape:cx="17487.5"
-     inkscape:cy="6012.4998"
+     inkscape:cx="19060.947"
+     inkscape:cy="6200.4424"
      inkscape:document-units="px"
      inkscape:pagecheckerboard="0"
      inkscape:pageopacity="0.0"
@@ -35,7 +35,7 @@
      inkscape:window-width="1920"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
-     inkscape:zoom="0.040000001"
+     inkscape:zoom="0.11313709"
      pagecolor="#ffffff"
      showgrid="false"
      inkscape:deskcolor="#d1d1d1" />
@@ -205,5 +205,5 @@
      style="fill:none;stroke:#00ff00;stroke-width:100px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="M 14850,5174.9999 H 26349.999"
      id="path3"
-     transform="translate(0,-466)" />
+     transform="translate(-0.758,-614.1613)" />
 </svg>
