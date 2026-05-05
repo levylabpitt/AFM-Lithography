@@ -341,6 +341,7 @@
 			<Item Name="Test IBW.vi" Type="VI" URL="../../tests/Test IBW.vi"/>
 			<Item Name="Test Parser Compatibility.vi" Type="VI" URL="../../tests/Test Parser Compatibility.vi"/>
 			<Item Name="Test IV Plugin.vi" Type="VI" URL="../../tests/Test IV Plugin.vi"/>
+			<Item Name="Benchmark Calculate Curve Distance.vi" Type="VI" URL="../Classes/Tool/Benchmark Calculate Curve Distance.vi"/>
 		</Item>
 		<Item Name="Parser" Type="Folder">
 			<Item Name="SVG" Type="Folder">
@@ -384,6 +385,11 @@
 			</Item>
 			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
 			<Item Name="SettingsDatabase--Old Interface Glue.vi" Type="VI" URL="../Classes/Settings/Setting Database/SettingsDatabase--Old Interface Glue.vi"/>
+		</Item>
+		<Item Name="Tooling" Type="Folder">
+			<Item Name="Tool Objects" Type="Folder">
+				<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Path.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
