@@ -390,6 +390,7 @@
 			<Item Name="Tool Objects" Type="Folder">
 				<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Path/Tool Path.lvclass"/>
 				<Item Name="Tool Object.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Object/Tool Object.lvclass"/>
+				<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Funnel/Tool Funnel.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
