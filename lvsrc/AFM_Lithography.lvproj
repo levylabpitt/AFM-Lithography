@@ -388,8 +388,9 @@
 		</Item>
 		<Item Name="Tooling" Type="Folder">
 			<Item Name="Tool Objects" Type="Folder">
-				<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Path/Tool Path.lvclass"/>
 				<Item Name="Tool Object.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Object/Tool Object.lvclass"/>
+				<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Path/Tool Path.lvclass"/>
+				<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Rectangle/Tool Rectangle.lvclass"/>
 				<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Funnel/Tool Funnel.lvclass"/>
 			</Item>
 		</Item>
