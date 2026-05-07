@@ -72,6 +72,15 @@
 		</Item>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
+		<Item Name="Apply Schedule Core.vi" Type="VI" URL="../Apply Schedule Core.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!N!#A!&amp;6G&amp;M&gt;75!(%"!!!(`````!!5/5W.I:72V&lt;'5A18*S98E!!#Z!=!!?!!!6%V2P&lt;WQA4W*K:7.U,GRW9WRB=X-!$V2P&lt;WQA4W*K:7.U)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!5QB4:82U;7ZH=Q!!$U!'!!B49WBF:(6M:1!!,E"Q!"Y!!"546'^P&lt;#"09GJF9X1O&lt;(:D&lt;'&amp;T=Q!/6'^P&lt;#"09GJF9X1A;7Y!!&amp;1!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!E!#A!,!Q!!?!!!#1!!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!I!!!#3!!!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 		<Item Name="Path Is Filled.vi" Type="VI" URL="../Path Is Filled.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%9!!!!#A!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!1!#!!-*:8*S&lt;X)A&lt;X6U!!R!)1&gt;Y)#%^)(E`!#*!=!!?!!!/$&amp;"B&gt;'AO&lt;(:D&lt;'&amp;T=Q!!#&amp;"B&gt;'AA&lt;X6U!!!A1&amp;!!!Q!"!!)!!R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#"!=!!?!!!/$&amp;"B&gt;'AO&lt;(:D&lt;'&amp;T=Q!!"V"B&gt;'AA;7Y!91$Q!!Q!!!!%!!5!"A!!!!!!!!!!!!!!"Q!!!!A$!!"Y!!!!!!!!$1E!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
