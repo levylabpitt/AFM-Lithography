@@ -23,8 +23,8 @@
      borderopacity="1.0"
      id="base"
      inkscape:current-layer="svg2"
-     inkscape:cx="11200"
-     inkscape:cy="26750"
+     inkscape:cx="21531.402"
+     inkscape:cy="7150.6173"
      inkscape:document-units="px"
      inkscape:pagecheckerboard="0"
      inkscape:pageopacity="0.0"
@@ -35,7 +35,7 @@
      inkscape:window-width="1920"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
-     inkscape:zoom="0.01"
+     inkscape:zoom="0.056568542"
      pagecolor="#ffffff"
      showgrid="false"
      inkscape:deskcolor="#d1d1d1" />
@@ -195,7 +195,7 @@
   <path
      style="fill:none;stroke:#00ff00;stroke-width:100px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 14849.242,3959.7979 h 11525.84"
-     id="path1"
+     id="path4"
      transform="translate(0,440)" />
   <path
      style="fill:none;stroke:#00FF00;stroke-width:100px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -204,6 +204,6 @@
   <path
      style="fill:none;stroke:#00ff00;stroke-width:100px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="M 14850,5174.9999 H 26349.999"
-     id="path3"
-     transform="translate(-0.758,-614.1613)" />
+     id="path1"
+     transform="translate(16.91967,-437.3846)" />
 </svg>
