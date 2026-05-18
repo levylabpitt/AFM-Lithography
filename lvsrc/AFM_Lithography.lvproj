@@ -394,6 +394,7 @@
 				<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Rectangle/Tool Rectangle.lvclass"/>
 				<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Funnel/Tool Funnel.lvclass"/>
 			</Item>
+			<Item Name="Tool Data.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Data/Tool Data/Tool Data.lvclass"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
