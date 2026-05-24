@@ -395,6 +395,8 @@
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Render.IMAQ.lvclass" Type="LVClass" URL="../Classes/Render/Render.IMAQ/Render.IMAQ.lvclass"/>
+		<Item Name="Apply2.0.ctl" Type="VI" URL="../Controls/Apply2.0.ctl"/>
+		<Item Name="ApplyAll2.0.ctl" Type="VI" URL="../Controls/ApplyAll2.0.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
