@@ -251,6 +251,9 @@
 					<Item Name="MCListBox Item Names to Object Names.vi" Type="VI" URL="../subVIs/subpanel/MCListBox Item Names to Object Names.vi"/>
 					<Item Name="Selector.lvclass" Type="LVClass" URL="../Classes/Selector/Selector.lvclass"/>
 				</Item>
+				<Item Name="Subpanel Manager" Type="Folder">
+					<Item Name="PnlMngr.lvclass" Type="LVClass" URL="../Classes/Subpanel/PnlMngr.lvclass"/>
+				</Item>
 				<Item Name="Abort If Not Refnum.vi" Type="VI" URL="../subVIs/subpanel/Abort If Not Refnum.vi"/>
 				<Item Name="Get Selected Pattern.vi" Type="VI" URL="../subVIs/subpanel/Get Selected Pattern.vi"/>
 			</Item>
