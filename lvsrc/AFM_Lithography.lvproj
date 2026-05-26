@@ -23,6 +23,8 @@
 			<Item Name="ListBox Playground.vi" Type="VI" URL="../Playground/ListBox Playground.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="ApplyAll2.0.ctl" Type="VI" URL="../Controls/ApplyAll2.0.ctl"/>
+			<Item Name="Apply2.0.ctl" Type="VI" URL="../Controls/Apply2.0.ctl"/>
 			<Item Name="SmallFlat2.0Ring.ctl" Type="VI" URL="../Controls/SmallFlat2.0Ring.ctl"/>
 			<Item Name="SmallFlat2.0Numeric.ctl" Type="VI" URL="../Controls/SmallFlat2.0Numeric.ctl"/>
 			<Item Name="SmallFlat2.0Enum.ctl" Type="VI" URL="../Controls/SmallFlat2.0Enum.ctl"/>
@@ -392,14 +394,14 @@
 				<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Path/Tool Path.lvclass"/>
 				<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Rectangle/Tool Rectangle.lvclass"/>
 				<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Funnel/Tool Funnel.lvclass"/>
+				<Item Name="Tool Dots.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Dot/Tool Dots.lvclass"/>
 			</Item>
 			<Item Name="Testing Tool Data" Type="Folder"/>
 			<Item Name="Tool Data.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Data/Tool Data/Tool Data.lvclass"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Render.IMAQ.lvclass" Type="LVClass" URL="../Classes/Render/Render.IMAQ/Render.IMAQ.lvclass"/>
-		<Item Name="Apply2.0.ctl" Type="VI" URL="../Controls/Apply2.0.ctl"/>
-		<Item Name="ApplyAll2.0.ctl" Type="VI" URL="../Controls/ApplyAll2.0.ctl"/>
+		<Item Name="Tool Data.Check Changes.ctl" Type="VI" URL="../Classes/Tool/Tool Data/Tool Data/Typedefs/Tool Data.Check Changes.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
