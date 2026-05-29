@@ -21,6 +21,8 @@
 			<Item Name="Tooling Playground.vi" Type="VI" URL="../Playground/Tooling Playground.vi"/>
 			<Item Name="Images.vi" Type="VI" URL="../Playground/Images.vi"/>
 			<Item Name="ListBox Playground.vi" Type="VI" URL="../Playground/ListBox Playground.vi"/>
+			<Item Name="ClassList Playground.vi" Type="VI" URL="../Playground/ClassList Playground.vi"/>
+			<Item Name="BigMAQ.vi" Type="VI" URL="../Playground/BigMAQ.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="ApplyAll2.0.ctl" Type="VI" URL="../Controls/ApplyAll2.0.ctl"/>
@@ -254,7 +256,8 @@
 					<Item Name="Selector.lvclass" Type="LVClass" URL="../Classes/Selector/Selector.lvclass"/>
 				</Item>
 				<Item Name="Subpanel Manager" Type="Folder">
-					<Item Name="PnlMngr.lvclass" Type="LVClass" URL="../Classes/Subpanel/PnlMngr.lvclass"/>
+					<Item Name="Subpanel.Edit.lvclass" Type="LVClass" URL="../Classes/Subpanel/Manager/Subpanel.Edit.lvclass"/>
+					<Item Name="Subpanel.lvclass" Type="LVClass" URL="../Classes/Subpanel/Subpanel.lvclass"/>
 				</Item>
 				<Item Name="Abort If Not Refnum.vi" Type="VI" URL="../subVIs/subpanel/Abort If Not Refnum.vi"/>
 				<Item Name="Get Selected Pattern.vi" Type="VI" URL="../subVIs/subpanel/Get Selected Pattern.vi"/>
@@ -373,6 +376,7 @@
 				<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Classes/Parse/Image/SVGImage.lvclass"/>
 				<Item Name="Path.lvclass" Type="LVClass" URL="../Classes/Parse/ParsePaths/Path.lvclass"/>
 				<Item Name="Dot.lvclass" Type="LVClass" URL="../Classes/Parse/Dot/Dot.lvclass"/>
+				<Item Name="SVG Object.lvclass" Type="LVClass" URL="../Classes/Parse/SVG Object/SVG Object.lvclass"/>
 			</Item>
 			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
 			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
@@ -401,7 +405,13 @@
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Render.IMAQ.lvclass" Type="LVClass" URL="../Classes/Render/Render.IMAQ/Render.IMAQ.lvclass"/>
-		<Item Name="Tool Data.Check Changes.ctl" Type="VI" URL="../Classes/Tool/Tool Data/Tool Data/Typedefs/Tool Data.Check Changes.ctl"/>
+		<Item Name="Edit.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit/Edit.lvclass"/>
+		<Item Name="Edit.Path.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Path/Edit.Path.lvclass"/>
+		<Item Name="Edit.Rect.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Rect/Edit.Rect.lvclass"/>
+		<Item Name="Edit.Funnel.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Funnel/Edit.Funnel.lvclass"/>
+		<Item Name="Edit.Dot.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Dot/Edit.Dot.lvclass"/>
+		<Item Name="BigMAQ.lvclass" Type="LVClass" URL="../Classes/Render/BigMAQ/BigMAQ.lvclass"/>
+		<Item Name="Beta.vi" Type="VI" URL="../Beta.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -599,7 +609,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -777,6 +787,7 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="Draw Round Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Round Rect.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
