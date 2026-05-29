@@ -407,14 +407,21 @@
 			<Item Name="Testing Tool Data" Type="Folder"/>
 			<Item Name="Tool Data.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Data/Tool Data/Tool Data.lvclass"/>
 		</Item>
+		<Item Name="Edit" Type="Folder">
+			<Item Name="Edit.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit/Edit.lvclass"/>
+			<Item Name="Edit.Path.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Path/Edit.Path.lvclass"/>
+			<Item Name="Edit.Rect.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Rect/Edit.Rect.lvclass"/>
+			<Item Name="Edit.Funnel.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Funnel/Edit.Funnel.lvclass"/>
+			<Item Name="Edit.Dot.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Dot/Edit.Dot.lvclass"/>
+		</Item>
+		<Item Name="IMAQ" Type="Folder">
+			<Item Name="BigMAQ.lvclass" Type="LVClass" URL="../Classes/Render/BigMAQ/BigMAQ.lvclass"/>
+			<Item Name="Render.IMAQ.lvclass" Type="LVClass" URL="../Classes/Render/Render.IMAQ/Render.IMAQ.lvclass"/>
+		</Item>
+		<Item Name="Identify" Type="Folder">
+			<Item Name="Identifier.lvclass" Type="LVClass" URL="../Classes/Identity/Identifier.lvclass"/>
+		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
-		<Item Name="Render.IMAQ.lvclass" Type="LVClass" URL="../Classes/Render/Render.IMAQ/Render.IMAQ.lvclass"/>
-		<Item Name="Edit.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit/Edit.lvclass"/>
-		<Item Name="Edit.Path.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Path/Edit.Path.lvclass"/>
-		<Item Name="Edit.Rect.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Rect/Edit.Rect.lvclass"/>
-		<Item Name="Edit.Funnel.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Funnel/Edit.Funnel.lvclass"/>
-		<Item Name="Edit.Dot.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Dot/Edit.Dot.lvclass"/>
-		<Item Name="BigMAQ.lvclass" Type="LVClass" URL="../Classes/Render/BigMAQ/BigMAQ.lvclass"/>
 		<Item Name="Beta.vi" Type="VI" URL="../Beta.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
