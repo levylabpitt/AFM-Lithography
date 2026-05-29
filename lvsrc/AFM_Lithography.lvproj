@@ -327,6 +327,10 @@
 				<Item Name="GenerateDefaultSVGFile.vi" Type="VI" URL="../subVIs/File/GenerateDefaultSVGFile.vi"/>
 				<Item Name="GenerateDefaultIBWFile.vi" Type="VI" URL="../subVIs/File/GenerateDefaultIBWFile.vi"/>
 			</Item>
+			<Item Name="Status" Type="Folder">
+				<Item Name="Status State.vi" Type="VI" URL="../subVIs/Status/Status State.vi"/>
+				<Item Name="Write Status.vi" Type="VI" URL="../subVIs/Status/Write Status.vi"/>
+			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
 		<Item Name="AFM API" Type="Folder">
