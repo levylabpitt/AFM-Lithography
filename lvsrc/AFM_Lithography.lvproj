@@ -799,6 +799,7 @@
 				<Item Name="Draw Round Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Round Rect.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
