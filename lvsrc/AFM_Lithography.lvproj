@@ -24,6 +24,7 @@
 			<Item Name="ClassList Playground.vi" Type="VI" URL="../Playground/ClassList Playground.vi"/>
 			<Item Name="BigMAQ.vi" Type="VI" URL="../Playground/BigMAQ.vi"/>
 			<Item Name="PictureControlIMAQReplacement.vi" Type="VI" URL="../Playground/PictureControlIMAQReplacement.vi"/>
+			<Item Name="SVG Editing Playground.vi" Type="VI" URL="../Playground/SVG Editing Playground.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="ApplyAll2.0.ctl" Type="VI" URL="../Controls/ApplyAll2.0.ctl"/>
@@ -382,6 +383,7 @@
 				<Item Name="Path.lvclass" Type="LVClass" URL="../Classes/Parse/ParsePaths/Path.lvclass"/>
 				<Item Name="Dot.lvclass" Type="LVClass" URL="../Classes/Parse/Dot/Dot.lvclass"/>
 				<Item Name="SVG Object.lvclass" Type="LVClass" URL="../Classes/Parse/SVG Object/SVG Object.lvclass"/>
+				<Item Name="EditSVG.lvclass" Type="LVClass" URL="../Classes/Parse/EditSVG/EditSVG.lvclass"/>
 			</Item>
 			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
 			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
@@ -417,7 +419,6 @@
 		</Item>
 		<Item Name="IMAQ" Type="Folder">
 			<Item Name="BigMAQ.lvclass" Type="LVClass" URL="../Classes/Render/BigMAQ/BigMAQ.lvclass"/>
-			<Item Name="Render.IMAQ.lvclass" Type="LVClass" URL="../Classes/Render/Render.IMAQ/Render.IMAQ.lvclass"/>
 		</Item>
 		<Item Name="Identify" Type="Folder">
 			<Item Name="Identifier.lvclass" Type="LVClass" URL="../Classes/Identity/Identifier.lvclass"/>
@@ -567,6 +568,7 @@
 				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi"/>
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
 				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
+				<Item Name="Cluster to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to VArray__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -806,6 +808,16 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="openURI.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenURI/openURI.lvlib"/>
+				<Item Name="Serializer.Base64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer.Base64/Serializer.Base64.lvclass"/>
+				<Item Name="OpenSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer/OpenSerializer.lvlib"/>
+				<Item Name="TD_Refnum Kind.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Refnum Kind.ctl"/>
+				<Item Name="TD_Get Ref Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Ref Info.vi"/>
+				<Item Name="Type Code.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Code.ctl"/>
+				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
+				<Item Name="Get Type Code from I16 Array And Pos.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type Code from I16 Array And Pos.vi"/>
+				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
+				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
