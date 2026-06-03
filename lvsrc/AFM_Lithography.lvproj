@@ -418,10 +418,18 @@
 			<Item Name="Edit.Dot.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Dot/Edit.Dot.lvclass"/>
 		</Item>
 		<Item Name="IMAQ" Type="Folder">
+			<Item Name="Utilities" Type="Folder">
+				<Item Name="Get Background Image JPG Path.vi" Type="VI" URL="../Classes/Render/Get Background Image JPG Path.vi"/>
+				<Item Name="Get Background Image JPG Name.vi" Type="VI" URL="../Classes/Render/Get Background Image JPG Name.vi"/>
+				<Item Name="Get Background Image Relative Path.vi" Type="VI" URL="../Classes/Render/Get Background Image Relative Path.vi"/>
+			</Item>
 			<Item Name="BigMAQ.lvclass" Type="LVClass" URL="../Classes/Render/BigMAQ/BigMAQ.lvclass"/>
 		</Item>
 		<Item Name="Identify" Type="Folder">
 			<Item Name="Identifier.lvclass" Type="LVClass" URL="../Classes/Identity/Identifier.lvclass"/>
+		</Item>
+		<Item Name="Inset" Type="Folder">
+			<Item Name="Inset.lvclass" Type="LVClass" URL="../Classes/Render/Inset/Inset.lvclass"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Beta.vi" Type="VI" URL="../Beta.vi"/>
