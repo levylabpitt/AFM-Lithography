@@ -431,11 +431,12 @@
 			<Item Name="Identifier.lvclass" Type="LVClass" URL="../Classes/Identity/Identifier.lvclass"/>
 		</Item>
 		<Item Name="Inset" Type="Folder">
+			<Item Name="Test Inset.vi" Type="VI" URL="../Classes/Render/Inset/Test Inset.vi"/>
 			<Item Name="Inset.lvclass" Type="LVClass" URL="../Classes/Render/Inset/Inset.lvclass"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Beta.vi" Type="VI" URL="../Beta.vi"/>
-		<Item Name="Test Inset.vi" Type="VI" URL="../Classes/Render/Inset/Test Inset.vi"/>
+		<Item Name="Log.Litho.lvclass" Type="LVClass" URL="../Classes/Log/Log.Litho/Log.Litho.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -1016,6 +1017,11 @@
 				<Item Name="UniqueName.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/UniqueName/UniqueName.lvlib"/>
 				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
 				<Item Name="Delimiter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/Delimiter/Delimiter.lvclass"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
