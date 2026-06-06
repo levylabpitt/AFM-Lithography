@@ -25,6 +25,7 @@
 			<Item Name="BigMAQ.vi" Type="VI" URL="../Playground/BigMAQ.vi"/>
 			<Item Name="PictureControlIMAQReplacement.vi" Type="VI" URL="../Playground/PictureControlIMAQReplacement.vi"/>
 			<Item Name="SVG Editing Playground.vi" Type="VI" URL="../Playground/SVG Editing Playground.vi"/>
+			<Item Name="Ini files Objects.vi" Type="VI" URL="../Playground/Ini files Objects.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="ApplyAll2.0.ctl" Type="VI" URL="../Controls/ApplyAll2.0.ctl"/>
@@ -35,6 +36,11 @@
 			<Item Name="TwoPartSlider.ctl" Type="VI" URL="../Controls/TwoPartSlider.ctl"/>
 			<Item Name="SwitchControl.ctl" Type="VI" URL="../Controls/SwitchControl.ctl"/>
 			<Item Name="SwitchControlGreen.ctl" Type="VI" URL="../Controls/SwitchControlGreen.ctl"/>
+			<Item Name="FlatInsetControl.ctl" Type="VI" URL="../Controls/FlatInsetControl.ctl"/>
+			<Item Name="ZoomFlatControl.ctl" Type="VI" URL="../Controls/ZoomFlatControl.ctl"/>
+			<Item Name="FlatZoomtoFit.ctl" Type="VI" URL="../Borrowed/FlatZoomtoFit.ctl"/>
+			<Item Name="FlatUnarchiveControl.ctl" Type="VI" URL="../Controls/FlatUnarchiveControl.ctl"/>
+			<Item Name="FlatArchiveControl.ctl" Type="VI" URL="../Controls/FlatArchiveControl.ctl"/>
 		</Item>
 		<Item Name="AFMs" Type="Folder">
 			<Item Name="Asylum_Driver" Type="Folder">
@@ -354,89 +360,93 @@
 			<Item Name="Test IV Plugin.vi" Type="VI" URL="../../tests/Test IV Plugin.vi"/>
 			<Item Name="Benchmark Calculate Curve Distance.vi" Type="VI" URL="../Classes/Tool/Tool Path/Benchmark Calculate Curve Distance.vi"/>
 		</Item>
-		<Item Name="Parser" Type="Folder">
-			<Item Name="SVG" Type="Folder">
-				<Item Name="Path Commands" Type="Folder">
-					<Item Name="PathCommands.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands/PathCommands.lvclass"/>
-					<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
-					<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
-					<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
-					<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
+		<Item Name="Subsystems" Type="Folder">
+			<Item Name="Parser" Type="Folder">
+				<Item Name="SVG" Type="Folder">
+					<Item Name="Path Commands" Type="Folder">
+						<Item Name="PathCommands.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands/PathCommands.lvclass"/>
+						<Item Name="PathCommands.ClosePath.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.ClosePath/PathCommands.ClosePath.lvclass"/>
+						<Item Name="PathCommands.CurveTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.CurveTo/PathCommands.CurveTo.lvclass"/>
+						<Item Name="PathCommands.LineTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.LineTo/PathCommands.LineTo.lvclass"/>
+						<Item Name="PathCommands.MoveTo.lvclass" Type="LVClass" URL="../Classes/Parse/PathCommands.Moveto/PathCommands.MoveTo.lvclass"/>
+					</Item>
+					<Item Name="Path Tokenization" Type="Folder">
+						<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../Classes/Parse/PathTokenizer/PathTokenizer.lvclass"/>
+					</Item>
+					<Item Name="Style" Type="Folder">
+						<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../Classes/Parse/CSSProperties/CSSProperties.lvclass"/>
+					</Item>
+					<Item Name="Transforms" Type="Folder">
+						<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../Classes/Parse/TransformTokenizer/TransformTokenizer.lvclass"/>
+						<Item Name="Transform.lvclass" Type="LVClass" URL="../Classes/Parse/Transform/Transform.lvclass"/>
+						<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Matrix/Transform.Matrix.lvclass"/>
+						<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Translate/Transform.Translate.lvclass"/>
+						<Item Name="Transform.Rotate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Rotate/Transform.Rotate.lvclass"/>
+						<Item Name="Transform.Skew.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Skew/Transform.Skew.lvclass"/>
+					</Item>
+					<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Classes/Parse/Rectangle/Rectangle.lvclass"/>
+					<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../Classes/Parse/ParseXML/ParseSVG.lvclass"/>
+					<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Classes/Parse/Image/SVGImage.lvclass"/>
+					<Item Name="Path.lvclass" Type="LVClass" URL="../Classes/Parse/ParsePaths/Path.lvclass"/>
+					<Item Name="Dot.lvclass" Type="LVClass" URL="../Classes/Parse/Dot/Dot.lvclass"/>
+					<Item Name="SVG Object.lvclass" Type="LVClass" URL="../Classes/Parse/SVG Object/SVG Object.lvclass"/>
+					<Item Name="EditSVG.lvclass" Type="LVClass" URL="../Classes/Parse/EditSVG/EditSVG.lvclass"/>
 				</Item>
-				<Item Name="Path Tokenization" Type="Folder">
-					<Item Name="PathTokenizer.lvclass" Type="LVClass" URL="../Classes/Parse/PathTokenizer/PathTokenizer.lvclass"/>
+				<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
+				<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
+			</Item>
+			<Item Name="Settings Database" Type="Folder">
+				<Item Name="Object Settings" Type="Folder">
+					<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../Classes/Settings/ObjectSettings/ObjectSettings.lvclass"/>
+					<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Path Settings/Path Settings.lvclass"/>
+					<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Funnel Settings/Funnel Settings.lvclass"/>
+					<Item Name="Rectangle Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Rectangle Settings/Rectangle Settings.lvclass"/>
+					<Item Name="Dot Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Dot Settings/Dot Settings.lvclass"/>
 				</Item>
-				<Item Name="Style" Type="Folder">
-					<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../Classes/Parse/CSSProperties/CSSProperties.lvclass"/>
+				<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
+				<Item Name="SettingsDatabase--Old Interface Glue.vi" Type="VI" URL="../Classes/Settings/Setting Database/SettingsDatabase--Old Interface Glue.vi"/>
+			</Item>
+			<Item Name="Tooling" Type="Folder">
+				<Item Name="Tool Objects" Type="Folder">
+					<Item Name="Tool Object.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Object/Tool Object.lvclass"/>
+					<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Path/Tool Path.lvclass"/>
+					<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Rectangle/Tool Rectangle.lvclass"/>
+					<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Funnel/Tool Funnel.lvclass"/>
+					<Item Name="Tool Dots.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Dot/Tool Dots.lvclass"/>
 				</Item>
-				<Item Name="Transforms" Type="Folder">
-					<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../Classes/Parse/TransformTokenizer/TransformTokenizer.lvclass"/>
-					<Item Name="Transform.lvclass" Type="LVClass" URL="../Classes/Parse/Transform/Transform.lvclass"/>
-					<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Matrix/Transform.Matrix.lvclass"/>
-					<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Translate/Transform.Translate.lvclass"/>
-					<Item Name="Transform.Rotate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Rotate/Transform.Rotate.lvclass"/>
-					<Item Name="Transform.Skew.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Skew/Transform.Skew.lvclass"/>
+				<Item Name="Testing Tool Data" Type="Folder"/>
+				<Item Name="Tool Data.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Data/Tool Data/Tool Data.lvclass"/>
+			</Item>
+			<Item Name="Edit" Type="Folder">
+				<Item Name="Edit.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit/Edit.lvclass"/>
+				<Item Name="Edit.Path.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Path/Edit.Path.lvclass"/>
+				<Item Name="Edit.Rect.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Rect/Edit.Rect.lvclass"/>
+				<Item Name="Edit.Funnel.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Funnel/Edit.Funnel.lvclass"/>
+				<Item Name="Edit.Dot.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Dot/Edit.Dot.lvclass"/>
+			</Item>
+			<Item Name="IMAQ" Type="Folder">
+				<Item Name="Utilities" Type="Folder">
+					<Item Name="Get Background Image JPG Path.vi" Type="VI" URL="../Classes/Render/Get Background Image JPG Path.vi"/>
+					<Item Name="Get Background Image JPG Name.vi" Type="VI" URL="../Classes/Render/Get Background Image JPG Name.vi"/>
+					<Item Name="Get Background Image Relative Path.vi" Type="VI" URL="../Classes/Render/Get Background Image Relative Path.vi"/>
+					<Item Name="Get Inset Image JPG Name.vi" Type="VI" URL="../Classes/Render/Get Inset Image JPG Name.vi"/>
+					<Item Name="Get Inset Image JPG Path.vi" Type="VI" URL="../Classes/Render/Get Inset Image JPG Path.vi"/>
 				</Item>
-				<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Classes/Parse/Rectangle/Rectangle.lvclass"/>
-				<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../Classes/Parse/ParseXML/ParseSVG.lvclass"/>
-				<Item Name="SVGImage.lvclass" Type="LVClass" URL="../Classes/Parse/Image/SVGImage.lvclass"/>
-				<Item Name="Path.lvclass" Type="LVClass" URL="../Classes/Parse/ParsePaths/Path.lvclass"/>
-				<Item Name="Dot.lvclass" Type="LVClass" URL="../Classes/Parse/Dot/Dot.lvclass"/>
-				<Item Name="SVG Object.lvclass" Type="LVClass" URL="../Classes/Parse/SVG Object/SVG Object.lvclass"/>
-				<Item Name="EditSVG.lvclass" Type="LVClass" URL="../Classes/Parse/EditSVG/EditSVG.lvclass"/>
+				<Item Name="BigMAQ.lvclass" Type="LVClass" URL="../Classes/Render/BigMAQ/BigMAQ.lvclass"/>
 			</Item>
-			<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../Classes/Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
-			<Item Name="OldInterfaceGlue.vi" Type="VI" URL="../Classes/Parse/OldInterfaceGlue.vi"/>
-		</Item>
-		<Item Name="Settings Database" Type="Folder">
-			<Item Name="Object Settings" Type="Folder">
-				<Item Name="ObjectSettings.lvclass" Type="LVClass" URL="../Classes/Settings/ObjectSettings/ObjectSettings.lvclass"/>
-				<Item Name="Path Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Path Settings/Path Settings.lvclass"/>
-				<Item Name="Funnel Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Funnel Settings/Funnel Settings.lvclass"/>
-				<Item Name="Rectangle Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Rectangle Settings/Rectangle Settings.lvclass"/>
-				<Item Name="Dot Settings.lvclass" Type="LVClass" URL="../Classes/Settings/Dot Settings/Dot Settings.lvclass"/>
+			<Item Name="Identify" Type="Folder">
+				<Item Name="Identifier.lvclass" Type="LVClass" URL="../Classes/Identity/Identifier.lvclass"/>
 			</Item>
-			<Item Name="Setting Database.lvclass" Type="LVClass" URL="../Classes/Settings/Setting Database/Setting Database.lvclass"/>
-			<Item Name="SettingsDatabase--Old Interface Glue.vi" Type="VI" URL="../Classes/Settings/Setting Database/SettingsDatabase--Old Interface Glue.vi"/>
-		</Item>
-		<Item Name="Tooling" Type="Folder">
-			<Item Name="Tool Objects" Type="Folder">
-				<Item Name="Tool Object.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Object/Tool Object.lvclass"/>
-				<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Path/Tool Path.lvclass"/>
-				<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Rectangle/Tool Rectangle.lvclass"/>
-				<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Funnel/Tool Funnel.lvclass"/>
-				<Item Name="Tool Dots.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Dot/Tool Dots.lvclass"/>
+			<Item Name="Inset" Type="Folder">
+				<Item Name="Test Inset.vi" Type="VI" URL="../Classes/Render/Inset/Test Inset.vi"/>
+				<Item Name="Inset.lvclass" Type="LVClass" URL="../Classes/Render/Inset/Inset.lvclass"/>
 			</Item>
-			<Item Name="Testing Tool Data" Type="Folder"/>
-			<Item Name="Tool Data.lvclass" Type="LVClass" URL="../Classes/Tool/Tool Data/Tool Data/Tool Data.lvclass"/>
-		</Item>
-		<Item Name="Edit" Type="Folder">
-			<Item Name="Edit.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit/Edit.lvclass"/>
-			<Item Name="Edit.Path.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Path/Edit.Path.lvclass"/>
-			<Item Name="Edit.Rect.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Rect/Edit.Rect.lvclass"/>
-			<Item Name="Edit.Funnel.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Funnel/Edit.Funnel.lvclass"/>
-			<Item Name="Edit.Dot.lvclass" Type="LVClass" URL="../Classes/Subpanel/Edit/Edit.Dot/Edit.Dot.lvclass"/>
-		</Item>
-		<Item Name="IMAQ" Type="Folder">
-			<Item Name="Utilities" Type="Folder">
-				<Item Name="Get Background Image JPG Path.vi" Type="VI" URL="../Classes/Render/Get Background Image JPG Path.vi"/>
-				<Item Name="Get Background Image JPG Name.vi" Type="VI" URL="../Classes/Render/Get Background Image JPG Name.vi"/>
-				<Item Name="Get Background Image Relative Path.vi" Type="VI" URL="../Classes/Render/Get Background Image Relative Path.vi"/>
-				<Item Name="Get Inset Image JPG Name.vi" Type="VI" URL="../Classes/Render/Get Inset Image JPG Name.vi"/>
-				<Item Name="Get Inset Image JPG Path.vi" Type="VI" URL="../Classes/Render/Get Inset Image JPG Path.vi"/>
+			<Item Name="Logger" Type="Folder">
+				<Item Name="Log.Litho.lvclass" Type="LVClass" URL="../Classes/Log/Log.Litho/Log.Litho.lvclass"/>
 			</Item>
-			<Item Name="BigMAQ.lvclass" Type="LVClass" URL="../Classes/Render/BigMAQ/BigMAQ.lvclass"/>
-		</Item>
-		<Item Name="Identify" Type="Folder">
-			<Item Name="Identifier.lvclass" Type="LVClass" URL="../Classes/Identity/Identifier.lvclass"/>
-		</Item>
-		<Item Name="Inset" Type="Folder">
-			<Item Name="Test Inset.vi" Type="VI" URL="../Classes/Render/Inset/Test Inset.vi"/>
-			<Item Name="Inset.lvclass" Type="LVClass" URL="../Classes/Render/Inset/Inset.lvclass"/>
 		</Item>
 		<Item Name="AFM_Lithography.vi" Type="VI" URL="../AFM_Lithography.vi"/>
 		<Item Name="Beta.vi" Type="VI" URL="../Beta.vi"/>
-		<Item Name="Log.Litho.lvclass" Type="LVClass" URL="../Classes/Log/Log.Litho/Log.Litho.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
