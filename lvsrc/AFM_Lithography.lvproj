@@ -330,6 +330,7 @@
 			<Item Name="Status" Type="Folder">
 				<Item Name="Status State.vi" Type="VI" URL="../subVIs/Status/Status State.vi"/>
 				<Item Name="Write Status.vi" Type="VI" URL="../subVIs/Status/Write Status.vi"/>
+				<Item Name="Status Append.vi" Type="VI" URL="../subVIs/Status/Status Append.vi"/>
 			</Item>
 			<Item Name="Global Variables.vi" Type="VI" URL="../subVIs/Global Variables.vi"/>
 		</Item>
@@ -445,6 +446,9 @@
 				<Item Name="Subpanel.lvclass" Type="LVClass" URL="../Classes/Subpanel/Subpanel.lvclass"/>
 			</Item>
 			<Item Name="Archive" Type="Folder">
+				<Item Name="Test" Type="Folder">
+					<Item Name="Test Archiver.vi" Type="VI" URL="../Classes/Archiver/Test Archiver.vi"/>
+				</Item>
 				<Item Name="Archivist.lvclass" Type="LVClass" URL="../Classes/Archiver/Archivist.lvclass"/>
 			</Item>
 		</Item>

@@ -1,0 +1,21 @@
+<LvVariant>
+<Name>Variant</Name>
+<Object>
+<Name>Flattening in</Name>
+<NumLevels>1</NumLevels>
+<Class>Flattening.lvclass</Class>
+<Version>1.0.0.4</Version>
+<Cluster>
+<Name>Flattening.lvclass</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Increment</Name>
+<Val>10.02000000000000</Val>
+</DBL>
+<DBL>
+<Name>Decrement</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+</LvVariant>
