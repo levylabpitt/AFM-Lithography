@@ -66,4 +66,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 	</Item>
+	<Item Name="Search for Element by Attribute.vi" Type="VI" URL="../Search for Element by Attribute.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%;!!!!#A!91$$`````$U6M:7VF&lt;H1A6'&amp;H)%^V&gt;!!-1$$`````!GFE!!!-1#%'2G^V&lt;G1`!!!91$$`````$FB.4#"4&gt;(*J&lt;G=A4X6U!!!%!!!!*%!Q`````RN*:'6O&gt;'FG?7FO:S""&gt;(2S;7*V&gt;'5A6G&amp;M&gt;75!*%!Q`````RJ*:'6O&gt;'FG?7FO:S""&gt;(2S;7*V&gt;'5A6(FQ:1!!&amp;E!Q`````QR&amp;&lt;'6N:7ZU)&amp;2Z='5!!"2!-0````]+7%V-)&amp;.U=GFO:Q!!6!$Q!!Q!!!!"!!)!!Q!%!!1!"!!%!!5!"A!(!!A#!!"Y!!!*!!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!AA!!!%+!!!"#A!!!AA!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+	</Item>
 </LVClass>
