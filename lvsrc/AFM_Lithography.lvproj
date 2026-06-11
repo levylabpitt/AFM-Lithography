@@ -41,6 +41,11 @@
 			<Item Name="FlatZoomtoFit.ctl" Type="VI" URL="../Borrowed/FlatZoomtoFit.ctl"/>
 			<Item Name="FlatUnarchiveControl.ctl" Type="VI" URL="../Controls/FlatUnarchiveControl.ctl"/>
 			<Item Name="FlatArchiveControl.ctl" Type="VI" URL="../Controls/FlatArchiveControl.ctl"/>
+			<Item Name="Alert Slow.ctl" Type="VI" URL="../Controls/Alert Slow.ctl"/>
+			<Item Name="Patterns.ctl" Type="VI" URL="../Controls/Patterns.ctl"/>
+			<Item Name="Home.ctl" Type="VI" URL="../Controls/Home.ctl"/>
+			<Item Name="Image.ctl" Type="VI" URL="../Controls/Image.ctl"/>
+			<Item Name="AtomicForceMicroscope2.ctl" Type="VI" URL="../Controls/AtomicForceMicroscope2.ctl"/>
 		</Item>
 		<Item Name="AFMs" Type="Folder">
 			<Item Name="Asylum_Driver" Type="Folder">
@@ -1157,7 +1162,6 @@
 				<Item Name="Epoch_NotationLocale.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Epoch_NotationLocale.vi"/>
 				<Item Name="Get Local UTC Offset.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Get Local UTC Offset.vi"/>
 				<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/UTC Offsets -- enum.ctl"/>
-				<Item Name="UniqueName.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/UniqueName/UniqueName.lvlib"/>
 				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
 				<Item Name="Delimiter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/Delimiter/Delimiter.lvclass"/>
 				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
@@ -1175,6 +1179,8 @@
 				<Item Name="Librarian OK to Delete.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian OK to Delete.vi"/>
 				<Item Name="Copy In Or Out Of VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Copy In Or Out Of VI Library.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="OpenScalar.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Scalar/OpenScalar.lvlib"/>
+				<Item Name="UniqueName.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/UniqueName/UniqueName.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
