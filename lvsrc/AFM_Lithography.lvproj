@@ -1223,19 +1223,17 @@
 				<Property Name="Bld_version.major" Type="Int">10</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">AFM Lithography.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application/AFM Lithography.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">AFM Lithography (Beta).exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/AFM Lithography (Beta).exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{DDC8895E-F0A8-4A33-A3BC-E48FEA7C4EDF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8AC895C8-C756-473D-922E-DC9F81456EA1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -1267,14 +1265,24 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/test files</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Beta.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Subsystems</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 University of Pittsburgh</Property>
 				<Property Name="TgtF_productName" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BDFCACBB-2363-47F8-9D41-04FA0182D54E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">AFM Lithography.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AFM Lithography (Beta).exe</Property>
 			</Item>
 			<Item Name="General AFM Lithography Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">LevyLab</Property>
