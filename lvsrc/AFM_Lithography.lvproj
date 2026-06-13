@@ -2312,7 +2312,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{70AAF6EE-B707-485C-8B84-3BDBD7A4BCED}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">10</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">AFM Lithography (Beta).exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/AFM Lithography (Beta).exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -2320,7 +2320,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33127C2C-26FB-4C74-9B7B-F826D6F14586}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F5D1159-8EC9-484D-B03E-70F65F899F50}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>

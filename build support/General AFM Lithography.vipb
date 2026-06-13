@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2026-06-12 18:55:25" Creator="Patrick Irvin" Comments="" ID="5b7fa6aaab2fbfb150cce72d0f6fb7c5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-05-28 16:50:27" Modified_Date="2026-06-13 12:02:44" Creator="Patrick Irvin" Comments="" ID="ebaf1a050fe3d0c2d2b74d9ee896eeb5">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_general_afm_lithography</Package_File_Name>
-    <Library_Version>10.2.0.1</Library_Version>
+    <Library_Version>10.2.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -51,8 +51,8 @@
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.2.5.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments =1.13.0.10</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.8.4.32</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.12.53</Additional_External_Dependencies>
       <Direct_Dependencies>ftdi_lib_d2xx-1.3.0.8</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.9.1.125</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.2.19</Direct_Dependencies>
@@ -406,7 +406,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFM_Lithography.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C93E9C463F69897AE84AC8394ED830E2</GUID>
+      <GUID>52B1779FFC110BFA8C5509863AB0B466</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -497,7 +497,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\Simulation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1993504061B4C98EA9B6F03B66C018D6</GUID>
+      <GUID>A66ED97311F2FF3E99BBA8865C23B3A1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -560,7 +560,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Tool</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E062922E8C7797F35DAB816CAF37210A</GUID>
+      <GUID>DE9D92C43B0349AC94868E10BC69B4CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -595,7 +595,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Playground\INI Var Attrib</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78BF753D98695AA1584F472501AB8FBB</GUID>
+      <GUID>F073D972A91B252A179AD54E664284B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -728,7 +728,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\Global Variables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41A0FEBAD96E5483BD983EFC4E9C5885</GUID>
+      <GUID>895B5F4331E039B910856805E0BED62D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -791,7 +791,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\Asylum_Driver.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D084574DE1C49B7DD620CB7D47B051C2</GUID>
+      <GUID>07F73FA8A89B704863A7FD6D223FB965</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -826,7 +826,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\Cypher\subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B46F9FA8E6C13000593B8D8F6760BBF</GUID>
+      <GUID>2786EA0C187B7FBE91D0B3BED79B9BCE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -861,7 +861,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D\subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5CC974D6F4C6334A6FC7206D0420A58</GUID>
+      <GUID>F20EB9020CD2A5CAAEF322BD1099E4B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -896,7 +896,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E0E120C4FF91132BA87D4B917BB4CFA</GUID>
+      <GUID>5A524AF81832755EF37FD032D9EE3964</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -917,21 +917,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>AFMs\Simulation</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Simulation Driver.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Simulation\Simulation Driver.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>9027BF514210C4F109168A47D1FDFF7B</GUID>
+      <GUID>8A486E333B9D3C8891937C157CE02DF8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -980,7 +966,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\Plugins\Asylum_Driver_Plugin_IVCurve.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B71A72FD1A0F7349288A4942AE8A91DB</GUID>
+      <GUID>5FB57CF10510F97C32ED4DCED766AA74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1379,7 +1365,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\subVIs\Asylum_ReadScanSizeAndOffset_fromLUT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15842651BFD78DFFA08CA305A29E5D22</GUID>
+      <GUID>33AE2A73A0134A6120036CBEC0EBE4C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1414,7 +1400,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\Asylum_Driver\Plugins\Communication\MakeCommandUnique.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A4E8AB52172ABC7D25C031F93C778AA</GUID>
+      <GUID>20A7B7264A67F3EFCC4CCD07DCF43C89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1438,20 +1424,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create TDMS_Cypher.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Cypher\subVIs\Create TDMS_Cypher.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>cypher read value</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1461,20 +1433,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\Cypher\subVIs\cypher read value_Cypher.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Display wave</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Cypher\subVIs\Display wave_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1494,20 +1452,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GMonitor_Fengv2_Cypher.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Cypher\subVIs\GMonitor_Fengv2_Cypher.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>interpolate nodes_Cypher.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1517,20 +1461,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\Cypher\subVIs\interpolate nodes_Cypher.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Make wave</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Cypher\subVIs\Make wave_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1550,20 +1480,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Send Igor Command</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Cypher\subVIs\Send Igor Command_Cypher.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Set PIDS loop 0_Cypher.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1573,20 +1489,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Set PIDS loop 0_Cypher.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set value</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Cypher\subVIs\Set value_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1606,20 +1508,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Votlage wave channel setup_Cypher.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\Cypher\subVIs\Votlage wave channel setup_Cypher.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Y sensor convert V to meter</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1631,7 +1519,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\Cypher\subVIs\Y sensor convert V to meter_Cypher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB9297ECEB01E540ACC749DE37626757</GUID>
+      <GUID>8F3F977F39442C6564A857C69B4FAC9F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1655,20 +1543,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create TDMS_MFP3D.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D\subVIs\Create TDMS_MFP3D.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>cypher read value</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1678,20 +1552,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\cypher read value_MFP3D.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Display wave</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D\subVIs\Display wave_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1711,20 +1571,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GMonitor_Fengv2_MFP3D.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D\subVIs\GMonitor_Fengv2_MFP3D.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>interpolate nodes_MFP3D.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1734,20 +1580,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\interpolate nodes_MFP3D.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Make wave</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D\subVIs\Make wave_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1767,20 +1599,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Send Igor Command</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D\subVIs\Send Igor Command_MFP3D.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Set PIDS loop 0_MFP3D.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1790,20 +1608,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Set PIDS loop 0_MFP3D.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set value</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D\subVIs\Set value_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1823,20 +1627,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Votlage wave channel setup_MFP3D.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D\subVIs\Votlage wave channel setup_MFP3D.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Y sensor convert V to meter</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1848,7 +1638,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D\subVIs\Y sensor convert V to meter_MFP3D.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95944306D27E9526E6C669ECB3302B20</GUID>
+      <GUID>B820581CC9614099C8930097E9EBE72E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1872,20 +1662,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create TDMS_MFP3D_Lucy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Create TDMS_MFP3D_Lucy.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>cypher read value</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1895,20 +1671,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\cypher read value_MFP3D_Lucy.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Display wave</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Display wave_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1928,20 +1690,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>GMonitor_Fengv2_MFP3D_Lucy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\GMonitor_Fengv2_MFP3D_Lucy.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>interpolate nodes_MFP3D_Lucy.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1951,20 +1699,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\interpolate nodes_MFP3D_Lucy.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Make wave</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Make wave_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1984,20 +1718,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Send Igor Command</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Send Igor Command_MFP3D_Lucy.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Set PIDS loop 0_MFP3D_Lucy.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -2007,20 +1727,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Set PIDS loop 0_MFP3D_Lucy.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set value</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Set value_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2040,20 +1746,6 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Votlage wave channel setup_MFP3D_Lucy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Votlage wave channel setup_MFP3D_Lucy.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Y sensor convert V to meter</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -2065,7 +1757,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\AFMs\MFP3D_Lucy\subVIs\Y sensor convert V to meter_MFP3D_Lucy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77ECDC20355F7CD318CCF9BFC270B71A</GUID>
+      <GUID>E73531AC2D984FC6BD8B7312D7ADDFE0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2394,7 +2086,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\OldInterfaceGlue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66319F2E348F8D609B4F2EC6CA3FA181</GUID>
+      <GUID>A6F3FD7AD1E26C385F09900677E53D2C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2527,7 +2219,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Playground.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B8FB162BC62CFB0484A0E750899C61F9</GUID>
+      <GUID>C5C8C36BD37D89DD057EF0EB4AE4CB52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2562,21 +2254,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Tool\Interpolate by Distance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Tool_Playground.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Classes\Tool\Tool_Playground.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>E0009E9201153C261CB93D9C7B915C40</GUID>
+      <GUID>B4D37D44B80555BE61C74588BDC15266</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2709,7 +2387,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\CSSProperties\Write Dictionary.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D98866AAC3D53AFD2C25BB225FCF4D2B</GUID>
+      <GUID>906F5A059213279267E3EBC7D399CC78</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2856,7 +2534,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Dot\Write Style.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4530B208E0B77568F1EE947B10CD6D7F</GUID>
+      <GUID>FB1C1D84C210F2F69417FFD372B184C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2947,7 +2625,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\GDSII\GDSII Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B9F58A84DEB1DE3CDFFA62907AA090C</GUID>
+      <GUID>6E8DA7A12750E9C2AE1F202ACF373804</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -3122,7 +2800,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Image\Write Y.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFD9E17FFD918B00F6AAACC9816D2A47</GUID>
+      <GUID>49FD716757817E3B1B622FA5E2B081ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -3241,7 +2919,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\ParsePaths\Write Transforms.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7AE2AC7ACA14C10DF03AC4C4DBDF318</GUID>
+      <GUID>2F305399A550AD501449237B91C4CCEF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -3500,7 +3178,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\ParseVectorFile\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD8FDABE3F214718BA5EEE2F95881A43</GUID>
+      <GUID>49D1EF833C2AAE1C22D8B95D5660C465</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -3759,7 +3437,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\ParseXML\Write Rects.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E68BBC3BDA7EC4C21E92E812C767C9EA</GUID>
+      <GUID>3500D8405E5122644D766CEC8A5FC15C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4004,7 +3682,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\PathCommands\Write Relative_.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF577055CCE5F0578844BE566479D483</GUID>
+      <GUID>DF67D15D2407C9F7E8C6013A5B95506D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4039,7 +3717,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\PathCommands.ClosePath\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACCA4394D9FF0B4CC9FD4DDE4F0215F2</GUID>
+      <GUID>A587836911CD570F1A30DDF87250DA31</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4088,7 +3766,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\PathCommands.CurveTo\Parse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E14C933DBEDC1A6BA7B7E59E993C8CF</GUID>
+      <GUID>183CF4622E16EB0049AED981CA4B68FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4137,7 +3815,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\PathCommands.LineTo\Parse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74F06815EA65163845CF524200D9F3A6</GUID>
+      <GUID>0F5D0364EEDF00D78DF3A743700A6904</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4186,7 +3864,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\PathCommands.Moveto\Parse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38B4C67E68E44316866016449FC93208</GUID>
+      <GUID>A538DC8EDFE4E61A3D7F8E27DCB73E31</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4543,7 +4221,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\PathTokenizer\Write Tokens.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>525EBD0D251857331F0D766A60515E1E</GUID>
+      <GUID>FC87C10DA9A46BDFA5BED41085B378A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4816,7 +4494,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Rectangle\Write Y.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93C0C132580C309FC1B534B4CC77DAEB</GUID>
+      <GUID>6C396A283CAB5D1B70FF5D3F470BBDBB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4963,7 +4641,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5EF13391EB7D90B3F860CD05E4A2A3F6</GUID>
+      <GUID>0839A1F3E70A23B95DB3D93F37F0EEB3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -5096,7 +4774,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Transform\Write Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>993BF50CFA0BB2A74529E88CB03ACBFB</GUID>
+      <GUID>2EE6A9F572C1C4434405746521427FED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -5131,7 +4809,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Transform.Matrix\Parse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFB3207977081C1D9668EAC7BE1819E0</GUID>
+      <GUID>F02EA2CA02D1DECBCF579590B1408E30</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -5166,7 +4844,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Transform.Rotate\Parse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B934090BC84302B37D1EB78BD85298D0</GUID>
+      <GUID>14304F8042873E4DC9E0910BDDE4F4F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -5201,7 +4879,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Transform.Skew\Parse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30A48FEB3268640347A3C74AC8D79C21</GUID>
+      <GUID>A47439AF7661DAAB574A1EC00C9D1481</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -5236,7 +4914,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Transform.Translate\Parse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6AD1E4B6E3D8BF0D62A74B5C78E6904</GUID>
+      <GUID>3A35AD0296536E71C9EA509FA1D959D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -5537,7 +5215,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\TransformTokenizer\Write Transform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D38F7D02B4B7AEB8A796243BCCDC3E46</GUID>
+      <GUID>DEB0E83A406350D392F8BD0FEA7CA177</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -5726,7 +5404,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\GDSII\GDSII\xxxStringToEightByteReal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE2066ED7348692E5C38077C5A55D4F5</GUID>
+      <GUID>3BF88629CE2754F43B9227E4A34976BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -5775,7 +5453,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\GDSII\ParseGDSII\SeparateRecords.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56466BB11726C137E0E370FB0DD8E977</GUID>
+      <GUID>070F80FA624502C14A91ABA6C8BD6F8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -5810,7 +5488,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\GDSII\Record\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54B4D701082E772ACC9D427990D2FDB6</GUID>
+      <GUID>E38AE160136481D3A04AADE1B6522B72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -5845,7 +5523,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\New folder\TestCSSProperties.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8552ACCA70DAEF98ED4ED27BC6942927</GUID>
+      <GUID>6608DCCE26744E41831CCA3D8E0CC0ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -5880,7 +5558,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\TestIntegration\TestIntegration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B334782B2BD44C04734A6A523C944758</GUID>
+      <GUID>B9CF69779FBDE11E2E50E2C82EF909E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -5999,7 +5677,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\TestPathCommands\TestVerticalLineto.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3FBB4E19E9AC540CB3EC0F4418878A5</GUID>
+      <GUID>67884B7A61BD442CE09B4AD49116362C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -6244,7 +5922,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\TestPathTokenizer\Tokenizer speed test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E7F3C3D72AB9E8B958D5DE004337232</GUID>
+      <GUID>772E87AC51FFA4EA084D94E70C7A2F1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -6279,7 +5957,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\TestSVGParse\TestSVGParse.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD403744BE5CD1925D04388FD3BFBF4B</GUID>
+      <GUID>FAB339FB4F9A8967757459C5C21FE353</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -6314,7 +5992,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\TestTransforms\TestTransforms.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DBC61F412B2A84920EFC10E1F7ADB6B</GUID>
+      <GUID>DBB139993F452E10CE7742085A5EFB01</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -6349,7 +6027,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Parse\Tests\TestTransformTokenizer\TestTransformTokenizer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DE330CCE1822CA14DF14A6A1C04CF5E</GUID>
+      <GUID>A6D618596B00ACBC8407FC8B6E1738A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -6398,7 +6076,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Dot Settings\Default</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>332B016FC3AEC33599C95402C0EC6A41</GUID>
+      <GUID>CEAD3475F2893382B03F6D51094CC35E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -6447,7 +6125,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Funnel Settings\Default</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB0EED6EA7CCFC3ECD34195CD7DAF8F2</GUID>
+      <GUID>6E095AB08CD61E6AD32BC2E1807EF463</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -6510,7 +6188,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\ObjectSettings\Schedule</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BFCA2F19322B35239D2562669BE47B04</GUID>
+      <GUID>FECBEE45C451908E50C07C45E829D5A4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -6601,7 +6279,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Path Settings\Write Default to File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E16B3F64B8984F244D22FD5EFC92FE47</GUID>
+      <GUID>E990B4BFFA9F90ED9C95D1CEBD21E6F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -6650,7 +6328,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Rectangle Settings\Default</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0B3B97971B4142EABAF0A4D09706FBE</GUID>
+      <GUID>C1113E3AAF52F0058B0180BD3F360E22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -7203,7 +6881,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Setting Database\SettingsDatabase--Old Interface Glue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5921B8E508882C9F5134A30791966C6B</GUID>
+      <GUID>F00E835DD0E5787929F8BA06185ED052</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -7238,7 +6916,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Tests\Setting Database</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0001E7C7B7191672C8981F602BB10A9E</GUID>
+      <GUID>C6BC0267CC62C0A07670768C1F31EEDF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>50</Parent_Palette_Index>
@@ -7343,7 +7021,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Dot Settings\Accessors\Write Settings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBBE9DF9C699F2DCEE32F614BA33741C</GUID>
+      <GUID>B76C94583A53F96F3A780FE54BD7DBCE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>50</Parent_Palette_Index>
@@ -7434,7 +7112,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Dot Settings\Default\Write Default to File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8451439A8CB3A7B2E70F7D5034C108A1</GUID>
+      <GUID>1F821818F3530C59FFFE86EB40455CEA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>51</Parent_Palette_Index>
@@ -7511,7 +7189,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Funnel Settings\Accessors\Write Smooth Segments.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F92FA8F28230A2D30CE7020CF1C65A5</GUID>
+      <GUID>0AFC5027C62F7E5AAED05A18AB40C279</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>51</Parent_Palette_Index>
@@ -7588,7 +7266,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Funnel Settings\Default\Write Default to File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5328E3D0481B46ABC709BBEC0F250924</GUID>
+      <GUID>C23C6DDBD0E3B2C085D36D3FAE6F4237</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>52</Parent_Palette_Index>
@@ -7861,7 +7539,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\ObjectSettings\Accessors\Write Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>842F8F142EF96C5D49BD19EC94E4339B</GUID>
+      <GUID>6696FDA980FAB63CFD3ED9475F1BC5DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>52</Parent_Palette_Index>
@@ -7966,7 +7644,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\ObjectSettings\Default\Write Default to File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59DE1A4D1E9F1768DE1649F0EFE8DFD7</GUID>
+      <GUID>65B69843A961921AE47BFEB0EEEF3C1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>52</Parent_Palette_Index>
@@ -8085,7 +7763,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\ObjectSettings\Schedule\Schedule.Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C22505B19E2B9C3DBF6C6FB20E7C719</GUID>
+      <GUID>4E90528A0550CEC4F47F1932C5A7C2CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>53</Parent_Palette_Index>
@@ -8218,7 +7896,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Path Settings\Accessors\Write Smooth Segments.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D1CE8F464C946D409256A44C77B0204</GUID>
+      <GUID>479ECFA5583D98A36E54E34325A6E90E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>54</Parent_Palette_Index>
@@ -8295,7 +7973,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Rectangle Settings\Accessors\Write Fill Spacing.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4A0047381C297C510AA37FB27077669</GUID>
+      <GUID>DCC0880950F1435F33CE95166872B1A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>54</Parent_Palette_Index>
@@ -8372,7 +8050,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Rectangle Settings\Default\Write Default to File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE617B05AF046314EFE5DC3BAE83E918</GUID>
+      <GUID>137AB7930AD497CC5C32D626894934E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>55</Parent_Palette_Index>
@@ -8645,7 +8323,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Setting Database\Accessors\Write Rectangles.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07023A001EE8F30320E384688DCD41FB</GUID>
+      <GUID>B193724E05BE993699E85D532F2A5E67</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>55</Parent_Palette_Index>
@@ -8806,7 +8484,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Setting Database\Methods\RetrieveDefaultRectangleData.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0572A5C54F33DBDBFFA06EDD14B7B024</GUID>
+      <GUID>AA766AE5D59B354414199C16E5F3F125</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>55</Parent_Palette_Index>
@@ -8841,7 +8519,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Setting Database\Typedefs\Setting Database Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B204B64E12C772A155123E24EDF2666A</GUID>
+      <GUID>1A40BE0D5D0FC56C1B3D75499972A186</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>56</Parent_Palette_Index>
@@ -9142,7 +8820,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Classes\Settings\Tests\Setting Database\Test Shared Resource Location.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F30A1904B8999849D47D76BC1EB6AB5</GUID>
+      <GUID>B81BAFB1CB46174BD7A20C4ECFB7B855</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -9191,7 +8869,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\Playground\INI Var Attrib\Variant Attributes to Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B3AB8B0FEF77E1FC60A45DB82FEDC50</GUID>
+      <GUID>4B3B1B05DA53CC11E85E4902C152E1EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -9240,7 +8918,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C7734922CDB68ABE46AB4FC36FD04E2</GUID>
+      <GUID>6791D11244B971AA1C5BCC88BAE0E83D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -9303,7 +8981,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\File\GenerateDefaultSVGFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1359D3D66890DB0142F5AC8DC29E98E8</GUID>
+      <GUID>B1846452F034CF81FD735C293EA7E3C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -9436,7 +9114,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\image\Read IBW File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93711A7166C2C722C5B702A3309DC05C</GUID>
+      <GUID>5CDA6AEA469B97E8A20B35527187139E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -9667,7 +9345,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\parsing\XPath String Sub-Parser_Tran.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30EA43339DC56DFA3026FA9162840520</GUID>
+      <GUID>C663343FF78EADD39C0CD8DD39DC82FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -9912,7 +9590,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\subpanel\Set Driver Controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F89C7E92A0EF085FB0BD743FA4A38AF</GUID>
+      <GUID>E75647A0429DC23FCA22D071E052CABF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -10269,7 +9947,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\toolpath\Transform Point.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92DD6EC82B20E057EA4C6199F7A6D5FB</GUID>
+      <GUID>3BC9B6C079EB86C5B318B3173CF9D739</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -10304,7 +9982,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\typedefs\Base INI Folder Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09630B347CD036D3CF64D98F371F3BBB</GUID>
+      <GUID>A3133642A985C99729685E4D8E232C69</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>72</Parent_Palette_Index>
@@ -10619,7 +10297,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Manager\AFM_Driver_Manager.StopAllDrivers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CE8B9AE17853F67AC5AE026FBCD3BEF</GUID>
+      <GUID>57C50E59EB764D762C63A18E9D10E519</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>72</Parent_Palette_Index>
@@ -10654,7 +10332,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\AFM API\AFM_Driver_Template\AFM_Name_Driver.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA36248B620CBFCDBBFC1D5783A216CD</GUID>
+      <GUID>72078E6612276933120C877E1E846820</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>76</Parent_Palette_Index>
@@ -10703,7 +10381,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\subpanel\subsubpanel\QuantumDot Edit.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24B49CBAF5CBEFD93F1F4B478310D75A</GUID>
+      <GUID>43EED30F859E4FE50155751E79E64BDB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>77</Parent_Palette_Index>
@@ -10738,7 +10416,7 @@ OpenG Zip File -- For archiving experiments</Release_Notes>
         <Path>..\lvsrc\subVIs\toolpath\Dots\Tool.Dots.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3ABE08E7F77D47C699C4C350BAE2358</GUID>
+      <GUID>2097B3146790050E657F17898DC0D119</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
