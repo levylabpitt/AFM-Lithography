@@ -2448,7 +2448,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
-				<Property Name="INST_productVersion" Type="Str">10.1.1</Property>
+				<Property Name="INST_productVersion" Type="Str">10.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
