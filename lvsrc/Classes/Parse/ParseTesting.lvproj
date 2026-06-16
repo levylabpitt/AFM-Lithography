@@ -76,19 +76,49 @@
 				<Item Name="4-Byte-to-Byte-Array.vi" Type="VI" URL="../GDSII/GDSII/4-Byte-to-Byte-Array.vi"/>
 				<Item Name="8-Byte-to-Byte-Array.vi" Type="VI" URL="../GDSII/GDSII/8-Byte-to-Byte-Array.vi"/>
 				<Item Name="Walk Up to File.vi" Type="VI" URL="../GDSII/GDSII/Walk Up to File.vi"/>
+				<Item Name="Layer.lvclass" Type="LVClass" URL="../GDSII/Layer/Layer.lvclass"/>
+				<Item Name="Record.lvclass" Type="LVClass" URL="../GDSII/Record/Record.lvclass"/>
 			</Item>
 			<Item Name="test files" Type="Folder">
 				<Item Name="Aditi_GDSII.gds" Type="Document" URL="../GDSII/test files/Aditi_GDSII.gds"/>
 				<Item Name="example.gds" Type="Document" URL="../GDSII/test files/example.gds"/>
 			</Item>
-			<Item Name="ParseGDSII.lvclass" Type="LVClass" URL="../GDSII/ParseGDSII/ParseGDSII.lvclass"/>
-			<Item Name="Layer.lvclass" Type="LVClass" URL="../GDSII/Layer/Layer.lvclass"/>
-			<Item Name="Record.lvclass" Type="LVClass" URL="../GDSII/Record/Record.lvclass"/>
+			<Item Name="Data Types" Type="Folder">
+				<Item Name="Specific" Type="Folder">
+					<Item Name="GDSII.DataType.Bit Array.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Bit Array/GDSII.DataType.Bit Array.lvclass"/>
+					<Item Name="GDSII.DataType.Word.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Word/GDSII.DataType.Word.lvclass"/>
+					<Item Name="GDSII.DataType.Long.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Long/GDSII.DataType.Long.lvclass"/>
+					<Item Name="GDSII.DataType.Real.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Real/GDSII.DataType.Real.lvclass"/>
+					<Item Name="GDSII.DataType.String.lvclass" Type="LVClass" URL="../GDSII/DataTypes/String/GDSII.DataType.String.lvclass"/>
+				</Item>
+				<Item Name="GDSII.DataType.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Base/GDSII.DataType.lvclass"/>
+			</Item>
+			<Item Name="Tree" Type="Folder">
+				<Item Name="Structure Name to Key.vi" Type="VI" URL="../GDSII/Structure Name to Key.vi"/>
+				<Item Name="Structure Key to Name.vi" Type="VI" URL="../GDSII/Structure Key to Name.vi"/>
+				<Item Name="Convert From Tree To Element.vi" Type="VI" URL="../GDSII/Elements/Convert From Tree To Element.vi"/>
+				<Item Name="Convert From Tree To SREF.vi" Type="VI" URL="../GDSII/Elements/Convert From Tree To SREF.vi"/>
+			</Item>
+			<Item Name="Old Objects" Type="Folder">
+				<Item Name="Elements" Type="Folder">
+					<Item Name="Element.lvclass" Type="LVClass" URL="../GDSII/Elements/Element.lvclass"/>
+					<Item Name="Referential.lvclass" Type="LVClass" URL="../GDSII/Elements/Referential.lvclass"/>
+					<Item Name="Geometric.lvclass" Type="LVClass" URL="../GDSII/Elements/Geometric.lvclass"/>
+				</Item>
+				<Item Name="ParseGDSII.lvclass" Type="LVClass" URL="../GDSII/ParseGDSII/ParseGDSII.lvclass"/>
+				<Item Name="Structure.lvclass" Type="LVClass" URL="../GDSII/Structures/Structure.lvclass"/>
+			</Item>
+			<Item Name="Recursive Tree Conversion" Type="Folder">
+				<Item Name="Untitled 20.vi" Type="VI" URL="../GDSII/ParseGDSII/Tree Handling/Untitled 20.vi"/>
+			</Item>
 			<Item Name="GDSII Playground.vi" Type="VI" URL="../GDSII/GDSII Playground.vi"/>
 			<Item Name="GDSII Prototype.vi" Type="VI" URL="../GDSII/GDSII Prototype.vi"/>
+			<Item Name="STRUCTURE.ctl" Type="VI" URL="../GDSII/TypeDefs/STRUCTURE.ctl"/>
+			<Item Name="ELEMENT.ctl" Type="VI" URL="../GDSII/TypeDefs/ELEMENT.ctl"/>
 		</Item>
 		<Item Name="Todo.vi" Type="VI" URL="../PathCommands/Todo.vi"/>
 		<Item Name="CompatabilityTesting.vi" Type="VI" URL="../Tests/CompatabilityTesting.vi"/>
+		<Item Name="Tree to Structure.vi" Type="VI" URL="../GDSII/Tree to Structure.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Caraya.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlib"/>
@@ -100,7 +130,7 @@
 				<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Caraya Interactive Menu.rtm"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -189,7 +219,6 @@
 				<Item Name="Attribute.ErrorHandling.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.ErrorHandling/Attribute.ErrorHandling.lvclass"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
-				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
@@ -229,6 +258,7 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="String to Character Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to Character Array__ogtk.vi"/>
@@ -603,6 +633,7 @@
 			<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../../Tool/Tool Funnel/Tool Funnel.lvclass"/>
 			<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../../Tool/Tool Rectangle/Tool Rectangle.lvclass"/>
 			<Item Name="Tool Dots.lvclass" Type="LVClass" URL="../../Tool/Tool Dot/Tool Dots.lvclass"/>
+			<Item Name="Tree.lvclass" Type="LVClass" URL="../GDSII/Tree/Tree.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
