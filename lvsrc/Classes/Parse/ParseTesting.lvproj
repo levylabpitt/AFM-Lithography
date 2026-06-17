@@ -91,6 +91,13 @@
 					<Item Name="GDSII.DataType.Real.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Real/GDSII.DataType.Real.lvclass"/>
 					<Item Name="GDSII.DataType.String.lvclass" Type="LVClass" URL="../GDSII/DataTypes/String/GDSII.DataType.String.lvclass"/>
 				</Item>
+				<Item Name="Conversions" Type="Folder">
+					<Item Name="Payload to String.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to String.vi"/>
+					<Item Name="Payload to Long.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to Long.vi"/>
+					<Item Name="Payload to Word.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to Word.vi"/>
+					<Item Name="Payload to Real.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to Real.vi"/>
+					<Item Name="Payload to Bit Array.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to Bit Array.vi"/>
+				</Item>
 				<Item Name="GDSII.DataType.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Base/GDSII.DataType.lvclass"/>
 			</Item>
 			<Item Name="Tree" Type="Folder">
@@ -110,6 +117,10 @@
 			</Item>
 			<Item Name="Recursive Tree Conversion" Type="Folder">
 				<Item Name="Untitled 20.vi" Type="VI" URL="../GDSII/ParseGDSII/Tree Handling/Untitled 20.vi"/>
+			</Item>
+			<Item Name="Fast Tree" Type="Folder">
+				<Item Name="Populate Fast Tree.vi" Type="VI" URL="../GDSII/Fast Tree/Populate Fast Tree.vi"/>
+				<Item Name="Fast Tree.lvclass" Type="LVClass" URL="../GDSII/Fast Tree/Fast Tree.lvclass"/>
 			</Item>
 			<Item Name="GDSII Playground.vi" Type="VI" URL="../GDSII/GDSII Playground.vi"/>
 			<Item Name="GDSII Prototype.vi" Type="VI" URL="../GDSII/GDSII Prototype.vi"/>
