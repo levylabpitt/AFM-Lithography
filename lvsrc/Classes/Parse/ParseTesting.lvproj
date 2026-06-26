@@ -84,13 +84,6 @@
 				<Item Name="example.gds" Type="Document" URL="../GDSII/test files/example.gds"/>
 			</Item>
 			<Item Name="Data Types" Type="Folder">
-				<Item Name="Specific" Type="Folder">
-					<Item Name="GDSII.DataType.Bit Array.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Bit Array/GDSII.DataType.Bit Array.lvclass"/>
-					<Item Name="GDSII.DataType.Word.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Word/GDSII.DataType.Word.lvclass"/>
-					<Item Name="GDSII.DataType.Long.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Long/GDSII.DataType.Long.lvclass"/>
-					<Item Name="GDSII.DataType.Real.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Real/GDSII.DataType.Real.lvclass"/>
-					<Item Name="GDSII.DataType.String.lvclass" Type="LVClass" URL="../GDSII/DataTypes/String/GDSII.DataType.String.lvclass"/>
-				</Item>
 				<Item Name="Conversions" Type="Folder">
 					<Item Name="Payload to String.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to String.vi"/>
 					<Item Name="Payload to Long.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to Long.vi"/>
@@ -99,6 +92,13 @@
 					<Item Name="Payload to Bit Array.vi" Type="VI" URL="../GDSII/DataTypes/Convert/Payload to Bit Array.vi"/>
 				</Item>
 				<Item Name="GDSII.DataType.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Base/GDSII.DataType.lvclass"/>
+			</Item>
+			<Item Name="Specific" Type="Folder">
+				<Item Name="GDSII.DataType.Bit Array.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Bit Array/GDSII.DataType.Bit Array.lvclass"/>
+				<Item Name="GDSII.DataType.Word.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Word/GDSII.DataType.Word.lvclass"/>
+				<Item Name="GDSII.DataType.Long.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Long/GDSII.DataType.Long.lvclass"/>
+				<Item Name="GDSII.DataType.Real.lvclass" Type="LVClass" URL="../GDSII/DataTypes/Real/GDSII.DataType.Real.lvclass"/>
+				<Item Name="GDSII.DataType.String.lvclass" Type="LVClass" URL="../GDSII/DataTypes/String/GDSII.DataType.String.lvclass"/>
 			</Item>
 			<Item Name="Tree" Type="Folder">
 				<Item Name="Structure Name to Key.vi" Type="VI" URL="../GDSII/Structure Name to Key.vi"/>
@@ -115,12 +115,12 @@
 				<Item Name="ParseGDSII.lvclass" Type="LVClass" URL="../GDSII/ParseGDSII/ParseGDSII.lvclass"/>
 				<Item Name="Structure.lvclass" Type="LVClass" URL="../GDSII/Structures/Structure.lvclass"/>
 			</Item>
-			<Item Name="Recursive Tree Conversion" Type="Folder">
-				<Item Name="Untitled 20.vi" Type="VI" URL="../GDSII/ParseGDSII/Tree Handling/Untitled 20.vi"/>
-			</Item>
 			<Item Name="Fast Tree" Type="Folder">
 				<Item Name="Populate Fast Tree.vi" Type="VI" URL="../GDSII/Fast Tree/Populate Fast Tree.vi"/>
 				<Item Name="Fast Tree.lvclass" Type="LVClass" URL="../GDSII/Fast Tree/Fast Tree.lvclass"/>
+			</Item>
+			<Item Name="Test GDSII" Type="Folder">
+				<Item Name="Test Extended 64.vi" Type="VI" URL="../../../../tests/GDSII/Test Extended 64.vi"/>
 			</Item>
 			<Item Name="GDSII Playground.vi" Type="VI" URL="../GDSII/GDSII Playground.vi"/>
 			<Item Name="GDSII Prototype.vi" Type="VI" URL="../GDSII/GDSII Prototype.vi"/>
@@ -644,7 +644,6 @@
 			<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../../Tool/Tool Funnel/Tool Funnel.lvclass"/>
 			<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../../Tool/Tool Rectangle/Tool Rectangle.lvclass"/>
 			<Item Name="Tool Dots.lvclass" Type="LVClass" URL="../../Tool/Tool Dot/Tool Dots.lvclass"/>
-			<Item Name="Tree.lvclass" Type="LVClass" URL="../GDSII/Tree/Tree.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
