@@ -286,6 +286,7 @@
 						<Item Name="Transform.Translate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Translate/Transform.Translate.lvclass"/>
 						<Item Name="Transform.Rotate.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Rotate/Transform.Rotate.lvclass"/>
 						<Item Name="Transform.Skew.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Skew/Transform.Skew.lvclass"/>
+						<Item Name="Transform.Scale.lvclass" Type="LVClass" URL="../Classes/Parse/Transform.Scale/Transform.Scale.lvclass"/>
 					</Item>
 					<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Classes/Parse/Rectangle/Rectangle.lvclass"/>
 					<Item Name="ParseSVG.lvclass" Type="LVClass" URL="../Classes/Parse/ParseXML/ParseSVG.lvclass"/>
@@ -2336,7 +2337,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70AAF6EE-B707-485C-8B84-3BDBD7A4BCED}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">10</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">AFM Lithography-beta.exe</Property>
@@ -2462,13 +2463,14 @@
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">General AFM Lithography Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="INST_installerName" Type="Str">Setup-beta.exe</Property>
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
-				<Property Name="INST_productVersion" Type="Str">10.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">10.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
