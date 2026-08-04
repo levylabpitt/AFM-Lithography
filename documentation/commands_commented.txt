@@ -1,0 +1,166 @@
+// ============================================================================
+// INITIALIZATION
+// ============================================================================
+
+// Read the current imaging mode index and list of available imaging modes
+// back to LabVIEW for display/verification
+fprintf 0, "%d", GV("ImagingMode")
+fprintf 0, "%s", ImageModeList()
+
+// Show the XY spot check panel on the MasterPanel UI
+ARExecuteControl("ShowXYSpotCheck_1", "MasterPanel", 1, "")
+
+// Zero Output.A as a clean starting state before the sequence begins
+td_WriteValue("Output.A", 0.000000000000)
+
+// Clear any existing OutWave0 completion callback to ensure no stale
+// callbacks fire during this sequence
+td_WriteString("ARC.OutWave0StatusCallback", "")
+
+// Read current XY sensor positions back to LabVIEW
+fprintf 0, "%.12f", td_ReadValue("XSensor")
+fprintf 0, "%.12f", td_ReadValue("YSensor")
+
+// Read current PIDSLoop 0 (X axis) and PIDSLoop 1 (Y axis) gains and
+// setpoints back to LabVIEW, presumably for display or logging
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.Setpoint")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.PGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.IGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.SGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.Setpoint")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.PGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.IGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.SGain")
+
+// ============================================================================
+// PHASE 1 - MOVE TO START POSITION AND ENGAGE
+// ============================================================================
+
+// Configure X closed-loop feedback (PIDSLoop 0):
+//   Input:  XSensor, Setpoint: 0, PGain: 0, IGain: 0, SGain: 0
+//   Output: Output.X, range: -10V to 150V
+//   Starts immediately (Always), runs until explicitly stopped (Never)
+//   All gains are zero here - the loop is being defined but the actual
+//   move is done via the outwave setpoint below
+ir_SetPISLoop(0, "Always,Never", "XSensor", 0.000000, 0, 0, 0, "Output.X", -10, 150)
+
+// Configure Y closed-loop feedback (PIDSLoop 1), same structure as X
+ir_SetPISLoop(1, "Always,Never", "YSensor", 0.000000, 0, 0, 0, "Output.Y", -10, 150)
+
+// Configure Z feedback (PIDSLoop 2) with setpoint of -10V (retracted/lifted),
+//   IGain: 1000 to maintain position. Z is kept retracted while XY moves
+//   to the start position to avoid dragging the tip across the sample
+ir_SetPISLoop(2, "Always,Never", "Fast%Input", -10.000000, 0, 1000, 0, "Z%Output", -10, 150)
+
+// Read LVDT calibration values (sensitivity and offset for X and Y) back
+// to LabVIEW, used to convert between volts and meters for the move
+fprintf 0, "%.12f", GV("XLVDTSens")
+fprintf 0, "%.12f", GV("YLVDTSens")
+fprintf 0, "%.12f", GV("XLVDTOffset")
+fprintf 0, "%.12f", GV("YLVDTOffset")
+
+// Create 2-point XY move waves: point 0 is current position (0,0 relative),
+// point 1 is the target start position in volts
+Make/O/N=2 XMove YMove
+XMove = {0.000000, -1.930963}
+YMove = {0.000000, -3.479725}
+
+// Read LVDT calibration values again - LabVIEW likely uses these to
+// confirm the move distance before executing
+fprintf 0, "%.12f", GV("XLVDTSens")
+fprintf 0, "%.12f", GV("YLVDTSens")
+fprintf 0, "%.12f", GV("XLVDTOffset")
+fprintf 0, "%.12f", GV("YLVDTOffset")
+
+// Drive PIDSLoop 0 and 1 setpoints along XMove and YMove simultaneously
+// using OutWave bank 0, triggered by Event.0. Interpolation factor of
+// -142156 gives linear interpolation at a very slow rate, producing a
+// smooth controlled approach to the start position
+td_xSetOutWavePair(0, "0", "PIDSLoop.0.Setpoint", XMove, "PIDSLoop.1.Setpoint", YMove, -142156)
+
+// Fire Event.0 once to trigger the XY move wave defined above
+td_WriteString("Event.0", "Once")
+
+// Once XY is in position, update Z setpoint to 0.2V to engage the probe
+// tip with the sample surface (bring Z down from retracted -10V)
+ir_SetPISLoop(2, "Always,Never", "Fast%Input", 0.200000, 0, 1000, 0, "Z%Output", -10, 150)
+
+// ============================================================================
+// PHASE 2 - EXECUTE PREDEFINED PATH
+// ============================================================================
+
+// Clear the OutWave0 callback again before setting up the path execution
+td_WriteString("ARC.OutWave0StatusCallback", "")
+
+// Read X and Y loop gains back to LabVIEW (logging/display before path run)
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.Setpoint")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.PGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.IGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.0.SGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.Setpoint")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.PGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.IGain")
+fprintf 0, "%.12f", td_ReadValue("PIDSLoop.1.SGain")
+
+// Reconfigure X and Y feedback loops for the path execution
+// (same parameters as Phase 1 - redefining to ensure clean state)
+ir_SetPISLoop(0, "Always,Never", "XSensor", 0.000000, 0, 0, 0, "Output.X", -10, 150)
+ir_SetPISLoop(1, "Always,Never", "YSensor", 0.000000, 0, 0, 0, "Output.Y", -10, 150)
+
+// Read LVDT calibration values again for LabVIEW path scaling
+fprintf 0, "%.12f", GV("XLVDTSens")
+fprintf 0, "%.12f", GV("YLVDTSens")
+fprintf 0, "%.12f", GV("XLVDTOffset")
+fprintf 0, "%.12f", GV("YLVDTOffset")
+
+// Load the full 400198-point X path wave from a LabVIEW temp file.
+// Make pre-allocates the wave, LoadWave reads the data (auto-naming it
+// Xmove_temp from the file header), then it is copied into Xmove.
+Make/O/N=400198 Xmove
+LoadWave/O/A/J/D/W/K=0 "C:Users:Albro:AppData:Local:Temp:lvtemporary_624587.txt"
+Xmove = Xmove_temp
+
+// Load the full 400198-point Y path wave, same process as X
+Make/O/N=400198 Ymove
+LoadWave/O/A/J/D/W/K=0 "C:Users:Albro:AppData:Local:Temp:lvtemporary_630199.txt"
+Ymove = Ymove_temp
+
+// Load the full 400198-point voltage (Output.A) wave, same process.
+// This is likely a tip bias or excitation signal to be applied during
+// the path.
+Make/O/N=400198 Vmove
+LoadWave/O/A/J/D/W/K=0 "C:Users:Albro:AppData:Local:Temp:lvtemporary_900908.txt"
+Vmove = Vmove_temp
+
+// Drive PIDSLoop 0 and 1 setpoints along the full XY path using OutWave
+// bank 0, triggered by Event.0. Interpolation of -1 = linear, no
+// interpolation (output at maximum 50kHz rate)
+td_xSetOutWavePair(0, "0", "PIDSLoop.0.Setpoint", XMove, "PIDSLoop.1.Setpoint", YMove, -1)
+
+// Simultaneously drive Output.A along the voltage wave using OutWave
+// bank 1, also triggered by Event.0
+td_xSetOutWave(1, "0", "Output.A", VMove, -1)
+
+// Fire Event.0 once to trigger both OutWave banks simultaneously,
+// starting the XY path and voltage output at the same time
+td_WriteString("Event.0", "Once")
+
+// ============================================================================
+// CLEANUP
+// ============================================================================
+
+// Zero Output.A now that the path is complete
+td_WriteValue("Output.A", 0.000000000000)
+
+// Clear the OutWave0 callback
+td_WriteString("ARC.OutWave0StatusCallback", "")
+
+// Retract the Z probe back to -10V (lift tip off sample surface)
+ir_SetPISLoop(2, "Always,Never", "Fast%Input", -10.000000, 0, 1000, 0, "Z%Output", -10, 150)
+
+// Fire Event.0 once more - likely to trigger any post-path cleanup
+// waves or to reset the event state
+td_WriteString("Event.0", "Once")
+
+// Hide the XY spot check panel now that the sequence is complete
+ARExecuteControl("ShowXYSpotCheck_1", "MasterPanel", 0, "")
