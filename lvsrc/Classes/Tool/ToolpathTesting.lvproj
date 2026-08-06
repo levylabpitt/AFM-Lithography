@@ -14,7 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Setting Database.lvclass" Type="LVClass" URL="../../Settings/Setting Database/Setting Database.lvclass"/>
 		<Item Name="ParseVectorFile.lvclass" Type="LVClass" URL="../../Parse/ParseVectorFile/ParseVectorFile.lvclass"/>
-		<Item Name="Tool_Playground.vi" Type="VI" URL="../Tool_Playground.vi"/>
 		<Item Name="Interpolate by Distance.vi" Type="VI" URL="../Interpolate by Distance.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -76,12 +75,15 @@
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
-				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/SMOs/Configuration/Configuration.lvclass"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="String to Character Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to Character Array__ogtk.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
+				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Configuration/Configuration.lvclass"/>
+				<Item Name="Cluster to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to VArray__ogtk.vi"/>
+				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
+				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Relay-Box.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -152,7 +154,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Type Specific Details.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Type Specific Details.ctl"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
-				<Item Name="URI.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/JKI SMO/URI Parsing/URI.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="def.SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Definitions/def.SMO/def.SMO.lvclass"/>
@@ -168,6 +169,25 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="openURI.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenURI/openURI.lvlib"/>
+				<Item Name="Serializer.Base64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer.Base64/Serializer.Base64.lvclass"/>
+				<Item Name="OpenSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer/OpenSerializer.lvlib"/>
+				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
+				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
+				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
+				<Item Name="Get Type Code from I16 Array And Pos.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type Code from I16 Array And Pos.vi"/>
+				<Item Name="Type Descriptor I16 Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16 Array.ctl"/>
+				<Item Name="Type Descriptor I16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16.ctl"/>
+				<Item Name="Type Code.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Code.ctl"/>
+				<Item Name="TD_Get Ref Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Ref Info.vi"/>
+				<Item Name="TD_Refnum Kind.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Refnum Kind.ctl"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
+				<Item Name="D2XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX/D2XX.lvlib"/>
 			</Item>
 			<Item Name="Base INI Folder Path.vi" Type="VI" URL="../../../subVIs/typedefs/Base INI Folder Path.vi"/>
 			<Item Name="CSSProperties.lvclass" Type="LVClass" URL="../../Parse/CSSProperties/CSSProperties.lvclass"/>
@@ -192,7 +212,6 @@
 			<Item Name="Schedule--Formula.ctl" Type="VI" URL="../../../subVIs/typedefs/Schedule Types/Schedule--Formula.ctl"/>
 			<Item Name="Schedule--Function Generator.ctl" Type="VI" URL="../../../subVIs/typedefs/Schedule Types/Schedule--Function Generator.ctl"/>
 			<Item Name="Schedule--Ramp.ctl" Type="VI" URL="../../../subVIs/typedefs/Schedule Types/Schedule--Ramp.ctl"/>
-			<Item Name="Signal Type - enum.ctl" Type="VI" URL="../../../subVIs/typedefs/Signal Type - enum.ctl"/>
 			<Item Name="SVGImage.lvclass" Type="LVClass" URL="../../Parse/Image/SVGImage.lvclass"/>
 			<Item Name="Transform.lvclass" Type="LVClass" URL="../../Parse/Transform/Transform.lvclass"/>
 			<Item Name="Transform.Matrix.lvclass" Type="LVClass" URL="../../Parse/Transform.Matrix/Transform.Matrix.lvclass"/>
@@ -202,6 +221,18 @@
 			<Item Name="TransformTokenizer.lvclass" Type="LVClass" URL="../../Parse/TransformTokenizer/TransformTokenizer.lvclass"/>
 			<Item Name="Dot.lvclass" Type="LVClass" URL="../../Parse/Dot/Dot.lvclass"/>
 			<Item Name="Dot Settings.lvclass" Type="LVClass" URL="../../Settings/Dot Settings/Dot Settings.lvclass"/>
+			<Item Name="Identifier.lvclass" Type="LVClass" URL="../../Identity/Identifier.lvclass"/>
+			<Item Name="Tool Data.lvclass" Type="LVClass" URL="../Tool Data/Tool Data/Tool Data.lvclass"/>
+			<Item Name="SVG Object.lvclass" Type="LVClass" URL="../../Parse/SVG Object/SVG Object.lvclass"/>
+			<Item Name="EditSVG.lvclass" Type="LVClass" URL="../../Parse/EditSVG/EditSVG.lvclass"/>
+			<Item Name="Tool Path.lvclass" Type="LVClass" URL="../Tool Path/Tool Path.lvclass"/>
+			<Item Name="Tool Object.lvclass" Type="LVClass" URL="../Tool Object/Tool Object.lvclass"/>
+			<Item Name="Schedule - enum.ctl" Type="VI" URL="../../../subVIs/typedefs/Schedule - enum.ctl"/>
+			<Item Name="Tool Funnel.lvclass" Type="LVClass" URL="../Tool Funnel/Tool Funnel.lvclass"/>
+			<Item Name="Tool Rectangle.lvclass" Type="LVClass" URL="../Tool Rectangle/Tool Rectangle.lvclass"/>
+			<Item Name="Tool Dots.lvclass" Type="LVClass" URL="../Tool Dot/Tool Dots.lvclass"/>
+			<Item Name="Get Background Image Relative Path.vi" Type="VI" URL="../../Render/Get Background Image Relative Path.vi"/>
+			<Item Name="Get Background Image JPG Name.vi" Type="VI" URL="../../Render/Get Background Image JPG Name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
