@@ -414,7 +414,7 @@
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
-				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Configuration/Configuration.lvclass"/>
+				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Levylab/Configuration/Configuration.lvclass"/>
 				<Item Name="Search Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search Array__ogtk.vi"/>
 				<Item Name="Search 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (String)__ogtk.vi"/>
 				<Item Name="Search 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (LVObject)__ogtk.vi"/>
@@ -449,37 +449,37 @@
 				<Item Name="MGI VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference.vi"/>
 				<Item Name="MGI Defer Panel Updates.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Defer Panel Updates.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
-				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Relay Box/Relay-Box.lvclass"/>
+				<Item Name="Relay-Box.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Levylab/Relay Box/Relay-Box.lvclass"/>
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 				<Item Name="String to Character Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to Character Array__ogtk.vi"/>
-				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_WriteValue.vi"/>
-				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
-				<Item Name="Igor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_EnsureIgorStringFormat.vi"/>
-				<Item Name="Igor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SendCommand.vi"/>
-				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/DebugModeSingleton.vi"/>
-				<Item Name="Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_WriteString.vi"/>
-				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
-				<Item Name="Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/PISLoop/Asylum_SetPISLoop.vi"/>
-				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
-				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
-				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
-				<Item Name="Igor_ArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_ArraytoIgorWave.vi"/>
-				<Item Name="Igor_NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_NumericArraytoIgorWave.vi"/>
-				<Item Name="Igor_StringArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_StringArraytoIgorWave.vi"/>
-				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Waves/Asylum_SetOutWavePair.vi"/>
-				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
-				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
-				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
-				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Waves/Asylum_SetOutWave.vi"/>
-				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
-				<Item Name="Igor_OpenRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_OpenRefnum.vi"/>
-				<Item Name="Igor_CloseRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_CloseRefnum.vi"/>
-				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadLargeWaveUsingFile.vi"/>
-				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_LoadWaveFromFile.vi"/>
-				<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SaveArrayToFile.vi"/>
-				<Item Name="Build_Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/BuildFunctions/Build_Asylum_GetValue.vi"/>
-				<Item Name="Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Asylum AFM API/Read Write Values/Asylum_GetValue.vi"/>
+				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteValue.vi"/>
+				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteValue.vi"/>
+				<Item Name="Igor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/Igor_EnsureIgorStringFormat.vi"/>
+				<Item Name="Igor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_SendCommand.vi"/>
+				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/DebugModeSingleton.vi"/>
+				<Item Name="Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_WriteString.vi"/>
+				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_WriteString.vi"/>
+				<Item Name="Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/PISLoop/Asylum_SetPISLoop.vi"/>
+				<Item Name="Build_Asylum_SetPISLoop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetPISLoop.vi"/>
+				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_ReadValue.vi"/>
+				<Item Name="Build_Asylum_ReadValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_ReadValue.vi"/>
+				<Item Name="Igor_ArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_ArraytoIgorWave.vi"/>
+				<Item Name="Igor_NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/Igor_NumericArraytoIgorWave.vi"/>
+				<Item Name="Igor_StringArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/private/Igor_StringArraytoIgorWave.vi"/>
+				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWavePair.vi"/>
+				<Item Name="Build_Asylum_SetOutWavePair.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWavePair.vi"/>
+				<Item Name="Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Controller/Asylum_Stop.vi"/>
+				<Item Name="Build_Asylum_Stop.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_Stop.vi"/>
+				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Waves/Asylum_SetOutWave.vi"/>
+				<Item Name="Build_Asylum_SetOutWave.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_SetOutWave.vi"/>
+				<Item Name="Igor_OpenRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_OpenRefnum.vi"/>
+				<Item Name="Igor_CloseRefnum.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_CloseRefnum.vi"/>
+				<Item Name="Igor_LoadLargeWaveUsingFile.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_LoadLargeWaveUsingFile.vi"/>
+				<Item Name="Igor_LoadWaveFromFile.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_LoadWaveFromFile.vi"/>
+				<Item Name="Igor_SaveArrayToFile.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Igor API/API/Igor_SaveArrayToFile.vi"/>
+				<Item Name="Build_Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/BuildFunctions/Build_Asylum_GetValue.vi"/>
+				<Item Name="Asylum_GetValue.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Asylum AFM API/Read Write Values/Asylum_GetValue.vi"/>
 				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
@@ -865,19 +865,19 @@
 				<Item Name="Convert EOLs (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String Array)__ogtk.vi"/>
 				<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs__ogtk.vi"/>
 				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
-				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Build Support/CLI/Status.vi"/>
-				<Item Name=".NET Terminal.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Build Support/CLI/.NET Terminal.vi"/>
-				<Item Name="VIPM.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Build Support/VIPM/VIPM.lvlib"/>
+				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Build Support/CLI/Status.vi"/>
+				<Item Name=".NET Terminal.vi" Type="VI" URL="/&lt;userlib&gt;/Levylab/Build Support/CLI/.NET Terminal.vi"/>
+				<Item Name="VIPM.lvlib" Type="Library" URL="/&lt;userlib&gt;/Levylab/Build Support/VIPM/VIPM.lvlib"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
-				<Item Name="ProjectItem.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Build Support/ProjectItem/ProjectItem.lvclass"/>
+				<Item Name="ProjectItem.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Levylab/Build Support/ProjectItem/ProjectItem.lvclass"/>
 				<Item Name="MGI Round Up to Power of Two.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Rounding/MGI Round Up to Power of Two.vi"/>
 				<Item Name="MGI Running Maximum (DBL).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Maximum/MGI Running Maximum (DBL).vi"/>
 				<Item Name="MGI Running Maximum (SGL).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Maximum/MGI Running Maximum (SGL).vi"/>
 				<Item Name="MGI Running Maximum.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Maximum.vi"/>
 				<Item Name="MGI For Loop Progress Bar.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/User Interface/MGI For Loop Progress Bar.vi"/>
-				<Item Name="Build.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Build Support/Build/Build.lvlib"/>
+				<Item Name="Build.lvlib" Type="Library" URL="/&lt;userlib&gt;/Levylab/Build Support/Build/Build.lvlib"/>
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-				<Item Name="ProgressBar.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Progress Bar/ProgressBar/ProgressBar.lvclass"/>
+				<Item Name="ProgressBar.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Levylab/Progress Bar/ProgressBar/ProgressBar.lvclass"/>
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
@@ -938,7 +938,7 @@
 				<Item Name="Reverse 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reverse 2D Array (CSG)__ogtk.vi"/>
 				<Item Name="Reverse 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reverse 2D Array (CDB)__ogtk.vi"/>
 				<Item Name="Reverse 2D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reverse 2D Array__ogtk.vi"/>
-				<Item Name="lvzlib32.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib32.dll"/>
+				<Item Name="lvzlib64.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib64.dll"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -992,7 +992,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -1714,10 +1714,12 @@
 				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Windows.vi"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
 				<Item Name="TCP_NoDelay_Linux.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Linux.vi"/>
-				<Item Name="LMH-Toolbox.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/Toolbox/LMH-Toolbox.lvlib"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="G-Image.lvlib" Type="Library" URL="/&lt;vilib&gt;/Dataflowg/G-Image/G-Image/G-Image.lvlib"/>
-				<Item Name="g_image_32.dll" Type="Document" URL="/&lt;vilib&gt;/Dataflowg/G-Image/G-Image/lib/g_image_32.dll"/>
+				<Item Name="Save State As Default.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Public/VI Tools/Save State As Default.vi"/>
+				<Item Name="Get Installed Software.vi" Type="VI" URL="/&lt;vilib&gt;/nisyscfg/Get Installed Software.vi"/>
+				<Item Name="Get Installed Components.vi" Type="VI" URL="/&lt;vilib&gt;/nisyscfg/Get Installed Components.vi"/>
+				<Item Name="Resize Image.vi" Type="VI" URL="/&lt;vilib&gt;/Dataflowg/G-Image/G-Image/Image Processing/Resize Image.vi"/>
+				<Item Name="Resize Image (Scale).vi" Type="VI" URL="/&lt;vilib&gt;/Dataflowg/G-Image/G-Image/Image Processing/Polymorphic VIs/Resize Image (Scale).vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="D2XX-lv.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_D2XX/D2XX-LV/D2XX-lv.lvlib"/>
@@ -2331,8 +2333,8 @@
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="General AFM Lithography Application" Type="EXE">
@@ -2434,10 +2436,10 @@
 				<Property Name="DistPart[1].productName" Type="Str">NI Vision Runtime 2019 SP1</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{58ED3E2E-F347-49AD-9114-B31CC9A4844E}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2019 f2 (64-bit)</Property>
 				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
 				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
@@ -2464,7 +2466,7 @@
 				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI TDM Streaming 19.0</Property>
 				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[2].SoftDepCount" Type="Int">9</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{0F4FB023-A713-40CF-AC56-843EEEB44133}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -2475,7 +2477,7 @@
 				<Property Name="INST_installerName" Type="Str">Setup-beta.exe</Property>
 				<Property Name="INST_productName" Type="Str">General AFM Lithography</Property>
 				<Property Name="INST_productVersion" Type="Str">10.0.4</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -2556,7 +2558,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C5186AFA-03FF-44EC-A660-2ACB869E2655}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">10</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">AFM Lithography-beta.exe</Property>
@@ -2567,7 +2569,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/AFMLitho.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{044FFAE3-82E7-447F-8A61-A929989BF69E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{20C2B560-9799-422D-B751-D71FA09844EE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFM_Lithography.vi</Property>
@@ -2640,37 +2642,43 @@
 				<Property Name="DistPart[1].productName" Type="Str">NI Vision Runtime 2019 SP1</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{58ED3E2E-F347-49AD-9114-B31CC9A4844E}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2019 f2 (64-bit)</Property>
 				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
 				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
 				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Error Reporting 2019 (64-bit)</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
 				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
 				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2019 (64-bit)</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
 				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">Math Kernel Libraries 2018</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
 				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">9</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{0F4FB023-A713-40CF-AC56-843EEEB44133}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -2680,8 +2688,8 @@
 				<Property Name="INST_defaultDir" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
 				<Property Name="INST_installerName" Type="Str">Setup-beta.exe</Property>
 				<Property Name="INST_productName" Type="Str">Beta AFM Lithography</Property>
-				<Property Name="INST_productVersion" Type="Str">10.0.5</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="INST_productVersion" Type="Str">10.0.6</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -2705,7 +2713,19 @@
 				<Property Name="Source[0].name" Type="Str">General AFM Lithography Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/General AFM Lithography Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{2F8A47DA-989D-4405-87FE-9096A680DD86}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">AFM Lithography-beta.exe</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">AFM Lithography-beta</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">Beta AFM Lithography</Property>
+				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[1].File[0].tag" Type="Str">{F2BF5209-BEDC-44B5-BD72-28BA2423ADC1}</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">Beta AFM Lithography Application</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/Beta AFM Lithography Application</Property>
+				<Property Name="Source[1].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
